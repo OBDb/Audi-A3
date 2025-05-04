@@ -1,0 +1,328 @@
+command_id: FC00.22028C
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7ED0462028C3C
+  expected_values:
+    AUDI_SOC: 24
+- response: 7ED0462028C3D
+  expected_values:
+    AUDI_SOC: 24.4
+- response: 7ED0462028C3E
+  expected_values:
+    AUDI_SOC: 24.8
+- response: 7ED0462028C3F
+  expected_values:
+    AUDI_SOC: 25.2
+- response: 7ED0462028C40
+  expected_values:
+    AUDI_SOC: 25.6
+- response: 7ED0462028C41
+  expected_values:
+    AUDI_SOC: 26
+- response: 7ED0462028C42
+  expected_values:
+    AUDI_SOC: 26.4
+- response: 7ED0462028C43
+  expected_values:
+    AUDI_SOC: 26.8
+- response: 7ED0462028C44
+  expected_values:
+    AUDI_SOC: 27.2
+- response: 7ED0462028C45
+  expected_values:
+    AUDI_SOC: 27.6
+- response: 7ED0462028C46
+  expected_values:
+    AUDI_SOC: 28
+- response: 7ED0462028C48
+  expected_values:
+    AUDI_SOC: 28.8
+- response: 7ED0462028C49
+  expected_values:
+    AUDI_SOC: 29.2
+- response: 7ED0462028C4A
+  expected_values:
+    AUDI_SOC: 29.6
+- response: 7ED0462028C4C
+  expected_values:
+    AUDI_SOC: 30.4
+- response: 7ED0462028C4D
+  expected_values:
+    AUDI_SOC: 30.8
+- response: 7ED0462028C4E
+  expected_values:
+    AUDI_SOC: 31.2
+- response: 7ED0462028C51
+  expected_values:
+    AUDI_SOC: 32.4
+- response: 7ED0462028C52
+  expected_values:
+    AUDI_SOC: 32.8
+- response: 7ED0462028C53
+  expected_values:
+    AUDI_SOC: 33.2
+- response: 7ED0462028C54
+  expected_values:
+    AUDI_SOC: 33.6
+- response: 7ED0462028C57
+  expected_values:
+    AUDI_SOC: 34.8
+- response: 7ED0462028C5A
+  expected_values:
+    AUDI_SOC: 36
+- response: 7ED0462028C5E
+  expected_values:
+    AUDI_SOC: 37.6
+- response: 7ED0462028C61
+  expected_values:
+    AUDI_SOC: 38.8
+- response: 7ED0462028C63
+  expected_values:
+    AUDI_SOC: 39.6
+- response: 7ED0462028C64
+  expected_values:
+    AUDI_SOC: 40
+- response: 7ED0462028C65
+  expected_values:
+    AUDI_SOC: 40.4
+- response: 7ED0462028C66
+  expected_values:
+    AUDI_SOC: 40.8
+- response: 7ED0462028C67
+  expected_values:
+    AUDI_SOC: 41.2
+- response: 7ED0462028C68
+  expected_values:
+    AUDI_SOC: 41.6
+- response: 7ED0462028C69
+  expected_values:
+    AUDI_SOC: 42
+- response: 7ED0462028C6B
+  expected_values:
+    AUDI_SOC: 42.8
+- response: 7ED0462028C6D
+  expected_values:
+    AUDI_SOC: 43.6
+- response: 7ED0462028C6E
+  expected_values:
+    AUDI_SOC: 44
+- response: 7ED0462028C6F
+  expected_values:
+    AUDI_SOC: 44.4
+- response: 7ED0462028C70
+  expected_values:
+    AUDI_SOC: 44.8
+- response: 7ED0462028C72
+  expected_values:
+    AUDI_SOC: 45.6
+- response: 7ED0462028C74
+  expected_values:
+    AUDI_SOC: 46.4
+- response: 7ED0462028C75
+  expected_values:
+    AUDI_SOC: 46.8
+- response: 7ED0462028C77
+  expected_values:
+    AUDI_SOC: 47.6
+- response: 7ED0462028C84
+  expected_values:
+    AUDI_SOC: 52.8
+- response: 7ED0462028C85
+  expected_values:
+    AUDI_SOC: 53.2
+- response: 7ED0462028C86
+  expected_values:
+    AUDI_SOC: 53.6
+- response: 7ED0462028C87
+  expected_values:
+    AUDI_SOC: 54
+- response: 7ED0462028C89
+  expected_values:
+    AUDI_SOC: 54.8
+- response: 7ED0462028C92
+  expected_values:
+    AUDI_SOC: 58.4
+- response: 7ED0462028C93
+  expected_values:
+    AUDI_SOC: 58.8
+- response: 7ED0462028C94
+  expected_values:
+    AUDI_SOC: 59.2
+- response: 7ED0462028C97
+  expected_values:
+    AUDI_SOC: 60.4
+- response: 7ED0462028C99
+  expected_values:
+    AUDI_SOC: 61.2
+- response: 7ED0462028C9D
+  expected_values:
+    AUDI_SOC: 62.8
+- response: 7ED0462028CA1
+  expected_values:
+    AUDI_SOC: 64.4
+- response: 7ED0462028CA4
+  expected_values:
+    AUDI_SOC: 65.6
+- response: 7ED0462028CA7
+  expected_values:
+    AUDI_SOC: 66.8
+- response: 7ED0462028CA8
+  expected_values:
+    AUDI_SOC: 67.2
+- response: 7ED0462028CA9
+  expected_values:
+    AUDI_SOC: 67.6
+- response: 7ED0462028CAA
+  expected_values:
+    AUDI_SOC: 68
+- response: 7ED0462028CAB
+  expected_values:
+    AUDI_SOC: 68.4
+- response: 7ED0462028CAC
+  expected_values:
+    AUDI_SOC: 68.8
+- response: 7ED0462028CAD
+  expected_values:
+    AUDI_SOC: 69.2
+- response: 7ED0462028CAF
+  expected_values:
+    AUDI_SOC: 70
+- response: 7ED0462028CB0
+  expected_values:
+    AUDI_SOC: 70.4
+- response: 7ED0462028CB1
+  expected_values:
+    AUDI_SOC: 70.8
+- response: 7ED0462028CB2
+  expected_values:
+    AUDI_SOC: 71.2
+- response: 7ED0462028CB3
+  expected_values:
+    AUDI_SOC: 71.6
+- response: 7ED0462028CB4
+  expected_values:
+    AUDI_SOC: 72
+- response: 7ED0462028CB5
+  expected_values:
+    AUDI_SOC: 72.4
+- response: 7ED0462028CB6
+  expected_values:
+    AUDI_SOC: 72.8
+- response: 7ED0462028CB7
+  expected_values:
+    AUDI_SOC: 73.2
+- response: 7ED0462028CB9
+  expected_values:
+    AUDI_SOC: 74
+- response: 7ED0462028CBB
+  expected_values:
+    AUDI_SOC: 74.8
+- response: 7ED0462028CBC
+  expected_values:
+    AUDI_SOC: 75.2
+- response: 7ED0462028CBD
+  expected_values:
+    AUDI_SOC: 75.6
+- response: 7ED0462028CBE
+  expected_values:
+    AUDI_SOC: 76
+- response: 7ED0462028CBF
+  expected_values:
+    AUDI_SOC: 76.4
+- response: 7ED0462028CC0
+  expected_values:
+    AUDI_SOC: 76.8
+- response: 7ED0462028CC1
+  expected_values:
+    AUDI_SOC: 77.2
+- response: 7ED0462028CC3
+  expected_values:
+    AUDI_SOC: 78
+- response: 7ED0462028CC5
+  expected_values:
+    AUDI_SOC: 78.8
+- response: 7ED0462028CC6
+  expected_values:
+    AUDI_SOC: 79.2
+- response: 7ED0462028CC7
+  expected_values:
+    AUDI_SOC: 79.6
+- response: 7ED0462028CC8
+  expected_values:
+    AUDI_SOC: 80
+- response: 7ED0462028CC9
+  expected_values:
+    AUDI_SOC: 80.4
+- response: 7ED0462028CCA
+  expected_values:
+    AUDI_SOC: 80.8
+- response: 7ED0462028CCC
+  expected_values:
+    AUDI_SOC: 81.6
+- response: 7ED0462028CCD
+  expected_values:
+    AUDI_SOC: 82
+- response: 7ED0462028CCF
+  expected_values:
+    AUDI_SOC: 82.8
+- response: 7ED0462028CD0
+  expected_values:
+    AUDI_SOC: 83.2
+- response: 7ED0462028CD1
+  expected_values:
+    AUDI_SOC: 83.6
+- response: 7ED0462028CD2
+  expected_values:
+    AUDI_SOC: 84
+- response: 7ED0462028CD4
+  expected_values:
+    AUDI_SOC: 84.8
+- response: 7ED0462028CD5
+  expected_values:
+    AUDI_SOC: 85.2
+- response: 7ED0462028CD6
+  expected_values:
+    AUDI_SOC: 85.6
+- response: 7ED0462028CD7
+  expected_values:
+    AUDI_SOC: 86
+- response: 7ED0462028CD9
+  expected_values:
+    AUDI_SOC: 86.8
+- response: 7ED0462028CDC
+  expected_values:
+    AUDI_SOC: 88
+- response: 7ED0462028CDD
+  expected_values:
+    AUDI_SOC: 88.4
+- response: 7ED0462028CDE
+  expected_values:
+    AUDI_SOC: 88.8
+- response: 7ED0462028CDF
+  expected_values:
+    AUDI_SOC: 89.2
+- response: 7ED0462028CE0
+  expected_values:
+    AUDI_SOC: 89.6
+- response: 7ED0462028CE1
+  expected_values:
+    AUDI_SOC: 90
+- response: 7ED0462028CE2
+  expected_values:
+    AUDI_SOC: 90.4
+- response: 7ED0462028CE3
+  expected_values:
+    AUDI_SOC: 90.8
+- response: 7ED0462028CE4
+  expected_values:
+    AUDI_SOC: 91.2
+- response: 7ED0462028CE8
+  expected_values:
+    AUDI_SOC: 92.8
+- response: 7ED0462028CEA
+  expected_values:
+    AUDI_SOC: 93.6
+- response: 7ED0462028CFE
+  expected_values:
+    AUDI_SOC: 100
