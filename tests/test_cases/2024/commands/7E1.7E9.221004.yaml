@@ -4,4 +4,4 @@ extended_addressing_enabled: false
 test_cases:
 - response: '7E9056210040002'
   expected_values:
-    AUDI_TIRE_RL_SPD: 0.2
+    AUDI_TIRE_RL_SPD_V3: 0.2

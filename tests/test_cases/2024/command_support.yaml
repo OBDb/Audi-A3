@@ -203,3 +203,5 @@ unsupported_commands_by_ecu:
   - 7E5.7ED.22186E
   - 7E5.7ED.22186F
   - 7E5.7ED.225200
+  FC00:
+  - FC00.22028C
