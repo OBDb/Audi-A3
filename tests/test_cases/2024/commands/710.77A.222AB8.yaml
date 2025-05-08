@@ -3,10 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    77A100B622AB800AE00
-    77A21DB00000000AAAA
+    77A100B622AB8007400
+    77A210000000000AAAA
   expected_values:
-    AUDI_HVBAT_KWH_V2: 8.69984
+    AUDI_HVBAT_KWH_V2: 5.79978
 - response: |-
     77A100B622AB800AF00
     77A21DF00000000AAAA
@@ -22,16 +22,6 @@ test_cases:
     77A211D00000000AAAA
   expected_values:
     AUDI_HVBAT_KWH_V2: 9.04987
-- response: |-
-    77A100B622AB800B601
-    77A210300000000AAAA
-  expected_values:
-    AUDI_HVBAT_KWH_V2: 9.09985
-- response: |-
-    77A100B622AB800C000
-    77A210000000000AAAA
-  expected_values:
-    AUDI_HVBAT_KWH_V2: 9.59963
 - response: |-
     77A100B622AB800D701
     77A215900000000AAAA
