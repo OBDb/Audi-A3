@@ -3,10 +3,10 @@ can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
 - response: |-
-    77A100B622AB8007400
+    77A100B622AB8003600
     77A210000000000AAAA
   expected_values:
-    AUDI_HVBAT_KWH_V2: 5.79978
+    AUDI_HVBAT_KWH_V2: 2.6999
 - response: |-
     77A100B622AB800AF00
     77A21DF00000000AAAA
