@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0E
+test_cases:
+- response: 77A04622A0E1D
+  expected_values:
+    AUDI_SSB_R: 5.8
+- response: 77A04622A0E1E
+  expected_values:
+    AUDI_SSB_R: 6

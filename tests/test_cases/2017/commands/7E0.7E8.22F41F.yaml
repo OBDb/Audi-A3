@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- response: 7E80562F41F001E
+  expected_values:
+    AUDI_RUNTM: 30
+- response: 7E80562F41F00E7
+  expected_values:
+    AUDI_RUNTM: 231
+- response: 7E80562F41F0112
+  expected_values:
+    AUDI_RUNTM: 274
+- response: 7E80562F41F0252
+  expected_values:
+    AUDI_RUNTM: 594
