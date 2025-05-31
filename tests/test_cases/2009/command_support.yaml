@@ -35,6 +35,7 @@ supported_commands_by_ecu:
   - 014A:APP_E
   - 014C:TAC_PCT
   - 0156:LGSO2FT1
+  - 7E0.0131:CLR_DIST
 unsupported_commands_by_ecu:
   70B:
   - 70B.2218A0|fc=1:AUDI_TID_1,AUDI_TPS_1,AUDI_TPW_1,AUDI_TP_1,AUDI_TP_FR,AUDI_TT_1
