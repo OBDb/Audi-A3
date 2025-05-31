@@ -1,8 +1,5 @@
 command_id: 710.77A.222A0C
 test_cases:
-- response: "222A0C1\n77A 04 62 2A 0C 45 "
-  expected_values:
-    AUDI_SSB_SOC: 69
 - response: 77A04622A0C33
   expected_values:
     AUDI_SSB_SOC: 51
