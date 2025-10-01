@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F421
+test_cases:
+- expected_values:
+    AUDI_MIL_DIST: 0
+  response: 7E80562F4210000
+- expected_values:
+    AUDI_MIL_DIST: 1
+  response: 7E80562F4210001
+- expected_values:
+    AUDI_MIL_DIST: 2
+  response: 7E80562F4210002
+- expected_values:
+    AUDI_MIL_DIST: 3
+  response: 7E80562F4210003
+- expected_values:
+    AUDI_MIL_DIST: 42
+  response: 7E80562F421002A
+- expected_values:
+    AUDI_MIL_DIST: 95
+  response: 7E80562F421005F
+- expected_values:
+    AUDI_MIL_DIST: 97
+  response: 7E80562F4210061
+- expected_values:
+    AUDI_MIL_DIST: 98
+  response: 7E80562F4210062
+- expected_values:
+    AUDI_MIL_DIST: 99
+  response: 7E80562F4210063

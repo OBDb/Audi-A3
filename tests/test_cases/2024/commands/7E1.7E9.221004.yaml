@@ -1,5 +1,5 @@
 command_id: 7E1.7E9.221004
 test_cases:
-- response: '7E9056210040002'
-  expected_values:
+- expected_values:
     AUDI_TIRE_RL_SPD_V3: 0.2
+  response: '7E9056210040002'
