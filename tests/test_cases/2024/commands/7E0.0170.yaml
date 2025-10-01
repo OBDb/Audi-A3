@@ -1,7 +1,6 @@
 command_id: 7E0.0170
 test_cases:
-- response: "7E8 10 0C 41 70 02 02 E4 0C \n7E8 21 71 00 00 00 00 00 CC "
-  expected_values:
+- expected_values:
     BP_A_ACT: 99.53125
     BP_A_ACT_SUP: 1
     BP_A_CMD: 23.125
@@ -12,3 +11,4 @@ test_cases:
     BP_B_CMD: 0
     BP_B_CMD_SUP: 0
     BP_B_SUP: 0
+  response: "7E8 10 0C 41 70 02 02 E4 0C \n7E8 21 71 00 00 00 00 00 CC "

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221004
+test_cases:
+- expected_values:
+    AUDI_AAT_V2: 0
+  response: '7E8056210040000'
+- expected_values:
+    AUDI_AAT_V2: -1.89844
+  response: 7E805621004FF0D
+- expected_values:
+    AUDI_AAT_V2: -0.04688
+  response: 7E805621004FFFA

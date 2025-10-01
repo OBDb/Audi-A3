@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.221160
+test_cases:
+- expected_values:
+    AUDI_ODO_HD: 32356.63
+  response: 7E80762116001EDB916
+- expected_values:
+    AUDI_ODO_HD: 32391.423
+  response: 7E80762116001EE40FF
+- expected_values:
+    AUDI_ODO_HD: 32391.424
+  response: 7E80762116001EE4100
+- expected_values:
+    AUDI_ODO_HD: 32636.796
+  response: 7E80762116001F1FF7C
+- expected_values:
+    AUDI_ODO_HD: 32636.978
+  response: 7E80762116001F20032
+- expected_values:
+    AUDI_ODO_HD: 34416.087
+  response: 7E807621160020D25D7
+- expected_values:
+    AUDI_ODO_HD: 90557.283
+  response: 7E8076211600565CB63

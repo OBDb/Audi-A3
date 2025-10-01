@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.221151
 test_cases:
-- response: 7E8056211511CDA
-  expected_values:
+- expected_values:
     AUDI_EM_RPM_1: 100
-- response: 7E8056211511CDC
-  expected_values:
+  response: 7E8056211511CDA
+- expected_values:
     AUDI_EM_RPM_1: 100
-- response: 7E8056211511CDD
-  expected_values:
+  response: 7E8056211511DFD
+- expected_values:
     AUDI_EM_RPM_1: 100
-- response: 7E8056211511CDE
-  expected_values:
+  response: 7E8056211511E05
+- expected_values:
     AUDI_EM_RPM_1: 100
-- response: 7E8056211511CEA
-  expected_values:
-    AUDI_EM_RPM_1: 100
-- response: 7E8056211511CEC
-  expected_values:
-    AUDI_EM_RPM_1: 100
-- response: 7E8056211511CED
-  expected_values:
-    AUDI_EM_RPM_1: 100
-- response: 7E8056211511CF8
-  expected_values:
-    AUDI_EM_RPM_1: 100
-- response: 7E8056211511CFB
-  expected_values:
-    AUDI_EM_RPM_1: 100
+  response: 7E805621151472E
