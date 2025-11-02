@@ -8,10 +8,10 @@ test_cases:
   response: 7E8076211560000F60C
 - expected_values:
     AUDI_HVBAT_SOC: 0
-  response: 7E8076211560000F997
-- expected_values:
-    AUDI_HVBAT_SOC: 0
-  response: 7E8076211560001157A
-- expected_values:
-    AUDI_HVBAT_SOC: 0
   response: 7E807621156000125F5
+- expected_values:
+    AUDI_HVBAT_SOC: 0
+  response: 7E8076211560004FF41
+- expected_values:
+    AUDI_HVBAT_SOC: 0
+  response: 7E807621156000503AA

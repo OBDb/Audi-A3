@@ -4,8 +4,8 @@ test_cases:
     AUDI_EOT_V2: 2874
   response: 7E8056211BE0B3A
 - expected_values:
-    AUDI_EOT_V2: 3377
-  response: 7E8056211BE0D31
-- expected_values:
     AUDI_EOT_V2: 3578
   response: 7E8056211BE0DFA
+- expected_values:
+    AUDI_EOT_V2: 3845
+  response: 7E8056211BE0F05
