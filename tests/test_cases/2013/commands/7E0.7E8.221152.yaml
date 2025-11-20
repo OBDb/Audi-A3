@@ -2,10 +2,13 @@ command_id: 7E0.7E8.221152
 test_cases:
 - expected_values:
     AUDI_EM_RPM_2: 100
+    AUDI_MISFIRE_6: 18846
   response: 7E805621152499E
 - expected_values:
     AUDI_EM_RPM_2: 100
+    AUDI_MISFIRE_6: 18942
   response: 7E80562115249FE
 - expected_values:
     AUDI_EM_RPM_2: 100
+    AUDI_MISFIRE_6: 18949
   response: 7E8056211524A05

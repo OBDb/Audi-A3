@@ -1,5 +1,6 @@
 command_id: 7E0.7E8.221156
 test_cases:
 - expected_values:
+    AUDI_DIST_SINCE_LAST_REGEN_: 0
     AUDI_HVBAT_SOC: 0
   response: '7E80762115600000000'

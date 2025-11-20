@@ -1,14 +1,18 @@
 command_id: 7E0.7E8.2211BD
 test_cases:
 - expected_values:
+    AUDI_EOT_V2: 179
     AUDI_OIL_LEVEL_WARN: 1.8084
   response: 7E8056211BD11A9
 - expected_values:
+    AUDI_EOT_V2: 264.7
     AUDI_OIL_LEVEL_WARN: 2.1512
   response: 7E8056211BD1502
 - expected_values:
+    AUDI_EOT_V2: 494.2
     AUDI_OIL_LEVEL_WARN: 3.0692
   response: 7E8056211BD1DF9
 - expected_values:
+    AUDI_EOT_V2: 623.1
     AUDI_OIL_LEVEL_WARN: 3.5848
   response: 7E8056211BD2302
