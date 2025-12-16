@@ -1,5 +1,8 @@
 command_id: 7E0.2211C4
 test_cases:
 - expected_values:
+    AUDI_OIL_MAX: 9.052
+  response: 7E8056211C408D7
+- expected_values:
     AUDI_OIL_MAX: 14.868
   response: 7E8056211C40E85
