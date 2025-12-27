@@ -4,3 +4,7 @@ test_cases:
     AUDI_BDD_ACTIVE: 0
     AUDI_BDD_ODO: 198704
   response: 77D0762180E80030830
+- expected_values:
+    AUDI_BDD_ACTIVE: 0
+    AUDI_BDD_ODO: 199011
+  response: 77D0762180E80030963

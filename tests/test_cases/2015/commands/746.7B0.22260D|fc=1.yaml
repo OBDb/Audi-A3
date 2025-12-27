@@ -1,5 +1,8 @@
 command_id: 746.7B0.22260D|fc=1
 test_cases:
 - expected_values:
+    AUDI_CLIMATE_FR_R_DEFL_T: 42.957
+  response: 7B00462260D81
+- expected_values:
     AUDI_CLIMATE_FR_R_DEFL_T: 50.283
   response: 7B00462260D97

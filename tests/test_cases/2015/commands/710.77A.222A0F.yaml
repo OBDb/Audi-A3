@@ -12,3 +12,12 @@ test_cases:
 - expected_values:
     AUDI_SSB_AH: 45
   response: 77A04622A0F2D
+- expected_values:
+    AUDI_SSB_AH: 47
+  response: 77A04622A0F2F
+- expected_values:
+    AUDI_SSB_AH: 48
+  response: 77A04622A0F30
+- expected_values:
+    AUDI_SSB_AH: 49
+  response: 77A04622A0F31
