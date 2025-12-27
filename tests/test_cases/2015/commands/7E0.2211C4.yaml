@@ -4,5 +4,8 @@ test_cases:
     AUDI_OIL_MAX: 9.052
   response: 7E8056211C408D7
 - expected_values:
+    AUDI_OIL_MAX: 9.22
+  response: 7E8056211C40901
+- expected_values:
     AUDI_OIL_MAX: 14.868
   response: 7E8056211C40E85

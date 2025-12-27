@@ -1,5 +1,17 @@
 command_id: 7E0.221044|din=03
 test_cases:
 - expected_values:
+    AUDI_DPF_SFC_T: 99.8
+  response: 7E8056210440E91
+- expected_values:
+    AUDI_DPF_SFC_T: 101
+  response: 7E8056210440E9D
+- expected_values:
+    AUDI_DPF_SFC_T: 102.1
+  response: 7E8056210440EA8
+- expected_values:
+    AUDI_DPF_SFC_T: 102.4
+  response: 7E8056210440EAB
+- expected_values:
     AUDI_DPF_SFC_T: 162.9
   response: '7E8056210441108'
