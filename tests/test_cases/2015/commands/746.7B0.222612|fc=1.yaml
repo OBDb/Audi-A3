@@ -8,3 +8,23 @@ test_cases:
     AUDI_CLIMATE_T_AFTER_EVAP: 0.666
     AUDI_HVAC_EVAP_T: 54.8
   response: 7B0056226120224
+- expected_values:
+    AUDI_CLIMATE_T_AFTER_EVAP: 0.666
+    AUDI_HVAC_EVAP_T: 56.4
+  response: 7B0056226120234
+- expected_values:
+    AUDI_CLIMATE_T_AFTER_EVAP: 0.666
+    AUDI_HVAC_EVAP_T: 56.6
+  response: 7B0056226120236
+- expected_values:
+    AUDI_CLIMATE_T_AFTER_EVAP: 0.666
+    AUDI_HVAC_EVAP_T: 56.7
+  response: 7B0056226120237
+- expected_values:
+    AUDI_CLIMATE_T_AFTER_EVAP: 0.666
+    AUDI_HVAC_EVAP_T: 57.4
+  response: 7B005622612023E
+- expected_values:
+    AUDI_CLIMATE_T_AFTER_EVAP: 0.666
+    AUDI_HVAC_EVAP_T: 58.4
+  response: 7B0056226120248
