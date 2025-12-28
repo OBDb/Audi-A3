@@ -4,6 +4,18 @@ test_cases:
     AUDI_MEAN_INJ_QUANTITY: 6.21
   response: 7E805621139026D
 - expected_values:
+    AUDI_MEAN_INJ_QUANTITY: 6.26
+  response: '7E8056211390272'
+- expected_values:
+    AUDI_MEAN_INJ_QUANTITY: 6.35
+  response: 7E805621139027B
+- expected_values:
+    AUDI_MEAN_INJ_QUANTITY: 6.37
+  response: 7E805621139027D
+- expected_values:
+    AUDI_MEAN_INJ_QUANTITY: 6.4
+  response: '7E8056211390280'
+- expected_values:
     AUDI_MEAN_INJ_QUANTITY: 6.41
   response: '7E8056211390281'
 - expected_values:
