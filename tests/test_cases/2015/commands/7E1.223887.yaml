@@ -1,11 +1,11 @@
 command_id: 7E1.223887
 test_cases:
 - expected_values:
+    AUDI_ODO_TCM_2_HD: 196583
+  response: 7E90762388706FF1D00
+- expected_values:
     AUDI_ODO_TCM_2_HD: 195714.7
   response: 7E9076238871BDD1D00
 - expected_values:
-    AUDI_ODO_TCM_2_HD: 196441.7
-  response: 7E90762388781F91D00
-- expected_values:
-    AUDI_ODO_TCM_2_HD: 196529.6
-  response: 7E907623887F0FC1D00
+    AUDI_ODO_TCM_2_HD: 196530.5
+  response: 7E907623887F9FC1D00
