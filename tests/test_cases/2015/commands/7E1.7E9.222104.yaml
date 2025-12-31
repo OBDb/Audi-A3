@@ -4,5 +4,5 @@ test_cases:
     AUDI_ATF_T: -32
   response: '7E9056221040800'
 - expected_values:
-    AUDI_ATF_T: 44
-  response: '7E9056221045400'
+    AUDI_ATF_T: 46
+  response: '7E9056221045600'
