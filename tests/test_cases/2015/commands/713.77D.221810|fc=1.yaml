@@ -13,5 +13,40 @@ test_cases:
 - expected_values:
     AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
   response: |-
+    77D100C621810000122
+    77D217FFF7FFFFFFFAA
+- expected_values:
+    AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C6218100006E0
+    77D217FFF7FFFFFFFAA
+- expected_values:
+    AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810000708
+    77D217FFF7FFFFFFFAA
+- expected_values:
+    AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181000080C
+    77D217FFF7FFFFFFFAA
+- expected_values:
+    AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C62181000087A
+    77D217FFF7FFFFFFFAA
+- expected_values:
+    AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C6218100008AC
+    77D217FFF7FFFFFFFAA
+- expected_values:
+    AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
     77D100C621810000DDE
+    77D217FFF7FFFFFFFAA
+- expected_values:
+    AUDI_HYD_BRAKE_BOOST_ACTIVE: 0
+  response: |-
+    77D100C621810000EEC
     77D217FFF7FFFFFFFAA

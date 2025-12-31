@@ -5,34 +5,6 @@ test_cases:
     AUDI_SSB_SOC: 84
   response: 77A04622A0C54
 - expected_values:
-    AUDI_BAT_SOC: 85
-    AUDI_SSB_SOC: 85
-  response: 77A04622A0C55
-- expected_values:
-    AUDI_BAT_SOC: 87
-    AUDI_SSB_SOC: 87
-  response: 77A04622A0C57
-- expected_values:
-    AUDI_BAT_SOC: 88
-    AUDI_SSB_SOC: 88
-  response: 77A04622A0C58
-- expected_values:
-    AUDI_BAT_SOC: 89
-    AUDI_SSB_SOC: 89
-  response: 77A04622A0C59
-- expected_values:
-    AUDI_BAT_SOC: 90
-    AUDI_SSB_SOC: 90
-  response: 77A04622A0C5A
-- expected_values:
-    AUDI_BAT_SOC: 91
-    AUDI_SSB_SOC: 91
-  response: 77A04622A0C5B
-- expected_values:
-    AUDI_BAT_SOC: 92
-    AUDI_SSB_SOC: 92
-  response: 77A04622A0C5C
-- expected_values:
-    AUDI_BAT_SOC: 93
-    AUDI_SSB_SOC: 93
-  response: 77A04622A0C5D
+    AUDI_BAT_SOC: 100
+    AUDI_SSB_SOC: 100
+  response: 77A04622A0C64

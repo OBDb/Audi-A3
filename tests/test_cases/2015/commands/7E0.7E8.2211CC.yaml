@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2211CC
 test_cases:
 - expected_values:
-    AUDI_BOOST_REGULATOR_FEEDBACK: 41.36
-  response: 7E8056211CC1028
+    AUDI_BOOST_REGULATOR_FEEDBACK: 14.73
+  response: 7E8056211CC05C1
 - expected_values:
     AUDI_BOOST_REGULATOR_FEEDBACK: 74.24
   response: 7E8056211CC1D00
