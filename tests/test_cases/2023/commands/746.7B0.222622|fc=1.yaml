@@ -1,0 +1,6 @@
+command_id: 746.7B0.222622|fc=1
+test_cases:
+- expected_values:
+    AUDI_CLIMATE_FR_L_T_FLP_ACT_VALUE: 100
+    AUDI_FRONT_LEFT_T_FLAP_ACTUAL_VALUE: 100
+  response: 7B006622622039EC8
