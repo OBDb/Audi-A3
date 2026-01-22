@@ -3,4 +3,5 @@ test_cases:
 - expected_values:
     AUDI_BAT_INT_R: 8.6
     AUDI_SSB_R: 8.6
+    AUDI_SSB_RES_INT: 8.6
   response: 77A04622A0E2B
