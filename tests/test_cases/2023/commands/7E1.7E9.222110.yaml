@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222110
+test_cases:
+- expected_values:
+    AUDI_SPEC_TORQUE_TRANSINT: 7250
+  response: 7E9056221101C52
+- expected_values:
+    AUDI_SPEC_TORQUE_TRANSINT: 12370
+  response: '7E9056221103052'
+- expected_values:
+    AUDI_SPEC_TORQUE_TRANSINT: 62545
+  response: 7E905622110F451
