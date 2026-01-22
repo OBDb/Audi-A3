@@ -1,0 +1,10 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    AUDI_CLIMATE_REFRIG_P: 5.8
+    AUDI_REFRIGERANT_PRESSURE: 5.8
+  response: 7B0046226051D
+- expected_values:
+    AUDI_CLIMATE_REFRIG_P: 6
+    AUDI_REFRIGERANT_PRESSURE: 6
+  response: 7B0046226051E

@@ -1,0 +1,8 @@
+command_id: 746.7B0.222603|fc=1
+test_cases:
+- expected_values:
+    AUDI_CLIMATE_A_C_COMP_SPD: 2100
+  response: 7B00462260315
+- expected_values:
+    AUDI_CLIMATE_A_C_COMP_SPD: 2200
+  response: 7B00462260316
