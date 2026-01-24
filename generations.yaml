@@ -4,20 +4,25 @@ references:
 generations:
   - name: "First Generation (8L)"
     start_year: 1996
-    end_year: 2003
-    description: "The original Audi A3 pioneered the premium compact segment, built on the Volkswagen Group A platform. Initially available only as a three-door hatchback, it featured a range of four-cylinder engines including the 1.8T. The first-generation A3 established Audi's reputation for bringing premium quality and features to smaller vehicles."
+    end_year: 2006
+    description: "The original Audi A3 pioneered the premium compact segment, built on the Volkswagen Group A platform. Launched in September 1996 in Europe, initially available only as a three-door hatchback, it featured a range of four-cylinder engines including the 1.8T. The first-generation A3 established Audi's reputation for bringing premium quality and features to smaller vehicles. While it was replaced in Europe in 2003, Brazilian production continued until 2006."
 
   - name: "Second Generation (8P)"
-    start_year: 2004
+    start_year: 2003
     end_year: 2013
-    description: "Built on the Volkswagen Group A5 (PQ35) platform, the second-generation A3 expanded to include a five-door Sportback variant. Engine options ranged from 1.2L to 3.2L V6 petrol and various TDI diesel units. This generation introduced the S3 and RS3 high-performance variants and received a facelift in 2008 with updated styling and technology."
+    description: "Built on the Volkswagen Group A5 (PQ35) platform, the second-generation A3 launched at the 2003 Geneva Motor Show and expanded to include a five-door Sportback variant introduced in June 2004. Engine options ranged from 1.2L to 3.2L V6 petrol and various TDI diesel units. This generation introduced the S3 and RS3 high-performance variants and received a facelift in 2008 with updated styling, modified grille, daytime running lights, and common rail 2.0 TDI engines."
 
   - name: "Third Generation (8V)"
     start_year: 2012
     end_year: 2020
-    description: "Based on the Volkswagen Group MQB platform, the third-generation A3 was offered in three-door hatchback, five-door Sportback, four-door sedan, and cabriolet body styles. It featured Audi's latest technology including the Virtual Cockpit digital instrument cluster and advanced driver assistance systems. Engine options included efficient TFSI petrol and TDI diesel units, plus the e-tron plug-in hybrid variant. The high-performance S3 and RS3 models continued, with the latter featuring a distinctive five-cylinder engine."
+    description: "Based on the Volkswagen Group MQB platform, the third-generation A3 was unveiled at the 2012 Geneva Motor Show and went on sale in September 2012. Offered in three-door hatchback, five-door Sportback, four-door sedan, and cabriolet body styles. It featured Audi's latest technology including the Virtual Cockpit digital instrument cluster and advanced driver assistance systems. Engine options included efficient TFSI petrol and TDI diesel units, plus the e-tron plug-in hybrid variant. The high-performance S3 and RS3 models continued, with the latter featuring a distinctive five-cylinder engine. The generation received a facelift in 2016 with updated styling including Matrix LED headlamps."
+
+  - name: "Third Generation (8V) 2016 Facelift"
+    start_year: 2016
+    end_year: 2020
+    description: "The 2016 facelift brought significant cosmetic updates to the A3 Saloon, including Matrix LED headlamps as seen in the A8 flagship, optional sequentially animated turn-signal treatment on rear taillights, and a refreshed front grille aligned with Audi's A4 design language. Interior updates included a fully digital 12.3-inch instrument cluster and optional Apple CarPlay and Android Auto support."
 
   - name: "Fourth Generation (8Y)"
-    start_year: 2022
+    start_year: 2020
     end_year: null
-    description: "The current A3 continues on the MQB platform but with significant updates, offered as a five-door Sportback and four-door sedan. It features a more angular design language and a completely redesigned interior with dual digital screens and connected services. Powertrain options include mild-hybrid technology, and the range continues to include S3 and RS3 performance variants. This generation focuses on digitalization, connectivity, and electrification while maintaining Audi's premium positioning in the compact segment."
+    description: "The fourth-generation A3 was unveiled on 3 March 2020 as the Sportback model, with the Saloon model unveiled on 21 April 2020. Built on the Volkswagen Group MQB Evo platform, it is offered as a five-door Sportback and four-door sedan. It features more angular design language inspired by Lamborghini, LED headlights with optional Matrix LED, and a completely redesigned interior with dual digital screens and connected services. Powertrain options include a turbocharged 1.0L 3-cylinder engine with 110 hp, 1.5L turbocharged petrol engines, 2.0L TDI diesel engines, and PHEV variants. The range continues to include S3 and RS3 performance variants with a 2.5L 5-cylinder TFSI engine. This generation focuses on digitalization, connectivity, and electrification while maintaining Audi's premium positioning in the compact segment. A 2024 refresh introduced updated styling, the AllStreet off-road variant, and further powertrain refinements."
