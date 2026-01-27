@@ -4,3 +4,7 @@ test_cases:
     AUDI_AAT: 74
     AUDI_DASH_AMBIENT_AIR_T: 12
   response: 77E046210147C
+- expected_values:
+    AUDI_AAT: 80
+    AUDI_DASH_AMBIENT_AIR_T: 15
+  response: '77E0462101482'
