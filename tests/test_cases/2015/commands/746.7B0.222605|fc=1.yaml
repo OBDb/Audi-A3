@@ -17,6 +17,10 @@ test_cases:
     AUDI_REFRIGERANT_PRESSURE: 4.2
   response: 7B00462260515
 - expected_values:
+    AUDI_CLIMATE_REFRIG_P: 4.4
+    AUDI_REFRIGERANT_PRESSURE: 4.4
+  response: 7B00462260516
+- expected_values:
     AUDI_CLIMATE_REFRIG_P: 4.6
     AUDI_REFRIGERANT_PRESSURE: 4.6
   response: 7B00462260517
