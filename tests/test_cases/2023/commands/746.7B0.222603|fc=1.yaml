@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     AUDI_CLIMATE_A_C_COMP_SPD: 2200
   response: 7B00462260316
+- expected_values:
+    AUDI_CLIMATE_A_C_COMP_SPD: 3600
+  response: 7B00462260324
+- expected_values:
+    AUDI_CLIMATE_A_C_COMP_SPD: 3800
+  response: 7B00462260326
