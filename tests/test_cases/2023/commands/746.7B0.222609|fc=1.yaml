@@ -4,3 +4,7 @@ test_cases:
     AUDI_AAT_FROMCABIN: 62
     AUDI_AAT_V2: 62
   response: 7B0046226097C
+- expected_values:
+    AUDI_AAT_FROMCABIN: 63
+    AUDI_AAT_V2: 63
+  response: 7B0046226097E

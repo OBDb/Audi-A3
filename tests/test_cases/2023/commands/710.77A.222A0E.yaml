@@ -21,6 +21,11 @@ test_cases:
     AUDI_SSB_RES_INT: 8.2
   response: 77A04622A0E29
 - expected_values:
+    AUDI_BAT_INT_R: 8.4
+    AUDI_SSB_R: 8.4
+    AUDI_SSB_RES_INT: 8.4
+  response: 77A04622A0E2A
+- expected_values:
     AUDI_BAT_INT_R: 28.6
     AUDI_SSB_R: 28.6
     AUDI_SSB_RES_INT: -22.6

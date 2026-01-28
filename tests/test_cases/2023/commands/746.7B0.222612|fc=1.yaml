@@ -2,6 +2,11 @@ command_id: 746.7B0.222612|fc=1
 test_cases:
 - expected_values:
     AUDI_CLIMATE_T_AFTER_EVAP: 0.666
+    AUDI_HVAC_EVAP_T: 53.8
+    AUDI_T_AFTER_EVAPORATOR: 0.66667
+  response: 7B005622612021A
+- expected_values:
+    AUDI_CLIMATE_T_AFTER_EVAP: 0.666
     AUDI_HVAC_EVAP_T: 55
     AUDI_T_AFTER_EVAPORATOR: 0.66667
   response: 7B0056226120226
