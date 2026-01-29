@@ -1,6 +1,14 @@
 command_id: 746.7B0.222613|fc=1,din=03
 test_cases:
 - expected_values:
+    AUDI_CABIN_T: 26.3
+    AUDI_PQ35_CAB_T: 26.3
+  response: 7B0056226130107
+- expected_values:
+    AUDI_CABIN_T: 26.6
+    AUDI_PQ35_CAB_T: 26.6
+  response: 7B005622613010A
+- expected_values:
     AUDI_CABIN_T: 28.9
     AUDI_PQ35_CAB_T: 28.9
   response: 7B0056226130121
@@ -16,3 +24,7 @@ test_cases:
     AUDI_CABIN_T: 30.4
     AUDI_PQ35_CAB_T: 30.4
   response: 7B0056226130130
+- expected_values:
+    AUDI_CABIN_T: 32.1
+    AUDI_PQ35_CAB_T: 32.1
+  response: 7B0056226130141
