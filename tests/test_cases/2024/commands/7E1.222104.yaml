@@ -1,0 +1,10 @@
+command_id: 7E1.222104
+test_cases:
+- expected_values:
+    AUDI_ATF_T: -22
+    AUDI_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 18
+  response: '7E9056221041200'
+- expected_values:
+    AUDI_ATF_T: 36
+    AUDI_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 76
+  response: 7E9056221044C00
