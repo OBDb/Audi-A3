@@ -21,6 +21,21 @@ test_cases:
     77A100A622AB6000F00
     77A210F07FD00AAAAAA
 - expected_values:
+    AUDI_RANGE_V2: 180
+  response: |-
+    77A100A622AB600B400
+    77A21B407FD00AAAAAA
+- expected_values:
+    AUDI_RANGE_V2: 180
+  response: |-
+    77A100A622AB600B400
+    77A21B407FD06AAAAAA
+- expected_values:
+    AUDI_RANGE_V2: 180
+  response: |-
+    77A100A622AB600B400
+    77A21B407FD24AAAAAA
+- expected_values:
     AUDI_RANGE_V2: 190
   response: |-
     77A100A622AB600BE00

@@ -12,3 +12,19 @@ test_cases:
     AUDI_ODO_TCM_2: 76858
     AUDI_PQ35_ODO_3: 3812353
   response: 7E90762101A3A2C0100
+- expected_values:
+    AUDI_ODO_TCM_2: 76863
+    AUDI_PQ35_ODO_3: 4140033
+  response: 7E90762101A3F2C0100
+- expected_values:
+    AUDI_ODO_TCM_2: 76866
+    AUDI_PQ35_ODO_3: 4336641
+  response: 7E90762101A422C0100
+- expected_values:
+    AUDI_ODO_TCM_2: 76867
+    AUDI_PQ35_ODO_3: 4402177
+  response: 7E90762101A432C0100
+- expected_values:
+    AUDI_ODO_TCM_2: 76870
+    AUDI_PQ35_ODO_3: 4598785
+  response: 7E90762101A462C0100
