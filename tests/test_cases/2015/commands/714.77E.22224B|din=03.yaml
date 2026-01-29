@@ -1,0 +1,14 @@
+command_id: 714.77E.22224B|din=03
+test_cases:
+- expected_values:
+    AUDI_PQ35_OIL_WEAR: 13
+  response: 77E0562224B000D
+- expected_values:
+    AUDI_PQ35_OIL_WEAR: 17
+  response: 77E0562224B0011
+- expected_values:
+    AUDI_PQ35_OIL_WEAR: 18
+  response: 77E0562224B0012
+- expected_values:
+    AUDI_PQ35_OIL_WEAR: 36
+  response: 77E0562224B0024
