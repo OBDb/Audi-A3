@@ -2,13 +2,17 @@ command_id: 7E0.2211C4
 test_cases:
 - expected_values:
     AUDI_OIL_MAX: 3.712
+    AUDI_PQ35_OIL_LVL_MAX: 3.712
   response: 7E8056211C403A0
 - expected_values:
     AUDI_OIL_MAX: 3.948
+    AUDI_PQ35_OIL_LVL_MAX: 3.948
   response: 7E8056211C403DB
 - expected_values:
     AUDI_OIL_MAX: 4.28
+    AUDI_PQ35_OIL_LVL_MAX: 4.28
   response: 7E8056211C4042E
 - expected_values:
     AUDI_OIL_MAX: 4.432
+    AUDI_PQ35_OIL_LVL_MAX: 4.432
   response: 7E8056211C40454
