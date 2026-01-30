@@ -1,8 +1,14 @@
 command_id: 7E1.7E9.22102D
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2850
+  response: 7E90562102D220B
+- expected_values:
     AUDI_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2645
   response: 7E90562102D550A
+- expected_values:
+    AUDI_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2692
+  response: 7E90562102D840A
 - expected_values:
     AUDI_MQB_DQ200_P_SUPPLY_ACTUAL_P_AD_VALUE: 2479
   response: 7E90562102DAF09
