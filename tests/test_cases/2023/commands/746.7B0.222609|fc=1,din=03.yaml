@@ -1,6 +1,14 @@
 command_id: 746.7B0.222609|fc=1,din=03
 test_cases:
 - expected_values:
+    AUDI_AAT_V2: 55
+    AUDI_PQ35_OUT_T: 55
+  response: 7B0046226096E
+- expected_values:
+    AUDI_AAT_V2: 57
+    AUDI_PQ35_OUT_T: 57
+  response: 7B00462260972
+- expected_values:
     AUDI_AAT_V2: 59
     AUDI_PQ35_OUT_T: 59
   response: 7B00462260976
