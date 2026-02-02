@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_DQ200_CLUTCH_1_ADAPT_CLUTCH_END_POS_CLOSED: 26.57
   response: 7E9056238FF610A
+- expected_values:
+    AUDI_MQB_DQ200_CLUTCH_1_ADAPT_CLUTCH_END_POS_CLOSED: 26.67
+  response: 7E9056238FF6B0A
