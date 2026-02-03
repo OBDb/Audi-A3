@@ -7,6 +7,9 @@ test_cases:
     AUDI_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: 2.78
   response: 7E90562109F1601
 - expected_values:
+    AUDI_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: 2.79
+  response: 7E90562109F1701
+- expected_values:
     AUDI_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G5: 2.8
   response: 7E90562109F1801
 - expected_values:
