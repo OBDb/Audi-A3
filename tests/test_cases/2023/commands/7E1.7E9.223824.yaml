@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223824
 test_cases:
 - expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 0
+  response: '7E9056238240000'
+- expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 33.51
   response: 7E905623824170D
 - expected_values:
@@ -10,8 +13,17 @@ test_cases:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 38.87
   response: 7E9056238242F0F
 - expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 15.97
+  response: 7E9056238243D06
+- expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 16.04
   response: '7E9056238244406'
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 32.13
+  response: 7E9056238248D0C
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 29.64
+  response: 7E905623824940B
 - expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_P_ACTUAL: 42.47
   response: '7E9056238249710'
