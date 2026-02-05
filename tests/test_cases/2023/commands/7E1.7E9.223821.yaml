@@ -4,6 +4,9 @@ test_cases:
     AUDI_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 33.38
   response: 7E9056238210A0D
 - expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 36.04
+  response: 7E905623821140E
+- expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 28.43
   response: 7E9056238211B0B
 - expected_values:
@@ -24,3 +27,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 27.95
   response: 7E905623821EB0A
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_1_P_ACTUAL: 12.67
+  response: 7E905623821F304
