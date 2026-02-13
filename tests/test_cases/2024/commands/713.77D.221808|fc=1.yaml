@@ -2,5 +2,17 @@ command_id: 713.77D.221808|fc=1
 test_cases:
 - expected_values:
     AUDI_MQB_HDC_ACT: 0
+    AUDI_MQB_HDC_INC: 0
+  response: 77D056218080000
+- expected_values:
+    AUDI_MQB_HDC_ACT: 0
+    AUDI_MQB_HDC_INC: 8
+  response: 77D056218080008
+- expected_values:
+    AUDI_MQB_HDC_ACT: 0
+    AUDI_MQB_HDC_INC: 16
+  response: 77D056218080010
+- expected_values:
+    AUDI_MQB_HDC_ACT: 0
     AUDI_MQB_HDC_INC: 32
   response: 77D056218080020
