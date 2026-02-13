@@ -9,6 +9,10 @@ test_cases:
     AUDI_ODO_TCM_1: 128000
   response: 7E90762384100F40100
 - expected_values:
+    AUDI_MQB_TCM_ODO: 9168691.2
+    AUDI_ODO_TCM_1: 554757
+  response: '7E90762384105770800'
+- expected_values:
     AUDI_MQB_TCM_ODO: 60378368
     AUDI_ODO_TCM_1: 195875
   response: 7E90762384123FD0200
@@ -16,10 +20,6 @@ test_cases:
     AUDI_MQB_TCM_ODO: 248624000
     AUDI_ODO_TCM_1: 209300
   response: '7E90762384194310300'
-- expected_values:
-    AUDI_MQB_TCM_ODO: 384971776
-    AUDI_ODO_TCM_1: 554725
-  response: 7E907623841E5760800
 - expected_values:
     AUDI_MQB_TCM_ODO: 428867635.2
     AUDI_ODO_TCM_1: 172287
