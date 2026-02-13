@@ -1,6 +1,14 @@
 command_id: 746.7B0.22261E|fc=1
 test_cases:
 - expected_values:
+    AUDI_MQB_RECIRC_FLAP_ACT: 631
+    AUDI_RECIRC_FLAP_ACT_PCT: 67
+  response: 7B00662261E027786
+- expected_values:
+    AUDI_MQB_RECIRC_FLAP_ACT: 632
+    AUDI_RECIRC_FLAP_ACT_PCT: 67
+  response: 7B00662261E027886
+- expected_values:
     AUDI_MQB_RECIRC_FLAP_ACT: 633
     AUDI_RECIRC_FLAP_ACT_PCT: 67
   response: 7B00662261E027986
