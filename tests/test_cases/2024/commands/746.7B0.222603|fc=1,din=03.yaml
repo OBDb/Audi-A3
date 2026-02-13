@@ -1,0 +1,5 @@
+command_id: 746.7B0.222603|fc=1,din=03
+test_cases:
+- expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 2000
+  response: 7B00462260314
