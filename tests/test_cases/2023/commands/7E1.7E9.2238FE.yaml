@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.2238FE
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ200_CLUTCH_1_ADAPT_CLUTCH_END_POS_OPEN: 1.31
+  response: 7E9056238FE8300
+- expected_values:
     AUDI_MQB_DQ200_CLUTCH_1_ADAPT_CLUTCH_END_POS_OPEN: 1.36
   response: 7E9056238FE8800
 - expected_values:
