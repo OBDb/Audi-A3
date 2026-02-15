@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223823
 test_cases:
 - expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 33.37
+  response: 7E905623823090D
+- expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 16
   response: '7E9056238234006'
 - expected_values:
