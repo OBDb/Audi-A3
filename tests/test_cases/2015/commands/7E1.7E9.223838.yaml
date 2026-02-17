@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.223838
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: -600
+  response: 7E90562383820D1
+- expected_values:
+    AUDI_MQB_DQ250_SPECIFIED_TORQUE_CLUTCH_2: 88.7
+  response: 7E905623838EE06

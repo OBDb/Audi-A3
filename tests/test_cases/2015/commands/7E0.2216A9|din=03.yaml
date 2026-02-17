@@ -1,0 +1,8 @@
+command_id: 7E0.2216A9|din=03
+test_cases:
+- expected_values:
+    AUDI_PQ35_ODO_2: 205093
+  response: 7E8076216A900032125
+- expected_values:
+    AUDI_PQ35_ODO_2: 205097
+  response: 7E8076216A900032129

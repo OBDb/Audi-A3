@@ -1,6 +1,10 @@
 command_id: 7E0.2211C5
 test_cases:
 - expected_values:
+    AUDI_OIL_MIN: 0.224
+    AUDI_PQ35_OIL_LVL_MIN: 0.224
+  response: 7E8056211C50038
+- expected_values:
     AUDI_OIL_MIN: 5.948
     AUDI_PQ35_OIL_LVL_MIN: 5.948
   response: 7E8056211C505CF

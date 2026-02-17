@@ -1,0 +1,8 @@
+command_id: 70F.779.222B1E|fc=1
+test_cases:
+- expected_values:
+    AUDI_PQ35_RR_VSS: 4.3
+  response: 77905622B1E002B
+- expected_values:
+    AUDI_PQ35_RR_VSS: 20.5
+  response: 77905622B1E00CD
