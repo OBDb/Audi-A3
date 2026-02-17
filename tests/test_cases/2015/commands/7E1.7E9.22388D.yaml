@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22388D
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_LOWER_ADAPTED_COUPLING_POINT_CLUTCH_1_FROM_KISS_POINT_ADAPT: 0.275
+  response: 7E90462388D37

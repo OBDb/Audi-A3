@@ -1,0 +1,8 @@
+command_id: 70F.779.222BF3|fc=1
+test_cases:
+- expected_values:
+    AUDI_PQ35_HAL_DUTY: 0.39369
+  response: 77905622BF30100
+- expected_values:
+    AUDI_PQ35_HAL_DUTY: 5.11792
+  response: 77905622BF30D00

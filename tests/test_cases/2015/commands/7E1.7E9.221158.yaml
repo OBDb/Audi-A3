@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221158
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_CLUTCH_ADAPT_VALUES_LOWER_I_POINT_ADAPT_K1: 230
+  response: 7E9046211582E

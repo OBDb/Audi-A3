@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22100F
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -60
+  response: 7E90562100F50FB
+- expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -68
+  response: 7E90562100FB0FA
