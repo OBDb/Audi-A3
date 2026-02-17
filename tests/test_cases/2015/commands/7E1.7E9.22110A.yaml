@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22110A
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_LOWER_ADAPTED_COUPLING_POINT_K2_FROM_MICRO_SLIP_PATH_ADAPT: 255
+  response: 7E90462110A33

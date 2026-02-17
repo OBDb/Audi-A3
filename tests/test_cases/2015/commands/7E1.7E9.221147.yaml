@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221147
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_6_R: 0
+  response: '7E9056211470000'
