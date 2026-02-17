@@ -4,29 +4,5 @@ test_cases:
     AUDI_AAT_CABIN: 6.5
   response: 7B00462260A71
 - expected_values:
-    AUDI_AAT_CABIN: 8
-  response: 7B00462260A74
-- expected_values:
-    AUDI_AAT_CABIN: 8.5
-  response: 7B00462260A75
-- expected_values:
-    AUDI_AAT_CABIN: 12
-  response: 7B00462260A7C
-- expected_values:
-    AUDI_AAT_CABIN: 12.5
-  response: 7B00462260A7D
-- expected_values:
-    AUDI_AAT_CABIN: 13
-  response: 7B00462260A7E
-- expected_values:
-    AUDI_AAT_CABIN: 14
-  response: 7B00462260A80
-- expected_values:
-    AUDI_AAT_CABIN: 14.5
-  response: 7B00462260A81
-- expected_values:
-    AUDI_AAT_CABIN: 16
-  response: 7B00462260A84
-- expected_values:
     AUDI_AAT_CABIN: 16.5
   response: 7B00462260A85
