@@ -4,6 +4,9 @@ test_cases:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL: 1
   response: 7E90562382B0A00
 - expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL: 851
+  response: 7E90562382B3E21
+- expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_VALVE_I_ACTUAL: 1058
   response: 7E90562382B5429
 - expected_values:
