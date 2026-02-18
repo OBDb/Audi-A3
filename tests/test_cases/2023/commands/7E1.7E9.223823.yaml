@@ -19,5 +19,8 @@ test_cases:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 43
   response: 7E905623823CC10
 - expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 37.91
+  response: 7E905623823CF0E
+- expected_values:
     AUDI_MQB_TCM_TRANSMISSION_PART_2_P_CMD: 28
   response: 7E905623823F00A
