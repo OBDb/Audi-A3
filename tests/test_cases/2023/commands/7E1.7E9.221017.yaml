@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221017
 test_cases:
 - expected_values:
-    AUDI_PQ35_ROAD_RESISTANCE: -2.467
-  response: '7E90462101775'
+    AUDI_PQ35_ROAD_RESISTANCE: -3.712
+  response: '7E90462101770'
 - expected_values:
     AUDI_PQ35_ROAD_RESISTANCE: 1.766
   response: '7E90462101786'

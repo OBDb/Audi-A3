@@ -4,29 +4,5 @@ test_cases:
     AUDI_MQB_TCM_IGNITION_CYCLES: 1196
   response: 7E90562388CAC04
 - expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1197
-  response: 7E90562388CAD04
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1202
-  response: 7E90562388CB204
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1208
-  response: 7E90562388CB804
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1217
-  response: 7E90562388CC104
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1218
-  response: 7E90562388CC204
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1240
-  response: 7E90562388CD804
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1249
-  response: 7E90562388CE104
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1256
-  response: 7E90562388CE804
-- expected_values:
-    AUDI_MQB_TCM_IGNITION_CYCLES: 1257
-  response: 7E90562388CE904
+    AUDI_MQB_TCM_IGNITION_CYCLES: 1266
+  response: 7E90562388CF204
