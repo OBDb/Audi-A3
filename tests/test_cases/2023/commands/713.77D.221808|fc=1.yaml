@@ -22,5 +22,9 @@ test_cases:
   response: 77D056218080028
 - expected_values:
     AUDI_MQB_HDC_ACT: 0
+    AUDI_MQB_HDC_INC: 48
+  response: 77D056218080030
+- expected_values:
+    AUDI_MQB_HDC_ACT: 0
     AUDI_MQB_HDC_INC: 72
   response: 77D056218080048
