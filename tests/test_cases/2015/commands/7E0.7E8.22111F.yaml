@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22111F
 test_cases:
 - expected_values:
+    AUDI_PQ35_PREHEAT_T: 2100
+  response: 7E80562111F0015
+- expected_values:
     AUDI_PQ35_PREHEAT_T: 2500
   response: 7E80562111F0019

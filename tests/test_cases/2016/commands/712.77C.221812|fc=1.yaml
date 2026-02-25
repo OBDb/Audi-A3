@@ -1,0 +1,10 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    AUDI_MQB_SWA: -3.065
+    AUDI_STEER_WHEEL_ANGLE: -3.125
+  response: 77C06621812FFE701
+- expected_values:
+    AUDI_MQB_SWA: -0.44
+    AUDI_STEER_WHEEL_ANGLE: -0.5
+  response: 77C06621812FFFC01

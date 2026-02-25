@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22380C
+test_cases:
+- expected_values:
+    AUDI_MQB_INPUT_SHAFT_1: 1296
+  response: 7E90562380C1005
+- expected_values:
+    AUDI_MQB_INPUT_SHAFT_1: 1182
+  response: 7E90562380C9E04

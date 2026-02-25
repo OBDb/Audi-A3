@@ -1,0 +1,9 @@
+command_id: 713.77D.2218B6|fc=1
+test_cases:
+- expected_values:
+    AUDI_MQB_CSS_ACT: 0
+    AUDI_MQB_CSS_ODO_LAST: 1
+    AUDI_MQB_CSS_STR_TRQ: 0
+  response: |-
+    77D10096218B601027C
+    77D21AC0000AAAAAAAA
