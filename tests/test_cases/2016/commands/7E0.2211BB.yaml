@@ -4,8 +4,8 @@ test_cases:
     AUDI_OIL_CRIT: 4.0468
   response: 7E8056211BB2785
 - expected_values:
-    AUDI_OIL_CRIT: 4.4468
-  response: 7E8056211BB2B6D
+    AUDI_OIL_CRIT: 4.2204
+  response: 7E8056211BB2937
 - expected_values:
     AUDI_OIL_CRIT: 4.71
   response: 7E8056211BB2DFF
