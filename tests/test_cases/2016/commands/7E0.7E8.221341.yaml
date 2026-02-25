@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_PQ35_CAMS_END: 103
   response: '7E8056213410203'
+- expected_values:
+    AUDI_PQ35_CAMS_END: -1956
+  response: 7E805621341D9CC
