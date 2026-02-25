@@ -1,6 +1,9 @@
 command_id: 70F.779.222B1C|fc=1
 test_cases:
 - expected_values:
+    AUDI_PQ35_FR_VSS: 0
+  response: 77905622B1C0000
+- expected_values:
     AUDI_PQ35_FR_VSS: 3
   response: 77905622B1C001E
 - expected_values:
