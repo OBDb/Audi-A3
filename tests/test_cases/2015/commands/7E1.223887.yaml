@@ -4,8 +4,8 @@ test_cases:
     AUDI_MQB_TCM_ODO_2: 196583
   response: 7E90762388706FF1D00
 - expected_values:
-    AUDI_MQB_TCM_ODO_2: 196636
-  response: 7E90762388718011E00
+    AUDI_MQB_TCM_ODO_2: 202804.9
+  response: 7E90762388711F21E00
 - expected_values:
     AUDI_MQB_TCM_ODO_2: 196610.5
   response: 7E90762388719001E00

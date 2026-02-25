@@ -4,5 +4,11 @@ test_cases:
     AUDI_MQB_INPUT_SHAFT_1: 23
   response: 7E90562380C1700
 - expected_values:
+    AUDI_MQB_INPUT_SHAFT_1: 1845
+  response: 7E90562380C3507
+- expected_values:
     AUDI_MQB_INPUT_SHAFT_1: 1866
   response: 7E90562380C4A07
+- expected_values:
+    AUDI_MQB_INPUT_SHAFT_1: 1480
+  response: 7E90562380CC805

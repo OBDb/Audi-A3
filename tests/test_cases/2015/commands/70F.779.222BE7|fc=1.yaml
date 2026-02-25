@@ -4,6 +4,9 @@ test_cases:
     AUDI_PQ35_HAL_PWM: 12
   response: 77904622BE70C
 - expected_values:
+    AUDI_PQ35_HAL_PWM: 13
+  response: 77904622BE70D
+- expected_values:
     AUDI_PQ35_HAL_PWM: 15
   response: 77904622BE70F
 - expected_values:

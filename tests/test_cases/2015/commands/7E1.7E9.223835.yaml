@@ -1,8 +1,14 @@
 command_id: 7E1.7E9.223835
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 0.8
+  response: '7E9056238350800'
+- expected_values:
     AUDI_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 0.9
   response: '7E9056238350900'
+- expected_values:
+    AUDI_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 1
+  response: 7E9056238350A00
 - expected_values:
     AUDI_MQB_DQ250_CLUTCH_1_VALVE_I_ACTUAL: 473.4
   response: 7E9056238357E12

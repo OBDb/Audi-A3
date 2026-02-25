@@ -1,8 +1,14 @@
 command_id: 7E1.7E9.22100C
 test_cases:
 - expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE: 107
+  response: 7E90562100C5C08
+- expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE: 95
   response: 7E90562100C6C07
+- expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE: 98
+  response: 7E90562100CA807
 - expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE: 124
   response: 7E90562100CB009

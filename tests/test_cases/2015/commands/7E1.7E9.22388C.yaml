@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_TCM_IGNITION_CYCLES: 13574
   response: 7E90562388C0635
+- expected_values:
+    AUDI_MQB_TCM_IGNITION_CYCLES: 13589
+  response: 7E90562388C1535

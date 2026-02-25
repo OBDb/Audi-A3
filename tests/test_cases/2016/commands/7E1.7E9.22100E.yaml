@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22100E
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE_LIMITATION: 221
+  response: 7E90562100E4411
+- expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE_LIMITATION: 212
+  response: 7E90562100E9010

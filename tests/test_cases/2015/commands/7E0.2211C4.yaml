@@ -5,6 +5,10 @@ test_cases:
     AUDI_PQ35_OIL_LVL_MAX: 5.108
   response: 7E8056211C404FD
 - expected_values:
+    AUDI_OIL_MAX: 5.408
+    AUDI_PQ35_OIL_LVL_MAX: 5.408
+  response: 7E8056211C40548
+- expected_values:
     AUDI_OIL_MAX: 9.052
     AUDI_PQ35_OIL_LVL_MAX: 9.052
   response: 7E8056211C408D7
