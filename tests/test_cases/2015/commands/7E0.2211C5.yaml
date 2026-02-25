@@ -20,3 +20,7 @@ test_cases:
     AUDI_OIL_MIN: 261.796
     AUDI_PQ35_OIL_LVL_MIN: 261.796
   response: 7E8056211C5FFA9
+- expected_values:
+    AUDI_OIL_MIN: 262
+    AUDI_PQ35_OIL_LVL_MIN: 262.064
+  response: 7E8056211C5FFEC

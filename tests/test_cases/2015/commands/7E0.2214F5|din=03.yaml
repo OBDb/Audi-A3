@@ -1,8 +1,14 @@
 command_id: 7E0.2214F5|din=03
 test_cases:
 - expected_values:
+    AUDI_PQ35_DIFF_P: 44
+  response: 7E8056214F5002C
+- expected_values:
     AUDI_PQ35_DIFF_P: 63
   response: 7E8056214F5003F
+- expected_values:
+    AUDI_PQ35_DIFF_P: 124
+  response: 7E8056214F5007C
 - expected_values:
     AUDI_PQ35_DIFF_P: 130
   response: 7E8056214F50082

@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221009
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_SPD_OUTPUT: 347
+  response: 7E9056210095B01
+- expected_values:
+    AUDI_MQB_DQ250_SPD_OUTPUT: 171
+  response: 7E905621009AB00

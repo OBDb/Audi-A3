@@ -1,10 +1,20 @@
 command_id: 7E0.22F469|din=03
 test_cases:
 - expected_values:
+    AUDI_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 0
+  response: |-
+    7E8100A62F4693F0000
+    7E821808F8F80555555
+- expected_values:
     AUDI_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 8
   response: |-
     7E8100A62F4693F0808
     7E82180D0D180555555
+- expected_values:
+    AUDI_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 39
+  response: |-
+    7E8100A62F4693F2726
+    7E8217D6A697F555555
 - expected_values:
     AUDI_PQ35_HIGH_P_EGR_CLOSING_VAR_1: 83
   response: |-

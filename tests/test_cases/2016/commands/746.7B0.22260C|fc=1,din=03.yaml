@@ -1,0 +1,10 @@
+command_id: 746.7B0.22260C|fc=1,din=03
+test_cases:
+- expected_values:
+    AUDI_FRONT_LEFT_DEFLECTOR_T: 47
+    AUDI_PQ35_FL_DEFL_T: 46.953
+  response: 7B00462260C8D
+- expected_values:
+    AUDI_FRONT_LEFT_DEFLECTOR_T: 48
+    AUDI_PQ35_FL_DEFL_T: 47.952
+  response: 7B00462260C90

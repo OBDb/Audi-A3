@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     AUDI_MQB_TCM_EOP_ACTUAL_I: 801.5
   response: 7E90562381E4F1F
+- expected_values:
+    AUDI_MQB_TCM_EOP_ACTUAL_I: 779.4
+  response: 7E90562381E721E
+- expected_values:
+    AUDI_MQB_TCM_EOP_ACTUAL_I: 793.4
+  response: 7E90562381EFE1E
