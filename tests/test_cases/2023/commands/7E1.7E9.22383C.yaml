@@ -8,4 +8,4 @@ test_cases:
   response: 7E90562383CB60E
 - expected_values:
     AUDI_MQB_DQ200_ACTUAL_POS_CLUTCH_2_DUTY_CYCLE_FACTOR_2: 100
-  response: 7E90562383CF60F
+  response: 7E90562383CF915
