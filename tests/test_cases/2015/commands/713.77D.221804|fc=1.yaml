@@ -1,11 +1,23 @@
 command_id: 713.77D.221804|fc=1
 test_cases:
 - expected_values:
+    AUDI_MQB_SWA_ALT: 16.625
+  response: |-
+    77D10116218040039FF
+    77D21DA007FFFDE0201
+    77D2200260026AAAAAA
+- expected_values:
     AUDI_MQB_SWA_ALT: -250.6875
   response: |-
     77D10116218040083FF
     77D21EC0081FFE40203
     77D22FDC3FDC3AAAAAA
+- expected_values:
+    AUDI_MQB_SWA_ALT: 22.75
+  response: |-
+    77D10116218040093FF
+    77D21DC007FFFDF0200
+    77D2200340034AAAAAA
 - expected_values:
     AUDI_MQB_SWA_ALT: 300.5625
   response: |-
@@ -25,12 +37,6 @@ test_cases:
     77D21270087FFE50201
     77D2200990099AAAAAA
 - expected_values:
-    AUDI_MQB_SWA_ALT: 68.6875
-  response: |-
-    77D101162180402D2FF
-    77D21C8007E0038021D
-    77D22009D0094AAAAAA
-- expected_values:
     AUDI_MQB_SWA_ALT: -4137.875
   response: |-
     77D1011621804E761FF
@@ -42,12 +48,6 @@ test_cases:
     77D1011621804FD43FF
     77D21C2007CFFE20202
     77D22FFAEFFAEAAAAAA
-- expected_values:
-    AUDI_MQB_SWA_ALT: -29.75
-  response: |-
-    77D1011621804FD98FF
-    77D21EA0081FFE20204
-    77D22FFBCFFBCAAAAAA
 - expected_values:
     AUDI_MQB_SWA_ALT: -17.9375
   response: |-
