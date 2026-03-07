@@ -11,4 +11,7 @@ test_cases:
   response: 7E905623852E0FC
 - expected_values:
     AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 0
+  response: 7E905623852FBFF
+- expected_values:
+    AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_A: 0
   response: 7E905623852FEFF

@@ -23,4 +23,8 @@ test_cases:
 - expected_values:
     AUDI_MQB_BRK_DRY_ACT: 0
     AUDI_MQB_BRK_DRY_ODO_LAST: 200000
+  response: 77D0762180E800325BF
+- expected_values:
+    AUDI_MQB_BRK_DRY_ACT: 0
+    AUDI_MQB_BRK_DRY_ODO_LAST: 200000
   response: 77D0762180EB00322DF
