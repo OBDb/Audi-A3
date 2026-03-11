@@ -4,6 +4,9 @@ test_cases:
     AUDI_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: -5
   response: 7E8056215B8FFFB
 - expected_values:
+    AUDI_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: -4
+  response: 7E8056215B8FFFC
+- expected_values:
     AUDI_MQB_DPF_DIFF_P_DYNAMIC_OFFSET: -3
   response: 7E8056215B8FFFD
 - expected_values:
