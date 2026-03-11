@@ -4,20 +4,8 @@ test_cases:
     AUDI_PQ35_LIM_TRQ: 110.6
   response: 7E80562106B0452
 - expected_values:
-    AUDI_PQ35_LIM_TRQ: 170.7
-  response: 7E80562106B06AB
-- expected_values:
-    AUDI_PQ35_LIM_TRQ: 206.9
-  response: 7E80562106B0815
-- expected_values:
-    AUDI_PQ35_LIM_TRQ: 214.9
-  response: 7E80562106B0865
-- expected_values:
-    AUDI_PQ35_LIM_TRQ: 224.6
-  response: 7E80562106B08C6
-- expected_values:
-    AUDI_PQ35_LIM_TRQ: 226.5
-  response: 7E80562106B08D9
+    AUDI_PQ35_LIM_TRQ: 205.6
+  response: 7E80562106B0808
 - expected_values:
     AUDI_PQ35_LIM_TRQ: 280.7
   response: 7E80562106B0AF7

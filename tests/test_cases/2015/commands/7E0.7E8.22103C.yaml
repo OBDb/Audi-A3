@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.22103C
 test_cases:
 - expected_values:
-    AUDI_MQB_INT_MAN_P: 1049
-  response: 7E80562103C0419
+    AUDI_MQB_INT_MAN_P: 1028
+  response: 7E80562103C0404
 - expected_values:
-    AUDI_MQB_INT_MAN_P: 1110
-  response: 7E80562103C0456
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 1209
-  response: 7E80562103C04B9
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 1414
-  response: 7E80562103C0586
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 1898
-  response: 7E80562103C076A
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 1916
-  response: 7E80562103C077C
-- expected_values:
-    AUDI_MQB_INT_MAN_P: 1979
-  response: 7E80562103C07BB
+    AUDI_MQB_INT_MAN_P: 1836
+  response: 7E80562103C072C
 - expected_values:
     AUDI_MQB_INT_MAN_P: 2037
   response: 7E80562103C07F5

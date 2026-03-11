@@ -1,26 +1,11 @@
 command_id: 7E0.7E8.221024
 test_cases:
 - expected_values:
-    AUDI_MQB_AIR_MASS_1: 91.8
-  response: '7E8056210240396'
+    AUDI_MQB_AIR_MASS_1: 30.9
+  response: '7E8056210240135'
 - expected_values:
-    AUDI_MQB_AIR_MASS_1: 93
-  response: 7E80562102403A2
-- expected_values:
-    AUDI_MQB_AIR_MASS_1: 93.9
-  response: 7E80562102403AB
-- expected_values:
-    AUDI_MQB_AIR_MASS_1: 101.3
-  response: 7E80562102403F5
-- expected_values:
-    AUDI_MQB_AIR_MASS_1: 116.9
-  response: '7E8056210240491'
-- expected_values:
-    AUDI_MQB_AIR_MASS_1: 123.7
-  response: 7E80562102404D5
-- expected_values:
-    AUDI_MQB_AIR_MASS_1: 137.8
-  response: '7E8056210240562'
+    AUDI_MQB_AIR_MASS_1: 136.8
+  response: '7E8056210240558'
 - expected_values:
     AUDI_MQB_AIR_MASS_1: 153.1
   response: 7E80562102405FB
