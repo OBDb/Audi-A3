@@ -7,6 +7,9 @@ test_cases:
     AUDI_MQB_EGR_VALVE_2_B1_FLOW: 7.4
   response: 7E805621313004A
 - expected_values:
+    AUDI_MQB_EGR_VALVE_2_B1_FLOW: 16.7
+  response: 7E80562131300A7
+- expected_values:
     AUDI_MQB_EGR_VALVE_2_B1_FLOW: 31.3
   response: '7E8056213130139'
 - expected_values:
@@ -15,6 +18,9 @@ test_cases:
 - expected_values:
     AUDI_MQB_EGR_VALVE_2_B1_FLOW: 44
   response: 7E80562131301B8
+- expected_values:
+    AUDI_MQB_EGR_VALVE_2_B1_FLOW: 46.8
+  response: 7E80562131301D4
 - expected_values:
     AUDI_MQB_EGR_VALVE_2_B1_FLOW: 58.5
   response: '7E8056213130249'
