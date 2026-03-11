@@ -10,11 +10,17 @@ test_cases:
     AUDI_PQ35_HAL_I: 1.49
   response: 77905622BE605D2
 - expected_values:
+    AUDI_PQ35_HAL_I: 1.563
+  response: 77905622BE6061B
+- expected_values:
     AUDI_PQ35_HAL_I: 1.76
   response: 77905622BE606E0
 - expected_values:
     AUDI_PQ35_HAL_I: 1.858
   response: 77905622BE60742
+- expected_values:
+    AUDI_PQ35_HAL_I: 1.907
+  response: 77905622BE60773
 - expected_values:
     AUDI_PQ35_HAL_I: 2.128
   response: 77905622BE60850
