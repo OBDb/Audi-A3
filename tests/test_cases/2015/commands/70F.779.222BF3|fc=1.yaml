@@ -7,6 +7,12 @@ test_cases:
     AUDI_PQ35_HAL_DUTY: 1.18106
   response: 77905622BF30300
 - expected_values:
+    AUDI_PQ35_HAL_DUTY: 1.57475
+  response: 77905622BF30400
+- expected_values:
+    AUDI_PQ35_HAL_DUTY: 2.7558
+  response: 77905622BF30700
+- expected_values:
     AUDI_PQ35_HAL_DUTY: 3.54318
   response: 77905622BF30900
 - expected_values:
