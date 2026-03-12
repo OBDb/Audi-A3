@@ -7,6 +7,9 @@ test_cases:
     AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.38
   response: 7E90562386A2600
 - expected_values:
+    AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.46
+  response: 7E90562386A2E00
+- expected_values:
     AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 0.47
   response: 7E90562386A2F00
 - expected_values:
@@ -18,6 +21,9 @@ test_cases:
 - expected_values:
     AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 8.81
   response: 7E90562386A7103
+- expected_values:
+    AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 9.03
+  response: 7E90562386A8703
 - expected_values:
     AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_D: 9.13
   response: 7E90562386A9103
