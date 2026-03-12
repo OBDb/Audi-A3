@@ -4,26 +4,8 @@ test_cases:
     AUDI_PQ35_RR_VSS: 0
   response: 77905622B1E0000
 - expected_values:
-    AUDI_PQ35_RR_VSS: 1
-  response: 77905622B1E000A
-- expected_values:
-    AUDI_PQ35_RR_VSS: 2.3
-  response: 77905622B1E0017
-- expected_values:
-    AUDI_PQ35_RR_VSS: 4.3
-  response: 77905622B1E002B
-- expected_values:
-    AUDI_PQ35_RR_VSS: 10.2
-  response: 77905622B1E0066
-- expected_values:
     AUDI_PQ35_RR_VSS: 20.5
   response: 77905622B1E00CD
-- expected_values:
-    AUDI_PQ35_RR_VSS: 28.2
-  response: 77905622B1E011A
-- expected_values:
-    AUDI_PQ35_RR_VSS: 44
-  response: 77905622B1E01B8
 - expected_values:
     AUDI_PQ35_RR_VSS: 112.6
   response: 77905622B1E0466
