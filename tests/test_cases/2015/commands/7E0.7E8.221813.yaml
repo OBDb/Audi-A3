@@ -13,6 +13,9 @@ test_cases:
     AUDI_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 2.6
   response: 7E805621813001A
 - expected_values:
+    AUDI_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 5.6
+  response: '7E8056218130038'
+- expected_values:
     AUDI_MQB_EGR_VALVE_1_B1_MASS_I_SPEC: 7.7
   response: 7E805621813004D
 - expected_values:

@@ -25,5 +25,8 @@ test_cases:
     AUDI_MQB_TCM_ECU_T: 41
   response: 7E90562028D2900
 - expected_values:
+    AUDI_MQB_TCM_ECU_T: 92
+  response: 7E90562028D5C00
+- expected_values:
     AUDI_MQB_TCM_ECU_T: 93
   response: 7E90562028D5D00
