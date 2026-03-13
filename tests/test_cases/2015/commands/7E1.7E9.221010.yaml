@@ -13,6 +13,9 @@ test_cases:
     AUDI_MQB_TCM_CONVERTER_LOSS_TORQUE: -1177.6
   response: 7E905621010A400
 - expected_values:
+    AUDI_MQB_TCM_CONVERTER_LOSS_TORQUE: -1139.2
+  response: 7E905621010A700
+- expected_values:
     AUDI_MQB_TCM_CONVERTER_LOSS_TORQUE: -1126.3
   response: 7E905621010A802
 - expected_values:
@@ -24,3 +27,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_TCM_CONVERTER_LOSS_TORQUE: -1024
   response: 7E905621010B000
+- expected_values:
+    AUDI_MQB_TCM_CONVERTER_LOSS_TORQUE: -396.75
+  response: 7E905621010E101

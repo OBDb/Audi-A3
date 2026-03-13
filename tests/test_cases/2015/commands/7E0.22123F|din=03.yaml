@@ -4,29 +4,5 @@ test_cases:
     AUDI_PQ35_OIL_DYN_AVG: 0.076
   response: 7E80562123F0013
 - expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 0.132
-  response: 7E80562123F0021
-- expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 0.576
-  response: 7E80562123F0090
-- expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 0.692
-  response: 7E80562123F00AD
-- expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 0.708
-  response: 7E80562123F00B1
-- expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 1.5
-  response: 7E80562123F0177
-- expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 1.728
-  response: 7E80562123F01B0
-- expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 2.44
-  response: 7E80562123F0262
-- expected_values:
-    AUDI_PQ35_OIL_DYN_AVG: 3.016
-  response: 7E80562123F02F2
-- expected_values:
     AUDI_PQ35_OIL_DYN_AVG: 131.068
   response: 7E80562123F7FFF

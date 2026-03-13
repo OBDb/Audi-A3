@@ -7,6 +7,9 @@ test_cases:
     AUDI_PQ35_OIL_DYN_LAST: 0.692
   response: 7E80562123C00AD
 - expected_values:
+    AUDI_PQ35_OIL_DYN_LAST: 1.38
+  response: 7E80562123C0159
+- expected_values:
     AUDI_PQ35_OIL_DYN_LAST: 1.868
   response: 7E80562123C01D3
 - expected_values:

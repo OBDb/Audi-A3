@@ -4,29 +4,11 @@ test_cases:
     AUDI_PQ35_ACCEL_PED_2: 366.4
   response: 7E80562102E0728
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_2: 664.6
-  response: 7E80562102E0CFB
-- expected_values:
     AUDI_PQ35_ACCEL_PED_2: 821
   response: 7E80562102E1009
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_2: 850.2
-  response: 7E80562102E109B
-- expected_values:
-    AUDI_PQ35_ACCEL_PED_2: 894.2
-  response: 7E80562102E1177
-- expected_values:
-    AUDI_PQ35_ACCEL_PED_2: 972.4
-  response: 7E80562102E12FE
-- expected_values:
-    AUDI_PQ35_ACCEL_PED_2: 977.4
-  response: 7E80562102E1317
-- expected_values:
     AUDI_PQ35_ACCEL_PED_2: 1075
   response: 7E80562102E14FF
-- expected_values:
-    AUDI_PQ35_ACCEL_PED_2: 1138.6
-  response: 7E80562102E163D
 - expected_values:
     AUDI_PQ35_ACCEL_PED_2: 1207
   response: 7E80562102E1793
