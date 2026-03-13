@@ -11,6 +11,14 @@ test_cases:
 - expected_values:
     AUDI_MQB_HAL_CLUTCH_BLOCK: 0
     AUDI_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010009
+- expected_values:
+    AUDI_MQB_HAL_CLUTCH_BLOCK: 0
+    AUDI_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A01000D
+- expected_values:
+    AUDI_MQB_HAL_CLUTCH_BLOCK: 0
+    AUDI_MQB_HAL_CLUTCH_OPEN: 0
   response: 77D0662180A010013
 - expected_values:
     AUDI_MQB_HAL_CLUTCH_BLOCK: 0

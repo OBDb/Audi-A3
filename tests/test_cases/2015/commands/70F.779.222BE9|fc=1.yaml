@@ -1,6 +1,9 @@
 command_id: 70F.779.222BE9|fc=1
 test_cases:
 - expected_values:
+    AUDI_PQ35_HAL_V: 1
+  response: 77905622BE90A00
+- expected_values:
     AUDI_PQ35_HAL_V: 1.7
   response: 77905622BE91100
 - expected_values:
