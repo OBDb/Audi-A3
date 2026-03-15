@@ -25,5 +25,8 @@ test_cases:
     AUDI_PQ35_HAL_PWM: 18
   response: 77904622BE712
 - expected_values:
+    AUDI_PQ35_HAL_PWM: 21
+  response: 77904622BE715
+- expected_values:
     AUDI_PQ35_HAL_PWM: 22
   response: 77904622BE716
