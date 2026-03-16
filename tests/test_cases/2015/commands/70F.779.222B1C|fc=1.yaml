@@ -7,5 +7,5 @@ test_cases:
     AUDI_PQ35_FR_VSS: 76.4
   response: 77905622B1C02FC
 - expected_values:
-    AUDI_PQ35_FR_VSS: 112.7
-  response: 77905622B1C0467
+    AUDI_PQ35_FR_VSS: 103.3
+  response: 77905622B1C0409

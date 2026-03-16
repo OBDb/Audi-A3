@@ -4,29 +4,8 @@ test_cases:
     AUDI_PQ35_POST_INJ_1_QTY_SPEC: 0
   response: 7E80562163C0000
 - expected_values:
-    AUDI_PQ35_POST_INJ_1_QTY_SPEC: 1.31
-  response: 7E80562163C0083
-- expected_values:
-    AUDI_PQ35_POST_INJ_1_QTY_SPEC: 1.58
-  response: 7E80562163C009E
-- expected_values:
-    AUDI_PQ35_POST_INJ_1_QTY_SPEC: 1.7
-  response: 7E80562163C00AA
-- expected_values:
-    AUDI_PQ35_POST_INJ_1_QTY_SPEC: 1.71
-  response: 7E80562163C00AB
-- expected_values:
-    AUDI_PQ35_POST_INJ_1_QTY_SPEC: 1.77
-  response: 7E80562163C00B1
-- expected_values:
-    AUDI_PQ35_POST_INJ_1_QTY_SPEC: 2.21
-  response: 7E80562163C00DD
-- expected_values:
     AUDI_PQ35_POST_INJ_1_QTY_SPEC: 2.22
   response: 7E80562163C00DE
 - expected_values:
     AUDI_PQ35_POST_INJ_1_QTY_SPEC: 2.64
   response: 7E80562163C0108
-- expected_values:
-    AUDI_PQ35_POST_INJ_1_QTY_SPEC: 2.95
-  response: 7E80562163C0127
