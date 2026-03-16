@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223890
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_CLUTCH_2_FROM_MICROSLIP_ADAPT: 0.76
+  response: '7E90462389098'
+- expected_values:
     AUDI_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_CLUTCH_2_FROM_MICROSLIP_ADAPT: 0.765
   response: '7E90462389099'
 - expected_values:
