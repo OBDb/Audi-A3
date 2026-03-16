@@ -7,6 +7,9 @@ test_cases:
     AUDI_PQ35_PREHEAT_T: 100
   response: 7E80562111F0001
 - expected_values:
+    AUDI_PQ35_PREHEAT_T: 400
+  response: 7E80562111F0004
+- expected_values:
     AUDI_PQ35_PREHEAT_T: 2100
   response: 7E80562111F0015
 - expected_values:
