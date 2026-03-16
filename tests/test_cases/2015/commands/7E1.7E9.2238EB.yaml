@@ -4,8 +4,8 @@ test_cases:
     AUDI_PQ35_CLUTCH_1_ACTUAL_P: 0.06
   response: 7E9056238EB0600
 - expected_values:
-    AUDI_PQ35_CLUTCH_1_ACTUAL_P: 5.35
-  response: 7E9056238EB1702
+    AUDI_PQ35_CLUTCH_1_ACTUAL_P: 5.2
+  response: 7E9056238EB0802
 - expected_values:
     AUDI_PQ35_CLUTCH_1_ACTUAL_P: 4.86
   response: 7E9056238EBE601
