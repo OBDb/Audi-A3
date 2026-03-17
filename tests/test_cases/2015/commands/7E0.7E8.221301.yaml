@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.221301
 test_cases:
 - expected_values:
-    AUDI_PQ35_LIM_SMOKE: 78.7
-  response: '7E8056213010313'
+    AUDI_PQ35_LIM_SMOKE: 76.6
+  response: 7E80562130102FE
 - expected_values:
     AUDI_PQ35_LIM_SMOKE: 128.1
   response: '7E8056213010501'
-- expected_values:
-    AUDI_PQ35_LIM_SMOKE: 153.4
-  response: 7E80562130105FE
 - expected_values:
     AUDI_PQ35_LIM_SMOKE: 330.9
   response: 7E8056213010CED
