@@ -7,5 +7,5 @@ test_cases:
     AUDI_PQ35_LIM_SMOKE: 128.1
   response: '7E8056213010501'
 - expected_values:
-    AUDI_PQ35_LIM_SMOKE: 330.9
-  response: 7E8056213010CED
+    AUDI_PQ35_LIM_SMOKE: 315.1
+  response: 7E8056213010C4F
