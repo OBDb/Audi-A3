@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.2238B2
 test_cases:
 - expected_values:
-    AUDI_PQ35_CENTRIFUGAL_OIL_T: 11
-  response: 7E9056238B20B00
+    AUDI_PQ35_CENTRIFUGAL_OIL_T: 0
+  response: 7E9056238B20000
 - expected_values:
     AUDI_PQ35_CENTRIFUGAL_OIL_T: 59
   response: 7E9056238B23B00

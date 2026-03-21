@@ -13,5 +13,8 @@ test_cases:
     AUDI_PQ35_HAL_F_R_VSS_DIFF: 0.3
   response: 77905622BF00003
 - expected_values:
+    AUDI_PQ35_HAL_F_R_VSS_DIFF: 0.4
+  response: 77905622BF00004
+- expected_values:
     AUDI_PQ35_HAL_F_R_VSS_DIFF: 0.8
   response: 77905622BF00008
