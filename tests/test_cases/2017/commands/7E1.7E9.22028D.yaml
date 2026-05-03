@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22028D
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_ECU_T: 78
+  response: 7E90562028D4E00
+- expected_values:
+    AUDI_MQB_TCM_ECU_T: 80
+  response: 7E90562028D5000
+- expected_values:
+    AUDI_MQB_TCM_ECU_T: 82
+  response: 7E90562028D5200
+- expected_values:
+    AUDI_MQB_TCM_ECU_T: 88
+  response: 7E90562028D5800
