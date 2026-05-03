@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22380A
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A: 795
+  response: 7E90562380A1B03
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A: 797
+  response: 7E90562380A1D03
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A: 798
+  response: 7E90562380A1E03
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_INPUT_SPD_7E1_380A: 799
+  response: 7E90562380A1F03
