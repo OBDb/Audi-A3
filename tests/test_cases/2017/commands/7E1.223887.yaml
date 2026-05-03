@@ -1,0 +1,5 @@
+command_id: 7E1.223887
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_ODO_2: 189704.8
+  response: 7E90762388758F21C00

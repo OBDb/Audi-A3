@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22385A
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
+  response: 7E90562385ACEFC
+- expected_values:
+    AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
+  response: 7E90562385ACFFC
+- expected_values:
+    AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
+  response: 7E90562385AD1FC
+- expected_values:
+    AUDI_MQB_DQ250_ACUTAL_POS_GEAR_POSER_B: 0
+  response: 7E90562385AD2FC
