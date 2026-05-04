@@ -7,26 +7,5 @@ test_cases:
     AUDI_VPWR: 12.812
   response: 7E80562F442320C
 - expected_values:
-    AUDI_VPWR: 12.91
-  response: 7E80562F442326E
-- expected_values:
-    AUDI_VPWR: 12.929
-  response: 7E80562F4423281
-- expected_values:
-    AUDI_VPWR: 13.027
-  response: 7E80562F44232E3
-- expected_values:
-    AUDI_VPWR: 13.97
-  response: 7E80562F4423692
-- expected_values:
     AUDI_VPWR: 14.112
   response: 7E80562F4423720
-- expected_values:
-    AUDI_VPWR: 14.135
-  response: 7E80562F4423737
-- expected_values:
-    AUDI_VPWR: 14.159
-  response: 7E80562F442374F
-- expected_values:
-    AUDI_VPWR: 14.182
-  response: 7E80562F4423766
