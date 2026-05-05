@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE: 5
   response: 7E90562100C6400
+- expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE: -4
+  response: 7E90562100CB0FF
+- expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE: 139
+  response: 7E90562100CDC0A

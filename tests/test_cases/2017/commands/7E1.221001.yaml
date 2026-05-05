@@ -2,6 +2,12 @@ command_id: 7E1.221001
 test_cases:
 - expected_values:
     AUDI_TIRE_FR_SPD_V3: 255
+  response: '7E9056210017800'
+- expected_values:
+    AUDI_TIRE_FR_SPD_V3: 255
+  response: 7E9056210017D00
+- expected_values:
+    AUDI_TIRE_FR_SPD_V3: 255
   response: 7E9056210017F00
 - expected_values:
     AUDI_TIRE_FR_SPD_V3: 255

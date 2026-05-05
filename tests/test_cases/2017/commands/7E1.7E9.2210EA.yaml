@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER: 11473
   response: 7E9056210EAD12C
+- expected_values:
+    AUDI_PQ35_CLUTCH_2_SUCCESSFUL_ADAPTS_COUNTER: 11481
+  response: 7E9056210EAD92C

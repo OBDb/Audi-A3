@@ -2,5 +2,25 @@ command_id: 713.77D.22180A|fc=1
 test_cases:
 - expected_values:
     AUDI_MQB_HAL_CLUTCH_BLOCK: 0
+    AUDI_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010004
+- expected_values:
+    AUDI_MQB_HAL_CLUTCH_BLOCK: 0
+    AUDI_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010008
+- expected_values:
+    AUDI_MQB_HAL_CLUTCH_BLOCK: 0
+    AUDI_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A01000A
+- expected_values:
+    AUDI_MQB_HAL_CLUTCH_BLOCK: 0
+    AUDI_MQB_HAL_CLUTCH_OPEN: 0
+  response: 77D0662180A010013
+- expected_values:
+    AUDI_MQB_HAL_CLUTCH_BLOCK: 0
     AUDI_MQB_HAL_CLUTCH_OPEN: 1
   response: 77D0662180A210000
+- expected_values:
+    AUDI_MQB_HAL_CLUTCH_BLOCK: 0
+    AUDI_MQB_HAL_CLUTCH_OPEN: 1
+  response: 77D0662180A210001

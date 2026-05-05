@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.222206
 test_cases:
 - expected_values:
+    AUDI_PQ35_FUEL_LEVEL_7E0_2206: 12
+  response: 7E8046222060C
+- expected_values:
     AUDI_PQ35_FUEL_LEVEL_7E0_2206: 20
   response: '7E80462220614'
+- expected_values:
+    AUDI_PQ35_FUEL_LEVEL_7E0_2206: 23
+  response: '7E80462220617'
+- expected_values:
+    AUDI_PQ35_FUEL_LEVEL_7E0_2206: 24
+  response: '7E80462220618'

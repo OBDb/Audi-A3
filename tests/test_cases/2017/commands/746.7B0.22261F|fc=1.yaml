@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_RECIRC_FLAP_TRG: 640
   response: 7B00562261F0280
+- expected_values:
+    AUDI_MQB_RECIRC_FLAP_TRG: 875
+  response: 7B00562261F036B
