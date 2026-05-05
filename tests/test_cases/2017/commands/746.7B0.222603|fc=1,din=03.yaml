@@ -1,5 +1,20 @@
 command_id: 746.7B0.222603|fc=1,din=03
 test_cases:
 - expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 1700
+  response: 7B00462260311
+- expected_values:
     AUDI_PQ35_AC_COMP_SPD: 1900
   response: 7B00462260313
+- expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 3500
+  response: 7B00462260323
+- expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 3600
+  response: 7B00462260324
+- expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 3800
+  response: 7B00462260326
+- expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 4200
+  response: 7B0046226032A

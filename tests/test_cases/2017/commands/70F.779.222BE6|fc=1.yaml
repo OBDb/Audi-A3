@@ -3,3 +3,27 @@ test_cases:
 - expected_values:
     AUDI_PQ35_HAL_I: 0.005
   response: 77905622BE60005
+- expected_values:
+    AUDI_PQ35_HAL_I: 0.866
+  response: 77905622BE60362
+- expected_values:
+    AUDI_PQ35_HAL_I: 0.94
+  response: 77905622BE603AC
+- expected_values:
+    AUDI_PQ35_HAL_I: 1.137
+  response: 77905622BE60471
+- expected_values:
+    AUDI_PQ35_HAL_I: 1.359
+  response: 77905622BE6054F
+- expected_values:
+    AUDI_PQ35_HAL_I: 1.383
+  response: 77905622BE60567
+- expected_values:
+    AUDI_PQ35_HAL_I: 1.802
+  response: 77905622BE6070A
+- expected_values:
+    AUDI_PQ35_HAL_I: 2.147
+  response: 77905622BE60863
+- expected_values:
+    AUDI_PQ35_HAL_I: 2.221
+  response: 77905622BE608AD
