@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_DQ250_SPD_OUTPUT: 545
   response: '7E9056210092102'
+- expected_values:
+    AUDI_MQB_DQ250_SPD_OUTPUT: 113
+  response: '7E9056210097100'
