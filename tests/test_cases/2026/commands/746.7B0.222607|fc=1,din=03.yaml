@@ -1,5 +1,6 @@
 command_id: 746.7B0.222607|fc=1,din=03
 test_cases:
 - expected_values:
+    AUDI_CLIMATE_RAD_FAN_CMD_DUTY: 80.4
     AUDI_PQ35_RAD_FAN_CMD: 80.4
   response: 7B004622607C9
