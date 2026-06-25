@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 558
   response: 7E90562380B2E02
+- expected_values:
+    AUDI_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B: 120
+  response: 7E90562380B7800

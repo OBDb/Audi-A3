@@ -5,6 +5,6 @@ test_cases:
     AUDI_PQ35_CAB_T: 29.7
   response: 7B0056226130129
 - expected_values:
-    AUDI_CABIN_T: 34.8
-    AUDI_PQ35_CAB_T: 34.8
-  response: 7B005622613015C
+    AUDI_CABIN_T: 35.7
+    AUDI_PQ35_CAB_T: 35.7
+  response: 7B0056226130165

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_TCM_DRIVING_TIME_MANUAL: 0
   response: 7E90462388A00
+- expected_values:
+    AUDI_MQB_TCM_DRIVING_TIME_MANUAL: 1
+  response: 7E90462388A01

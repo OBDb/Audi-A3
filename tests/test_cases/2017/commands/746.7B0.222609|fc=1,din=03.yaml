@@ -5,22 +5,6 @@ test_cases:
     AUDI_PQ35_OUT_T: 60.5
   response: 7B00462260979
 - expected_values:
-    AUDI_AAT_V2: 61
-    AUDI_PQ35_OUT_T: 61
-  response: 7B0046226097A
-- expected_values:
-    AUDI_AAT_V2: 61.5
-    AUDI_PQ35_OUT_T: 61.5
-  response: 7B0046226097B
-- expected_values:
-    AUDI_AAT_V2: 62.5
-    AUDI_PQ35_OUT_T: 62.5
-  response: 7B0046226097D
-- expected_values:
-    AUDI_AAT_V2: -61
-    AUDI_PQ35_OUT_T: -61
-  response: 7B00462260986
-- expected_values:
-    AUDI_AAT_V2: -60.5
-    AUDI_PQ35_OUT_T: -60.5
-  response: 7B00462260987
+    AUDI_AAT_V2: -49
+    AUDI_PQ35_OUT_T: -49
+  response: 7B0046226099E

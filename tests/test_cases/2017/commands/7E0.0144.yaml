@@ -4,26 +4,11 @@ test_cases:
     EQ_RAT: 0.99886
   response: 7E80441447FDA
 - expected_values:
-    EQ_RAT: 1.00014
-  response: '7E80441448004'
-- expected_values:
-    EQ_RAT: 1.0002
-  response: '7E80441448006'
-- expected_values:
-    EQ_RAT: 1.00111
-  response: '7E80441448024'
-- expected_values:
-    EQ_RAT: 1.0013
-  response: 7E8044144802A
-- expected_values:
-    EQ_RAT: 1.00179
-  response: 7E8044144803A
-- expected_values:
-    EQ_RAT: 1.00197
-  response: '7E80441448040'
-- expected_values:
-    EQ_RAT: 1.0118
-  response: '7E80441448182'
+    EQ_RAT: 1.00002
+  response: '7E80441448000'
 - expected_values:
     EQ_RAT: 1.14784
   response: 7E804414492EC
+- expected_values:
+    EQ_RAT: 1.66824
+  response: 7E8044144D588

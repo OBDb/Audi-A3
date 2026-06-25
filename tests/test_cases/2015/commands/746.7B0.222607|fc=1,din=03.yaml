@@ -1,5 +1,6 @@
 command_id: 746.7B0.222607|fc=1,din=03
 test_cases:
 - expected_values:
+    AUDI_CLIMATE_RAD_FAN_CMD_DUTY: 0
     AUDI_PQ35_RAD_FAN_CMD: 0
   response: 7B00462260700
