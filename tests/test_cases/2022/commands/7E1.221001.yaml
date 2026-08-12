@@ -5,4 +5,4 @@ test_cases:
   response: '7E9056210016600'
 - expected_values:
     AUDI_TIRE_FR_SPD_V3: 255
-  response: '7E9056210019400'
+  response: '7E9056210019500'

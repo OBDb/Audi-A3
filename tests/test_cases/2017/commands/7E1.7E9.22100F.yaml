@@ -19,5 +19,8 @@ test_cases:
     AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -42
   response: 7E90562100FB8FC
 - expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -28
+  response: 7E90562100FD0FD
+- expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -27
   response: 7E90562100FE4FD
