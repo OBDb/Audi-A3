@@ -8,4 +8,4 @@ test_cases:
   response: 7E905621062B20A
 - expected_values:
     AUDI_PQ35_CLUTCH_1_FRICTION_VALUE_CORRECTION_FACTOR: 100
-  response: 7E905621062D704
+  response: 7E905621062E009
