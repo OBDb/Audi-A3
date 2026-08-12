@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.22295A|ta=76,c=17
+test_cases:
+- expected_values:
+    AUDI_ENG_ODO: 372
+  response: 17FE00760762295A000174DC
+- expected_values:
+    AUDI_ENG_ODO: 375
+  response: 17FE00760762295A00017700
+- expected_values:
+    AUDI_ENG_ODO: 377
+  response: 17FE00760762295A000179FE
+- expected_values:
+    AUDI_ENG_ODO: 381
+  response: 17FE00760762295A00017D23

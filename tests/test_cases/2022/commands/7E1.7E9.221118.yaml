@@ -1,0 +1,10 @@
+command_id: 7E1.7E9.221118
+test_cases:
+- expected_values:
+    AUDI_PQ35_CLUTCH_1_MAXIMUM_T: 183
+    AUDI_PQ35_CLUTCH_2_MAXIMUM_T: 190
+  response: 7E907621118B700BE00
+- expected_values:
+    AUDI_PQ35_CLUTCH_1_MAXIMUM_T: 183
+    AUDI_PQ35_CLUTCH_2_MAXIMUM_T: 217
+  response: 7E907621118B700D900

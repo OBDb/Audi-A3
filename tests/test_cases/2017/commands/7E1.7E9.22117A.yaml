@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G2: 45
   response: 7E90562117A9411
+- expected_values:
+    AUDI_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G2: 45.79
+  response: 7E90562117AE311

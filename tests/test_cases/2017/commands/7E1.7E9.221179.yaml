@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.221179
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G1: 55.16
+  response: 7E9056211798C15
+- expected_values:
     AUDI_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G1: 56.2
   response: 7E905621179F415
