@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.22114A
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_5_N: 53.97
+  response: 7E90562114A1515
+- expected_values:
     AUDI_MQB_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_5_N: 54.11
   response: 7E90562114A2315

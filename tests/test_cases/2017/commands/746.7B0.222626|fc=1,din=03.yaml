@@ -7,7 +7,7 @@ test_cases:
 - expected_values:
     AUDI_CLIMATE_FR_R_T_FLP_ACT_VALUE: 100
     AUDI_PQ35_FR_TEMP_FLAP: 100
-  response: 7B0066226261E00ED
+  response: 7B0066226262000F5
 - expected_values:
     AUDI_CLIMATE_FR_R_T_FLP_ACT_VALUE: 5.5
     AUDI_PQ35_FR_TEMP_FLAP: 5.5

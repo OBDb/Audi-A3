@@ -1,0 +1,14 @@
+command_id: 746.7B0.22261F|fc=1
+test_cases:
+- expected_values:
+    AUDI_MQB_RECIRC_FLAP_TRG: 339
+  response: 7B00562261F0153
+- expected_values:
+    AUDI_MQB_RECIRC_FLAP_TRG: 522
+  response: 7B00562261F020A
+- expected_values:
+    AUDI_MQB_RECIRC_FLAP_TRG: 890
+  response: 7B00562261F037A
+- expected_values:
+    AUDI_MQB_RECIRC_FLAP_TRG: 1023
+  response: 7B00562261F03FF

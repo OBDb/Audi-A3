@@ -1,0 +1,26 @@
+command_id: 710.77A.222AB4|fc=1
+test_cases:
+- expected_values:
+    AUDI_HVBAT_CSMP_AVG_INT: 0
+    AUDI_RANGE_EST_INT: 0
+  response: |-
+    77A100D622AB4000000
+    77A2100000000000000
+- expected_values:
+    AUDI_HVBAT_CSMP_AVG_INT: 13
+    AUDI_RANGE_EST_INT: 0
+  response: |-
+    77A100D622AB4004900
+    77A210000000000000D
+- expected_values:
+    AUDI_HVBAT_CSMP_AVG_INT: 13
+    AUDI_RANGE_EST_INT: 0
+  response: |-
+    77A100D622AB401FF00
+    77A210000000000000D
+- expected_values:
+    AUDI_HVBAT_CSMP_AVG_INT: 13
+    AUDI_RANGE_EST_INT: 0
+  response: |-
+    77A100D622AB4030000
+    77A210000000000000D
