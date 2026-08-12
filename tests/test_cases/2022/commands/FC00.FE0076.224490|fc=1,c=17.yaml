@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.224490|fc=1,c=17
+test_cases:
+- expected_values:
+    AUDI_COOLANT_T_AT_ENGINE_OUTLET_CALCULATED: 90.5
+  response: 17FE0076056244900E34
+- expected_values:
+    AUDI_COOLANT_T_AT_ENGINE_OUTLET_CALCULATED: 98.2
+  response: 17FE0076056244900E81

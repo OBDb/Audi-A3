@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.223839
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 0
+  response: '7E9056238390000'
+- expected_values:
+    AUDI_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: -12
+  response: 7E90562383910FF
+- expected_values:
+    AUDI_MQB_TCM_CLUTCH_2_ACTUAL_TORQUE: 12.75
+  response: 7E905623839FF00

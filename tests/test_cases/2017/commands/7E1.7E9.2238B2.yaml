@@ -7,6 +7,12 @@ test_cases:
     AUDI_PQ35_CENTRIFUGAL_OIL_T: 35
   response: 7E9056238B22300
 - expected_values:
+    AUDI_PQ35_CENTRIFUGAL_OIL_T: 47
+  response: 7E9056238B22F00
+- expected_values:
+    AUDI_PQ35_CENTRIFUGAL_OIL_T: 49
+  response: 7E9056238B23100
+- expected_values:
     AUDI_PQ35_CENTRIFUGAL_OIL_T: 74
   response: 7E9056238B24A00
 - expected_values:

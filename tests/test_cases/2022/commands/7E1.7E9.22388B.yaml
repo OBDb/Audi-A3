@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22388B
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_DRIVE_CYCLES_COUNTER: 1414
+  response: 7E90562388B8605
+- expected_values:
+    AUDI_MQB_TCM_DRIVE_CYCLES_COUNTER: 1450
+  response: 7E90562388BAA05
