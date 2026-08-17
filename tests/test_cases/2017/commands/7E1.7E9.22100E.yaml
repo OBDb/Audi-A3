@@ -4,6 +4,9 @@ test_cases:
     AUDI_MQB_TCM_ENGINE_TORQUE_LIMITATION: 320
   response: 7E90562100E0019
 - expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE_LIMITATION: 360
+  response: 7E90562100E201C
+- expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE_LIMITATION: 157
   response: 7E90562100E440C
 - expected_values:
