@@ -30,6 +30,13 @@ test_cases:
     77D22FEAAAAAAAAAAAA
 - expected_values:
     AUDI_MQB_AIR_VAC: 0
+    AUDI_MQB_BRK_PRESS: 0
+  response: |-
+    77D100E62181600FFD8
+    77D21FFFFFFFFFC2CFF
+    77D22FEAAAAAAAAAAAA
+- expected_values:
+    AUDI_MQB_AIR_VAC: 0
     AUDI_MQB_BRK_PRESS: 2.2
   response: |-
     77D100E6218160100DC

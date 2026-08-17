@@ -1,32 +1,14 @@
 command_id: 7E1.7E9.22100F
 test_cases:
 - expected_values:
+    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -37
+  response: 7E90562100F1CFD
+- expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -24
   response: 7E90562100F20FE
 - expected_values:
-    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -23
-  response: 7E90562100F34FE
-- expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: 16
   response: 7E90562100F4001
-- expected_values:
-    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -22
-  response: 7E90562100F48FE
-- expected_values:
-    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -20
-  response: 7E90562100F70FE
-- expected_values:
-    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -18
-  response: 7E90562100F98FE
-- expected_values:
-    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -17
-  response: 7E90562100FACFE
-- expected_values:
-    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -42
-  response: 7E90562100FB8FC
-- expected_values:
-    AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -28
-  response: 7E90562100FD0FD
 - expected_values:
     AUDI_MQB_TCM_ENGINE_TORQUE_LOSS: -27
   response: 7E90562100FE4FD

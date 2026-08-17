@@ -15,3 +15,9 @@ test_cases:
 - expected_values:
     AUDI_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT: 0.82
   response: 7E9056211A75200
+- expected_values:
+    AUDI_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT: 0.86
+  response: 7E9056211A75600
+- expected_values:
+    AUDI_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT: 0.93
+  response: 7E9056211A75D00
