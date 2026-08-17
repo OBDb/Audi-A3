@@ -10,6 +10,9 @@ test_cases:
     AUDI_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 293.9
   response: 7E90562383D7B0B
 - expected_values:
+    AUDI_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 476.3
+  response: 7E90562383D9B12
+- expected_values:
     AUDI_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 529.3
   response: 7E90562383DAD14
 - expected_values:
