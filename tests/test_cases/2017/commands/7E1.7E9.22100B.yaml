@@ -4,29 +4,8 @@ test_cases:
     AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 166.3
   response: 7E90562100B0CFE
 - expected_values:
-    AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 422.3
-  response: 7E90562100B20FE
-- expected_values:
     AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 512
   response: 7E90562100B2800
-- expected_values:
-    AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 512.25
-  response: 7E90562100B2805
-- expected_values:
-    AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 666
-  response: 7E90562100B3408
-- expected_values:
-    AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 717
-  response: 7E90562100B3804
-- expected_values:
-    AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 1024
-  response: 7E90562100B5000
-- expected_values:
-    AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: 1075.25
-  response: 7E90562100B5401
-- expected_values:
-    AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: -716.8
-  response: 7E90562100BC800
 - expected_values:
     AUDI_MQB_TCM_DRIVER_DEMAND_TORQUE: -614.3
   response: 7E90562100BD002

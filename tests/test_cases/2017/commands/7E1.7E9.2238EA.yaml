@@ -16,8 +16,14 @@ test_cases:
     AUDI_PQ35_CLUTCH_2_ACTUAL_P: 2.61
   response: 7E9056238EA0501
 - expected_values:
+    AUDI_PQ35_CLUTCH_2_ACTUAL_P: 2.88
+  response: 7E9056238EA2001
+- expected_values:
     AUDI_PQ35_CLUTCH_2_ACTUAL_P: 2.94
   response: 7E9056238EA2601
+- expected_values:
+    AUDI_PQ35_CLUTCH_2_ACTUAL_P: 2.95
+  response: 7E9056238EA2701
 - expected_values:
     AUDI_PQ35_CLUTCH_2_ACTUAL_P: 3.17
   response: 7E9056238EA3D01
