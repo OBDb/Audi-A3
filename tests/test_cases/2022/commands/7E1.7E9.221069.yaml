@@ -24,3 +24,6 @@ test_cases:
 - expected_values:
     AUDI_PQ35_CLUTCH_1_PROT_ENGAGED_QTY: 47
   response: 7E9076210692F000000
+- expected_values:
+    AUDI_PQ35_CLUTCH_1_PROT_ENGAGED_QTY: 48
+  response: '7E90762106930000000'
