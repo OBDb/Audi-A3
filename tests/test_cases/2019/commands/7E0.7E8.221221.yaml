@@ -4,6 +4,12 @@ test_cases:
     AUDI_PQ35_ACCEL_PED_1: 0.8
   response: '7E8056212210004'
 - expected_values:
+    AUDI_PQ35_ACCEL_PED_1: -10.8
+  response: 7E805621221FFCA
+- expected_values:
+    AUDI_PQ35_ACCEL_PED_1: -8.4
+  response: 7E805621221FFD6
+- expected_values:
     AUDI_PQ35_ACCEL_PED_1: -8
   response: 7E805621221FFD8
 - expected_values:

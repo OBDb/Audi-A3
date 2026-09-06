@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_DQ200_CLUTCH_2_ADAPT_BASIC_CHARS_POINT_1_POS: 10.55
   response: 7E9056238FB1F04
+- expected_values:
+    AUDI_MQB_DQ200_CLUTCH_2_ADAPT_BASIC_CHARS_POINT_1_POS: 10.61
+  response: 7E9056238FB2504
