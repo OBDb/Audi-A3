@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22100A
+test_cases:
+- expected_values:
+    AUDI_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 62.8
+  response: 7E90562100A7402
+- expected_values:
+    AUDI_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 38.6
+  response: 7E90562100A8201

@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22388C
+test_cases:
+- expected_values:
+    AUDI_MQB_TCM_IGNITION_CYCLES: 696
+  response: 7E90562388CB802
+- expected_values:
+    AUDI_MQB_TCM_IGNITION_CYCLES: 698
+  response: 7E90562388CBA02
