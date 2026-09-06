@@ -20,3 +20,11 @@ test_cases:
     AUDI_ODO_2: 76611
     AUDI_ODO_V3: 76611
   response: 7E8076210E000012B43
+- expected_values:
+    AUDI_ODO_2: 76630
+    AUDI_ODO_V3: 76630
+  response: 7E8076210E000012B56
+- expected_values:
+    AUDI_ODO_2: 76631
+    AUDI_ODO_V3: 76631
+  response: 7E8076210E000012B57
