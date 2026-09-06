@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     AUDI_PQ35_CLUTCH_2_T: 52
   response: 7E90562102C3400
+- expected_values:
+    AUDI_PQ35_CLUTCH_2_T: 82
+  response: 7E90562102C5200
