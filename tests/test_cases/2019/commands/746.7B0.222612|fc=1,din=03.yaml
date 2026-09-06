@@ -1,6 +1,26 @@
 command_id: 746.7B0.222612|fc=1,din=03
 test_cases:
 - expected_values:
+    AUDI_HVAC_EVAP_T: 49
+    AUDI_PQ35_EVAP_OUT_T: 0.333
+    AUDI_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B00562261201EA
+- expected_values:
+    AUDI_HVAC_EVAP_T: 51.7
+    AUDI_PQ35_EVAP_OUT_T: 0.666
+    AUDI_T_AFTER_EVAPORATOR: 0.66667
+  response: 7B0056226120205
+- expected_values:
+    AUDI_HVAC_EVAP_T: 51.8
+    AUDI_PQ35_EVAP_OUT_T: 0.666
+    AUDI_T_AFTER_EVAPORATOR: 0.66667
+  response: 7B0056226120206
+- expected_values:
+    AUDI_HVAC_EVAP_T: 54.7
+    AUDI_PQ35_EVAP_OUT_T: 0.666
+    AUDI_T_AFTER_EVAPORATOR: 0.66667
+  response: 7B0056226120223
+- expected_values:
     AUDI_HVAC_EVAP_T: 61.5
     AUDI_PQ35_EVAP_OUT_T: 0.666
     AUDI_T_AFTER_EVAPORATOR: 0.66667
