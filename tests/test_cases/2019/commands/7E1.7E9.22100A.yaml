@@ -4,6 +4,9 @@ test_cases:
     AUDI_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 4.7
   response: 7E90562100A2F00
 - expected_values:
+    AUDI_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 32
+  response: 7E90562100A4001
+- expected_values:
     AUDI_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION: 62.8
   response: 7E90562100A7402
 - expected_values:

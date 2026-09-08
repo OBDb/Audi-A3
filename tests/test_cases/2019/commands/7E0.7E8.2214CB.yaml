@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     AUDI_GEAR_V2: 6
   response: 7E8046214CB06
+- expected_values:
+    AUDI_GEAR_V2: 7
+  response: 7E8046214CB07
