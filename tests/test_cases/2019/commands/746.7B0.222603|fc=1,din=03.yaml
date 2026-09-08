@@ -13,8 +13,14 @@ test_cases:
     AUDI_PQ35_AC_COMP_SPD: 3600
   response: 7B00462260324
 - expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 3700
+  response: 7B00462260325
+- expected_values:
     AUDI_PQ35_AC_COMP_SPD: 3800
   response: 7B00462260326
 - expected_values:
     AUDI_PQ35_AC_COMP_SPD: 4000
   response: 7B00462260328
+- expected_values:
+    AUDI_PQ35_AC_COMP_SPD: 4900
+  response: 7B00462260331

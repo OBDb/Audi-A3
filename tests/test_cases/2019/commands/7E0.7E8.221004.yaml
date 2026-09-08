@@ -4,8 +4,14 @@ test_cases:
     AUDI_AAT_V2: 0
   response: '7E8056210040000'
 - expected_values:
+    AUDI_AAT_V2: 0.05469
+  response: '7E8056210040007'
+- expected_values:
     AUDI_AAT_V2: 0.57812
   response: 7E805621004004A
+- expected_values:
+    AUDI_AAT_V2: 1.34375
+  response: 7E80562100400AC
 - expected_values:
     AUDI_AAT_V2: 3.03125
   response: '7E8056210040184'

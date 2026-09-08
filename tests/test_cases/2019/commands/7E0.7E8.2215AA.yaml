@@ -2,6 +2,9 @@ command_id: 7E0.7E8.2215AA
 test_cases:
 - expected_values:
     AUDI_PQ35_SELECTED_GEAR: 1
+  response: 7E8056215AA01A8
+- expected_values:
+    AUDI_PQ35_SELECTED_GEAR: 1
   response: 7E8056215AA01DB
 - expected_values:
     AUDI_PQ35_SELECTED_GEAR: 1
@@ -9,6 +12,9 @@ test_cases:
 - expected_values:
     AUDI_PQ35_SELECTED_GEAR: 1
   response: 7E8056215AA01FD
+- expected_values:
+    AUDI_PQ35_SELECTED_GEAR: 2
+  response: 7E8056215AA0210
 - expected_values:
     AUDI_PQ35_SELECTED_GEAR: 2
   response: 7E8056215AA021D

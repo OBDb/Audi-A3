@@ -23,6 +23,16 @@ test_cases:
 - expected_values:
     AUDI_MQB_HYD_BRK_BST_ACT: 0
   response: |-
+    77D100C62181001000A
+    77D21FE130000020AAA
+- expected_values:
+    AUDI_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
+    77D100C621810010014
+    77D21FD7E00000000AA
+- expected_values:
+    AUDI_MQB_HYD_BRK_BST_ACT: 0
+  response: |-
     77D100C621810010014
     77D21FDD200000000AA
 - expected_values:
