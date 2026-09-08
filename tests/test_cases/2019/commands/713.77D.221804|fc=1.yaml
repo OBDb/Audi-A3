@@ -25,6 +25,12 @@ test_cases:
     77D211F007F001C0208
     77D221F3F1F49AAAAAA
 - expected_values:
+    AUDI_MQB_SWA_ALT: -2541.875
+  response: |-
+    77D1011621804070A00
+    77D213C0082FFF801FD
+    77D22E94EE923AAAAAA
+- expected_values:
     AUDI_MQB_SWA_ALT: -99.75
   response: |-
     77D1011621804FB8AFF
