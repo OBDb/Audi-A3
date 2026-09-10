@@ -9,30 +9,10 @@ test_cases:
     AUDI_ODO_V3: 76597
   response: 7E8076210E000012B35
 - expected_values:
-    AUDI_ODO_2: 76601
-    AUDI_ODO_V3: 76601
-  response: 7E8076210E000012B39
+    AUDI_ODO_2: 77185
+    AUDI_ODO_V3: 77185
+  response: 7E8076210E000012D81
 - expected_values:
-    AUDI_ODO_2: 76608
-    AUDI_ODO_V3: 76608
-  response: 7E8076210E000012B40
-- expected_values:
-    AUDI_ODO_2: 76611
-    AUDI_ODO_V3: 76611
-  response: 7E8076210E000012B43
-- expected_values:
-    AUDI_ODO_2: 76630
-    AUDI_ODO_V3: 76630
-  response: 7E8076210E000012B56
-- expected_values:
-    AUDI_ODO_2: 76631
-    AUDI_ODO_V3: 76631
-  response: 7E8076210E000012B57
-- expected_values:
-    AUDI_ODO_2: 76877
-    AUDI_ODO_V3: 76877
-  response: 7E8076210E000012C4D
-- expected_values:
-    AUDI_ODO_2: 76880
-    AUDI_ODO_V3: 76880
-  response: 7E8076210E000012C50
+    AUDI_ODO_2: 77190
+    AUDI_ODO_V3: 77190
+  response: 7E8076210E000012D86
