@@ -5,38 +5,6 @@ test_cases:
     AUDI_PQ35_LEG_DEFL_T: 35.298
   response: 7B0046226116A
 - expected_values:
-    AUDI_LEG_DEFLECTOR_T: 38.33333
-    AUDI_PQ35_LEG_DEFL_T: 38.295
-  response: 7B00462261173
-- expected_values:
-    AUDI_LEG_DEFLECTOR_T: 41
-    AUDI_PQ35_LEG_DEFL_T: 40.959
-  response: 7B0046226117B
-- expected_values:
-    AUDI_LEG_DEFLECTOR_T: 41.33333
-    AUDI_PQ35_LEG_DEFL_T: 41.292
-  response: 7B0046226117C
-- expected_values:
-    AUDI_LEG_DEFLECTOR_T: 43.33333
-    AUDI_PQ35_LEG_DEFL_T: 43.29
-  response: 7B00462261182
-- expected_values:
-    AUDI_LEG_DEFLECTOR_T: 44
-    AUDI_PQ35_LEG_DEFL_T: 43.956
-  response: 7B00462261184
-- expected_values:
-    AUDI_LEG_DEFLECTOR_T: 44.33333
-    AUDI_PQ35_LEG_DEFL_T: 44.289
-  response: 7B00462261185
-- expected_values:
-    AUDI_LEG_DEFLECTOR_T: 47.66667
-    AUDI_PQ35_LEG_DEFL_T: 47.619
-  response: 7B0046226118F
-- expected_values:
-    AUDI_LEG_DEFLECTOR_T: 50
-    AUDI_PQ35_LEG_DEFL_T: 49.95
-  response: 7B00462261196
-- expected_values:
     AUDI_LEG_DEFLECTOR_T: 51.33333
     AUDI_PQ35_LEG_DEFL_T: 51.282
   response: 7B0046226119A

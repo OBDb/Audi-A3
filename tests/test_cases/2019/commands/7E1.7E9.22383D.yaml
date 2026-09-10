@@ -1,6 +1,12 @@
 command_id: 7E1.7E9.22383D
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 540.9
+  response: 7E90562383D2115
+- expected_values:
+    AUDI_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 274.1
+  response: 7E90562383DB50A
+- expected_values:
     AUDI_MQB_DQ250_CLUTCH_2_VALVE_I_SPECIFIED: 275.7
   response: 7E90562383DC50A
 - expected_values:
