@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.221196
 test_cases:
 - expected_values:
+    AUDI_MQB_TCM_HYBRID_T: 2087
+  response: 7E9076211960827E425
+- expected_values:
     AUDI_MQB_TCM_HYBRID_T: 64550
   response: 7E907621196FC26D925
 - expected_values:

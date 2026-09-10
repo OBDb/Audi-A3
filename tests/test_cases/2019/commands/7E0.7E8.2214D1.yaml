@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     AUDI_PQ35_PRE_INJ_2_DURATION: -9.012
   response: 7E8056214D1A7FE
+- expected_values:
+    AUDI_PQ35_PRE_INJ_2_DURATION: -8.6024
+  response: 7E8056214D1ABFE
+- expected_values:
+    AUDI_PQ35_PRE_INJ_2_DURATION: -1.2296
+  response: 7E8056214D1F3FE

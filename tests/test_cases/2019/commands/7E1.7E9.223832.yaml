@@ -1,6 +1,9 @@
 command_id: 7E1.7E9.223832
 test_cases:
 - expected_values:
+    AUDI_MQB_DQ200_ACTUAL_POS_CLUTCH_1_DUTY_CYCLE_FACTOR_1: 41.75
+  response: 7E9056238324F10
+- expected_values:
     AUDI_MQB_DQ200_ACTUAL_POS_CLUTCH_1_DUTY_CYCLE_FACTOR_1: 44.56
   response: '7E9056238326811'
 - expected_values:
@@ -12,3 +15,6 @@ test_cases:
 - expected_values:
     AUDI_MQB_DQ200_ACTUAL_POS_CLUTCH_1_DUTY_CYCLE_FACTOR_1: 40.5
   response: 7E905623832D20F
+- expected_values:
+    AUDI_MQB_DQ200_ACTUAL_POS_CLUTCH_1_DUTY_CYCLE_FACTOR_1: 38
+  response: 7E905623832D80E
