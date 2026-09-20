@@ -1,0 +1,10 @@
+command_id: 7E5.7ED.221E2D|din=03
+test_cases:
+- expected_values:
+    AUDI_BMS_CELL_SOC_MIN: 16
+    AUDI_BMS_CELL_SOC_MIN_IDX: 251
+  response: 7ED07621E2D10FB0055
+- expected_values:
+    AUDI_BMS_CELL_SOC_MIN: 19
+    AUDI_BMS_CELL_SOC_MIN_IDX: 1
+  response: 7ED07621E2D13010055

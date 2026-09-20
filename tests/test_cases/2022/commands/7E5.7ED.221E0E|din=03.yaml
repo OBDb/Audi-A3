@@ -1,0 +1,26 @@
+command_id: 7E5.7ED.221E0E|din=03
+test_cases:
+- expected_values:
+    AUDI_BMS_T_MAX: -93
+    AUDI_BMS_T_MAX_CELL: 128
+  response: 7ED07621E0E07800001
+- expected_values:
+    AUDI_BMS_T_MAX: -93
+    AUDI_BMS_T_MAX_CELL: 128
+  response: 7ED07621E0E07800003
+- expected_values:
+    AUDI_BMS_T_MAX: -93
+    AUDI_BMS_T_MAX_CELL: 128
+  response: 7ED07621E0E07800004
+- expected_values:
+    AUDI_BMS_T_MAX: -93
+    AUDI_BMS_T_MAX_CELL: 128
+  response: 7ED07621E0E07800005
+- expected_values:
+    AUDI_BMS_T_MAX: -93
+    AUDI_BMS_T_MAX_CELL: 160
+  response: 7ED07621E0E07A00001
+- expected_values:
+    AUDI_BMS_T_MAX: -93
+    AUDI_BMS_T_MAX_CELL: 160
+  response: 7ED07621E0E07A00007

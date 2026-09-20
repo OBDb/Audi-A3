@@ -4,5 +4,5 @@ test_cases:
     AUDI_AAT_CABIN: 8.5
   response: 7B00462260A75
 - expected_values:
-    AUDI_AAT_CABIN: 33
-  response: 7B00462260AA6
+    AUDI_AAT_CABIN: 33.5
+  response: 7B00462260AA7

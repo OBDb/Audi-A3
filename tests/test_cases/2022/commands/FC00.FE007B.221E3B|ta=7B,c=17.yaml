@@ -1,0 +1,20 @@
+command_id: FC00.FE007B.221E3B|ta=7B,c=17
+test_cases:
+- expected_values:
+    AUDI_DC_BATTERY_V: 350.75
+  response: 17FE007B05621E3B057B
+- expected_values:
+    AUDI_DC_BATTERY_V: 351
+  response: 17FE007B05621E3B057C
+- expected_values:
+    AUDI_DC_BATTERY_V: 352.25
+  response: 17FE007B05621E3B0581
+- expected_values:
+    AUDI_DC_BATTERY_V: 352.75
+  response: 17FE007B05621E3B0583
+- expected_values:
+    AUDI_DC_BATTERY_V: 353
+  response: 17FE007B05621E3B0584
+- expected_values:
+    AUDI_DC_BATTERY_V: 353.25
+  response: 17FE007B05621E3B0585
