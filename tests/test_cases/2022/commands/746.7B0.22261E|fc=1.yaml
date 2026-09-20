@@ -5,6 +5,10 @@ test_cases:
     AUDI_RECIRC_FLAP_ACT_PCT: 0.5
   response: 7B00662261E00AF01
 - expected_values:
+    AUDI_MQB_RECIRC_FLAP_ACT: 176
+    AUDI_RECIRC_FLAP_ACT_PCT: 0
+  response: 7B00662261E00B000
+- expected_values:
     AUDI_MQB_RECIRC_FLAP_ACT: 511
     AUDI_RECIRC_FLAP_ACT_PCT: 48.5
   response: 7B00662261E01FF61
