@@ -1,0 +1,29 @@
+command_id: FC00.FE007B.221E8F|ta=7B,c=17
+test_cases:
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.656
+  response: 17FE007B05621E8F0A60
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.66
+  response: 17FE007B05621E8F0A64
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.661
+  response: 17FE007B05621E8F0A65
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.673
+  response: 17FE007B05621E8F0A71
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.678
+  response: 17FE007B05621E8F0A76
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.681
+  response: 17FE007B05621E8F0A79
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.682
+  response: 17FE007B05621E8F0A7A
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.683
+  response: 17FE007B05621E8F0A7B
+- expected_values:
+    AUDI_HVBAT_CELL_V_080: 3.684
+  response: 17FE007B05621E8F0A7C
