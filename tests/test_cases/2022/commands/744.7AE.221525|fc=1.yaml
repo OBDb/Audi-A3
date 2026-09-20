@@ -1,0 +1,5 @@
+command_id: 744.7AE.221525|fc=1
+test_cases:
+- expected_values:
+    AUDI_OBC_V_PROX_A: 4106
+  response: 7AE05621525100A
