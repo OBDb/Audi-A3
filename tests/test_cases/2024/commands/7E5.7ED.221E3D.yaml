@@ -2,16 +2,21 @@ command_id: 7E5.7ED.221E3D
 test_cases:
 - expected_values:
     AUDI_HVBAT_CURRENT: -200
+    AUDI_HVBAT_I: -200
   response: 7ED07621E3D0001E098
 - expected_values:
     AUDI_HVBAT_CURRENT: -200
+    AUDI_HVBAT_I: -200
   response: 7ED07621E3D0001FF39
 - expected_values:
     AUDI_HVBAT_CURRENT: -200
+    AUDI_HVBAT_I: -200
   response: 7ED07621E3D00020300
 - expected_values:
     AUDI_HVBAT_CURRENT: -200
+    AUDI_HVBAT_I: -200
   response: 7ED07621E3D000223FF
 - expected_values:
     AUDI_HVBAT_CURRENT: -200
+    AUDI_HVBAT_I: -200
   response: 7ED07621E3D00FFFFFE
