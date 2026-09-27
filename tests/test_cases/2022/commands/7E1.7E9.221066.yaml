@@ -1,5 +1,14 @@
 command_id: 7E1.7E9.221066
 test_cases:
 - expected_values:
+    AUDI_ANALYSIS_CLU_1_T_1: 923.46
+  response: 7E9076210665DB43E07
+- expected_values:
+    AUDI_ANALYSIS_CLU_1_T_1: 723.92
+  response: 7E907621066648D3E07
+- expected_values:
     AUDI_ANALYSIS_CLU_1_T_1: 653.98
   response: 7E907621066BB7F3E07
+- expected_values:
+    AUDI_ANALYSIS_CLU_1_T_1: 1161.04
+  response: 7E907621066C4E23E07
