@@ -1,42 +1,52 @@
 command_id: 746.7B0.222609|fc=1,din=03
 test_cases:
 - expected_values:
+    AUDI_AAT_746: 14.5
     AUDI_AAT_V2: -63.5
     AUDI_PQ35_OUT_T: -63.5
   response: 7B00462260981
 - expected_values:
+    AUDI_AAT_746: 15
     AUDI_AAT_V2: -63
     AUDI_PQ35_OUT_T: -63
   response: 7B00462260982
 - expected_values:
+    AUDI_AAT_746: 16.5
     AUDI_AAT_V2: -61.5
     AUDI_PQ35_OUT_T: -61.5
   response: 7B00462260985
 - expected_values:
+    AUDI_AAT_746: 18
     AUDI_AAT_V2: -60
     AUDI_PQ35_OUT_T: -60
   response: 7B00462260988
 - expected_values:
+    AUDI_AAT_746: 19
     AUDI_AAT_V2: -59
     AUDI_PQ35_OUT_T: -59
   response: 7B0046226098A
 - expected_values:
+    AUDI_AAT_746: 20
     AUDI_AAT_V2: -58
     AUDI_PQ35_OUT_T: -58
   response: 7B0046226098C
 - expected_values:
+    AUDI_AAT_746: 21.5
     AUDI_AAT_V2: -56.5
     AUDI_PQ35_OUT_T: -56.5
   response: 7B0046226098F
 - expected_values:
+    AUDI_AAT_746: 22
     AUDI_AAT_V2: -56
     AUDI_PQ35_OUT_T: -56
   response: 7B00462260990
 - expected_values:
+    AUDI_AAT_746: 23.5
     AUDI_AAT_V2: -54.5
     AUDI_PQ35_OUT_T: -54.5
   response: 7B00462260993
 - expected_values:
+    AUDI_AAT_746: 26
     AUDI_AAT_V2: -52
     AUDI_PQ35_OUT_T: -52
   response: 7B00462260998
