@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     AUDI_ANALYSIS_CLU_2_T_2: 1055.34
   response: 7E90762107C1FCE0300
+- expected_values:
+    AUDI_ANALYSIS_CLU_2_T_2: 1076.3
+  response: 7E90762107C37D20300
+- expected_values:
+    AUDI_ANALYSIS_CLU_2_T_2: 1082.82
+  response: 7E90762107C7DD30300
+- expected_values:
+    AUDI_ANALYSIS_CLU_2_T_2: 1094.78
+  response: 7E90762107CD3D50300
+- expected_values:
+    AUDI_ANALYSIS_CLU_2_T_2: 1059
+  response: 7E90762107CD6CE0300
