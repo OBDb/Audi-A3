@@ -4,5 +4,14 @@ test_cases:
     AUDI_CLU_1_T_TIME_RANGE_0: 1184.44
   response: 7E90762106556E7600D
 - expected_values:
+    AUDI_CLU_1_T_TIME_RANGE_0: 43.88
+  response: 7E9076210659208610D
+- expected_values:
     AUDI_CLU_1_T_TIME_RANGE_0: 1221.54
   response: 7E90762106595EE5F0D
+- expected_values:
+    AUDI_CLU_1_T_TIME_RANGE_0: 715.9
+  response: 7E907621065D38B610D
+- expected_values:
+    AUDI_CLU_1_T_TIME_RANGE_0: 86.52
+  response: 7E907621065E610610D
