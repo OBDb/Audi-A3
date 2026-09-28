@@ -13,5 +13,8 @@ test_cases:
     AUDI_BAT_INTERNAL_RES_RAW: 0.6
   response: 77A04622A2503
 - expected_values:
+    AUDI_BAT_INTERNAL_RES_RAW: 8
+  response: 77A04622A2528
+- expected_values:
     AUDI_BAT_INTERNAL_RES_RAW: 28.6
   response: 77A04622A258F
