@@ -1,26 +1,31 @@
 command_id: 710.77A.222AB8|fc=1
 test_cases:
 - expected_values:
+    AUDI_HVBAT_E_CONTENT: 0
     AUDI_HVBAT_KWH: 0
   response: |-
     77A100B622AB8000000
     77A210000000000AAAA
 - expected_values:
+    AUDI_HVBAT_E_CONTENT: 2.375
     AUDI_HVBAT_KWH: 2375
   response: |-
     77A100B622AB8008A00
     77A215F00000000AAAA
 - expected_values:
+    AUDI_HVBAT_E_CONTENT: 3.275
     AUDI_HVBAT_KWH: 3275
   response: |-
     77A100B622AB8008A00
     77A218300000000AAAA
 - expected_values:
+    AUDI_HVBAT_E_CONTENT: 0
     AUDI_HVBAT_KWH: 0
   response: |-
     77A100B622AB800FF00
     77A210000000000AAAA
 - expected_values:
+    AUDI_HVBAT_E_CONTENT: 0
     AUDI_HVBAT_KWH: 0
   response: |-
     77A100B622AB8010000
