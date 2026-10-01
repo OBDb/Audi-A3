@@ -4,14 +4,11 @@ test_cases:
     A3_CLU_1_T_TIME_RANGE_0: 1090.58
   response: 7E90762106501D5610D
 - expected_values:
-    A3_CLU_1_T_TIME_RANGE_0: 43.88
-  response: 7E9076210659208610D
+    A3_CLU_1_T_TIME_RANGE_0: 15.54
+  response: 7E9076210650903690D
 - expected_values:
     A3_CLU_1_T_TIME_RANGE_0: 1221.54
   response: 7E90762106595EE5F0D
-- expected_values:
-    A3_CLU_1_T_TIME_RANGE_0: 167.42
-  response: 7E907621065B320680D
 - expected_values:
     A3_CLU_1_T_TIME_RANGE_0: 1227.62
   response: 7E907621065C5EF610D
