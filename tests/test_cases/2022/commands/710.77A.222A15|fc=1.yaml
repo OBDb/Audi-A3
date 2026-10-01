@@ -8,7 +8,7 @@ test_cases:
   response: 77A07622A150000FFFC
 - expected_values:
     A3_ENERGY_BALANCE_LAST: 0
-  response: 77A07622A150000FFFE
+  response: 77A07622A150000FFFF
 - expected_values:
-    A3_ENERGY_BALANCE_LAST: 0.01
-  response: 77A07622A150001000C
+    A3_ENERGY_BALANCE_LAST: 0.04
+  response: 77A07622A1500040014
