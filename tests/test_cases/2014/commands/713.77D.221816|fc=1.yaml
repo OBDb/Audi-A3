@@ -1,8 +1,8 @@
 command_id: 713.77D.221816|fc=1
 test_cases:
 - expected_values:
-    AUDI_MQB_AIR_VAC: 0
-    AUDI_MQB_BRK_PRESS: 0.1
+    A3_AIR_GAB_VACUUM_SNS: 0
+    A3_BRAKE_P_SNS: 0.1
   response: |-
     77D100E62181600000A
     77D2100000000FD6200

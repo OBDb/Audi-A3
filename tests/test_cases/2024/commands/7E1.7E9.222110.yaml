@@ -1,20 +1,20 @@
 command_id: 7E1.7E9.222110
 test_cases:
 - expected_values:
-    AUDI_ENG_SPEC_TQ_DURING: 16465
+    A3_ENG_SPEC_TQ_DURING: 16465
   response: '7E9056221104051'
 - expected_values:
-    AUDI_ENG_SPEC_TQ_DURING: 21585
+    A3_ENG_SPEC_TQ_DURING: 21585
   response: '7E9056221105451'
 - expected_values:
-    AUDI_ENG_SPEC_TQ_DURING: 36945
+    A3_ENG_SPEC_TQ_DURING: 36945
   response: '7E9056221109051'
 - expected_values:
-    AUDI_ENG_SPEC_TQ_DURING: 42065
+    A3_ENG_SPEC_TQ_DURING: 42065
   response: 7E905622110A451
 - expected_values:
-    AUDI_ENG_SPEC_TQ_DURING: 47185
+    A3_ENG_SPEC_TQ_DURING: 47185
   response: 7E905622110B851
 - expected_values:
-    AUDI_ENG_SPEC_TQ_DURING: 57425
+    A3_ENG_SPEC_TQ_DURING: 57425
   response: 7E905622110E051

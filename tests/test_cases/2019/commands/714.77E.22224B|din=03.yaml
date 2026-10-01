@@ -1,11 +1,11 @@
 command_id: 714.77E.22224B|din=03
 test_cases:
 - expected_values:
-    AUDI_PQ35_OIL_WEAR: 80
+    A3_DASH_OIL_THERMAL_WEAR: 80
   response: 77E0562224B0050
 - expected_values:
-    AUDI_PQ35_OIL_WEAR: 89
+    A3_DASH_OIL_THERMAL_WEAR: 89
   response: 77E0562224B0059
 - expected_values:
-    AUDI_PQ35_OIL_WEAR: 95
+    A3_DASH_OIL_THERMAL_WEAR: 95
   response: 77E0562224B005F

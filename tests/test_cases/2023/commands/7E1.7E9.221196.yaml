@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.221196
 test_cases:
 - expected_values:
-    AUDI_MQB_TCM_HYBRID_T: 27925
+    A3_MQB_TCM_HYBRID_T: 27925
   response: 7E9076211966D15010F
 - expected_values:
-    AUDI_MQB_TCM_HYBRID_T: 53781
+    A3_MQB_TCM_HYBRID_T: 53781
   response: 7E907621196D215350F
 - expected_values:
-    AUDI_MQB_TCM_HYBRID_T: 54293
+    A3_MQB_TCM_HYBRID_T: 54293
   response: 7E907621196D415350F

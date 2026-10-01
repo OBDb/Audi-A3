@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.22381E
 test_cases:
 - expected_values:
-    AUDI_MQB_TCM_EOP_ACTUAL_I: 0
+    A3_MQB_TCM_EOP_ACTUAL_I: 0
   response: 7E90562381E0000
 - expected_values:
-    AUDI_MQB_TCM_EOP_ACTUAL_I: 1197
+    A3_MQB_TCM_EOP_ACTUAL_I: 1197
   response: 7E90562381EC22E
 - expected_values:
-    AUDI_MQB_TCM_EOP_ACTUAL_I: 691
+    A3_MQB_TCM_EOP_ACTUAL_I: 691
   response: 7E90562381EFE1A

@@ -1,20 +1,20 @@
 command_id: 7E1.7E9.22107A
 test_cases:
 - expected_values:
-    AUDI_ANALYSIS_CLU_2_T_0: 1085.62
+    A3_ANALYSIS_CLU_2_T_0: 1085.62
   response: 7E90762107A09D4320F
 - expected_values:
-    AUDI_ANALYSIS_CLU_2_T_0: 36.28
+    A3_ANALYSIS_CLU_2_T_0: 36.28
   response: 7E90762107A16072E0F
 - expected_values:
-    AUDI_ANALYSIS_CLU_2_T_0: 1301.58
+    A3_ANALYSIS_CLU_2_T_0: 1301.58
   response: 7E90762107A37FE330F
 - expected_values:
-    AUDI_ANALYSIS_CLU_2_T_0: 581.4
+    A3_ANALYSIS_CLU_2_T_0: 581.4
   response: 7E90762107A8E71340F
 - expected_values:
-    AUDI_ANALYSIS_CLU_2_T_0: 796.64
+    A3_ANALYSIS_CLU_2_T_0: 796.64
   response: 7E90762107A989B2B0F
 - expected_values:
-    AUDI_ANALYSIS_CLU_2_T_0: 1187.8
+    A3_ANALYSIS_CLU_2_T_0: 1187.8
   response: 7E90762107AFEE72D0F

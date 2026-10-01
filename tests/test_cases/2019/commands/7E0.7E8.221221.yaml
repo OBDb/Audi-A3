@@ -1,29 +1,29 @@
 command_id: 7E0.7E8.221221
 test_cases:
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: 0.8
+    A3_PQ35_ACCEL_PED_1: 0.8
   response: '7E8056212210004'
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -10.8
+    A3_PQ35_ACCEL_PED_1: -10.8
   response: 7E805621221FFCA
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -8.4
+    A3_PQ35_ACCEL_PED_1: -8.4
   response: 7E805621221FFD6
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -8
+    A3_PQ35_ACCEL_PED_1: -8
   response: 7E805621221FFD8
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -6.8
+    A3_PQ35_ACCEL_PED_1: -6.8
   response: 7E805621221FFDE
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -6.6
+    A3_PQ35_ACCEL_PED_1: -6.6
   response: 7E805621221FFDF
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -6.4
+    A3_PQ35_ACCEL_PED_1: -6.4
   response: 7E805621221FFE0
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -5
+    A3_PQ35_ACCEL_PED_1: -5
   response: 7E805621221FFE7
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: -4.8
+    A3_PQ35_ACCEL_PED_1: -4.8
   response: 7E805621221FFE8
