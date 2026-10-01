@@ -10,8 +10,8 @@ test_cases:
     A3_ANALYSIS_CLU_2_T_0: 1301.58
   response: 7E90762107A37FE330F
 - expected_values:
-    A3_ANALYSIS_CLU_2_T_0: 581.4
-  response: 7E90762107A8E71340F
+    A3_ANALYSIS_CLU_2_T_0: 929.42
+  response: 7E90762107A87B5350F
 - expected_values:
     A3_ANALYSIS_CLU_2_T_0: 796.64
   response: 7E90762107A989B2B0F
