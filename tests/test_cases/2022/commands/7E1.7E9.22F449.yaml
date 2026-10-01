@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.22F449
+test_cases:
+- expected_values:
+    A3_ACCEL_PEDAL_POS_7E1: 14.11765
+  response: 7E90462F44924
+- expected_values:
+    A3_ACCEL_PEDAL_POS_7E1: 23.13725
+  response: 7E90462F4493B
+- expected_values:
+    A3_ACCEL_PEDAL_POS_7E1: 26.66667
+  response: 7E90462F44944
+- expected_values:
+    A3_ACCEL_PEDAL_POS_7E1: 29.80392
+  response: 7E90462F4494C
+- expected_values:
+    A3_ACCEL_PEDAL_POS_7E1: 38.03922
+  response: 7E90462F44961
