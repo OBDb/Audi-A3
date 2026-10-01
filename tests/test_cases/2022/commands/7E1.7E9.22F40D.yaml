@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.22F40D
+test_cases:
+- expected_values:
+    A3_VSS_7E1: 0
+  response: 7E90562F40D0000
+- expected_values:
+    A3_VSS_7E1: 54
+  response: 7E90562F40D3606
+- expected_values:
+    A3_VSS_7E1: 66
+  response: 7E90562F40D420E
+- expected_values:
+    A3_VSS_7E1: 70
+  response: 7E90562F40D4600
+- expected_values:
+    A3_VSS_7E1: 180
+  response: 7E90562F40DB414
+- expected_values:
+    A3_VSS_7E1: 190
+  response: 7E90562F40DBE00
+- expected_values:
+    A3_VSS_7E1: 202
+  response: 7E90562F40DCA08
+- expected_values:
+    A3_VSS_7E1: 220
+  response: 7E90562F40DDC0F
+- expected_values:
+    A3_VSS_7E1: 236
+  response: 7E90562F40DEC04

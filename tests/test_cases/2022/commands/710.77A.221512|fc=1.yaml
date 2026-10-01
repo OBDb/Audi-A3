@@ -1,0 +1,9 @@
+command_id: 710.77A.221512|fc=1
+test_cases:
+- expected_values:
+    A3_HIGH_V_EM_HVBAT: 102.3
+    A3_HVBAT_ENERGY: 102.35
+    A3_NV_ENERGY: 2.55
+  response: |-
+    77A10086215120FFE33
+    77A2107FEAAAAAAAAAA

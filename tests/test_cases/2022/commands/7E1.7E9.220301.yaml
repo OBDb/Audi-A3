@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.220301
+test_cases:
+- expected_values:
+    A3_CTRL_MODULE_T: 48
+  response: '7E9056203015828'
