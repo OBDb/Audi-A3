@@ -1,10 +1,8 @@
 command_id: 746.7B0.222605|fc=1,din=03
 test_cases:
 - expected_values:
-    AUDI_CLIMATE_REFRIG_P: 3.6
-    AUDI_PQ35_REF_P: 3.6
+    A3_CLIMATE_REFRIG_P: 3.6
   response: 7B00462260512
 - expected_values:
-    AUDI_CLIMATE_REFRIG_P: 6
-    AUDI_PQ35_REF_P: 6
+    A3_CLIMATE_REFRIG_P: 6
   response: 7B0046226051E

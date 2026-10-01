@@ -1,20 +1,20 @@
 command_id: 7E1.7E9.221017
 test_cases:
 - expected_values:
-    AUDI_PQ35_ROAD_RESISTANCE: -2.467
+    A3_PQ35_ROAD_RESISTANCE: -2.467
   response: '7E90462101775'
 - expected_values:
-    AUDI_PQ35_ROAD_RESISTANCE: -0.724
+    A3_PQ35_ROAD_RESISTANCE: -0.724
   response: 7E9046210177C
 - expected_values:
-    AUDI_PQ35_ROAD_RESISTANCE: 0.023
+    A3_PQ35_ROAD_RESISTANCE: 0.023
   response: 7E9046210177F
 - expected_values:
-    AUDI_PQ35_ROAD_RESISTANCE: 1.517
+    A3_PQ35_ROAD_RESISTANCE: 1.517
   response: '7E90462101785'
 - expected_values:
-    AUDI_PQ35_ROAD_RESISTANCE: 2.762
+    A3_PQ35_ROAD_RESISTANCE: 2.762
   response: 7E9046210178A
 - expected_values:
-    AUDI_PQ35_ROAD_RESISTANCE: 3.758
+    A3_PQ35_ROAD_RESISTANCE: 3.758
   response: 7E9046210178E

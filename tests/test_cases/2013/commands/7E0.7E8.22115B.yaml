@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22115B
+test_cases:
+- expected_values:
+    A3_PARTICLE_FLT_FIELD: 60
+  response: 7E80462115B3C
+- expected_values:
+    A3_PARTICLE_FLT_FIELD: 62
+  response: 7E80462115B3E

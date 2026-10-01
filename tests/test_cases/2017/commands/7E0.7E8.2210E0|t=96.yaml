@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210E0|t=96
+test_cases:
+- expected_values:
+    A3_ODO: 152979
+  response: 7E8076210E000025593
+- expected_values:
+    A3_ODO: 190291
+  response: 7E8076210E00002E753

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211C4|t=96
+test_cases:
+- expected_values:
+    A3_OIL_MAX: 3.712
+  response: 7E8056211C403A0
+- expected_values:
+    A3_OIL_MAX: 3.948
+  response: 7E8056211C403DB
+- expected_values:
+    A3_OIL_MAX: 4.28
+  response: 7E8056211C4042E
+- expected_values:
+    A3_OIL_MAX: 4.432
+  response: 7E8056211C40454

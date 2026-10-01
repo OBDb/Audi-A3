@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22114F|din=03
+test_cases:
+- expected_values:
+    A3_MIS_1: 15743
+  response: 7E80562114F3D7F

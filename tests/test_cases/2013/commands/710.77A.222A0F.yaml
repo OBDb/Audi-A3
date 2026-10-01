@@ -1,32 +1,32 @@
 command_id: 710.77A.222A0F
 test_cases:
 - expected_values:
-    AUDI_SSB_AH: 25
+    A3_USE_BAT_CHG: 25
   response: 77A04622A0F19
 - expected_values:
-    AUDI_SSB_AH: 26
+    A3_USE_BAT_CHG: 26
   response: 77A04622A0F1A
 - expected_values:
-    AUDI_SSB_AH: 27
+    A3_USE_BAT_CHG: 27
   response: 77A04622A0F1B
 - expected_values:
-    AUDI_SSB_AH: 28
+    A3_USE_BAT_CHG: 28
   response: 77A04622A0F1C
 - expected_values:
-    AUDI_SSB_AH: 29
+    A3_USE_BAT_CHG: 29
   response: 77A04622A0F1D
 - expected_values:
-    AUDI_SSB_AH: 30
+    A3_USE_BAT_CHG: 30
   response: 77A04622A0F1E
 - expected_values:
-    AUDI_SSB_AH: 31
+    A3_USE_BAT_CHG: 31
   response: 77A04622A0F1F
 - expected_values:
-    AUDI_SSB_AH: 32
+    A3_USE_BAT_CHG: 32
   response: 77A04622A0F20
 - expected_values:
-    AUDI_SSB_AH: 33
+    A3_USE_BAT_CHG: 33
   response: 77A04622A0F21
 - expected_values:
-    AUDI_SSB_AH: 34
+    A3_USE_BAT_CHG: 34
   response: 77A04622A0F22

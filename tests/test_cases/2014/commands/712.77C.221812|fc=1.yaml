@@ -1,7 +1,5 @@
 command_id: 712.77C.221812|fc=1
 test_cases:
 - expected_values:
-    AUDI_MQB_SWA: 12.81
-    AUDI_STEER_ANGLE_EPS: 12.75
-    AUDI_STEER_WHEEL_ANGLE: -737.25
+    A3_MQB_SWA: 12.81
   response: 77C06621812006601

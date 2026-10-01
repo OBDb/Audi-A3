@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211CC
+test_cases:
+- expected_values:
+    A3_BOOST_REGULATOR_FEEDBACK: 14.23
+  response: 7E8056211CC058F
+- expected_values:
+    A3_BOOST_REGULATOR_FEEDBACK: 74.24
+  response: 7E8056211CC1D00
+- expected_values:
+    A3_BOOST_REGULATOR_FEEDBACK: 81.91
+  response: 7E8056211CC1FFF
+- expected_values:
+    A3_BOOST_REGULATOR_FEEDBACK: 81.93
+  response: 7E8056211CC2001

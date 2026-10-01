@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222061
+test_cases:
+- expected_values:
+    A3_APP_POS1: 0.723
+  response: 7E80562206102D3
+- expected_values:
+    A3_APP_POS1: 0.767
+  response: 7E80562206102FF
+- expected_values:
+    A3_APP_POS1: 0.776
+  response: '7E8056220610308'
+- expected_values:
+    A3_APP_POS1: 1.929
+  response: '7E8056220610789'

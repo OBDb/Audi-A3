@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22121E
+test_cases:
+- expected_values:
+    A3_SPEC_VALUE_RAIL_P: 344500
+  response: 7E80562121E0D75
+- expected_values:
+    A3_SPEC_VALUE_RAIL_P: 344600
+  response: 7E80562121E0D76
+- expected_values:
+    A3_SPEC_VALUE_RAIL_P: 344800
+  response: 7E80562121E0D78
+- expected_values:
+    A3_SPEC_VALUE_RAIL_P: 344900
+  response: 7E80562121E0D79
+- expected_values:
+    A3_SPEC_VALUE_RAIL_P: 345200
+  response: 7E80562121E0D7C
+- expected_values:
+    A3_SPEC_VALUE_RAIL_P: 823600
+  response: 7E80562121E202C
+- expected_values:
+    A3_SPEC_VALUE_RAIL_P: 823900
+  response: 7E80562121E202F

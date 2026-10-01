@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.22101A
+test_cases:
+- expected_values:
+    A3_PQ35_ODO_3: 3549953
+  response: 7E90762101A362B0100
+- expected_values:
+    A3_PQ35_ODO_3: 4270849
+  response: 7E90762101A412B0100
+- expected_values:
+    A3_PQ35_ODO_3: 5057537
+  response: 7E90762101A4D2C0100
+- expected_values:
+    A3_PQ35_ODO_3: 5187585
+  response: 7E90762101A4F280100
+- expected_values:
+    A3_PQ35_ODO_3: 5647105
+  response: 7E90762101A562B0100
+- expected_values:
+    A3_PQ35_ODO_3: 8465665
+  response: 7E90762101A812D0100
+- expected_values:
+    A3_PQ35_ODO_3: 8596737
+  response: 7E90762101A832D0100

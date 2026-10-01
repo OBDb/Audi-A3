@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211BA|t=96
+test_cases:
+- expected_values:
+    A3_OIL_LEVEL: 6.0296
+  response: 7E8056211BA3AE2

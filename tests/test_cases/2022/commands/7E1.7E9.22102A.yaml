@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.22102A
 test_cases:
 - expected_values:
-    AUDI_CLU_CENTER_CENTRAL_T: 32
+    A3_CLU_CENTER_CENTRAL_T: 32
   response: 7E90562102A2000
 - expected_values:
-    AUDI_CLU_CENTER_CENTRAL_T: 109
+    A3_CLU_CENTER_CENTRAL_T: 109
   response: 7E90562102A6D00
