@@ -701,9 +701,13 @@
   "signals": [
     {"id": "A3_ODO_HD", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, high resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1164"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1164"}, "freq": 30, "filter": { "to": 2011, "from": 2013 }, "dbgfilter": { "to": 2010, "years": [2013, 2014], "from": 2016 },
   "signals": [
     {"id": "A3_PQ35_SRV_REGEN_DUR", "path": "Battery", "fmt": { "len": 32, "max": 715827, "mul": 0.0001666667, "unit": "minutes" }, "name": "Service regeneration current duration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1164"}, "freq": 30, "filter": { "years": [2012] },
+  "signals": [
+    {"id": "A3_SRV_REGEN_VALUE_2012", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Service regeneration value, two-byte reply, raw count"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1169"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
