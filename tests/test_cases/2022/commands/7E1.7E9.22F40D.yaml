@@ -4,8 +4,8 @@ test_cases:
     A3_VSS_7E1: 0
   response: 7E90562F40D0000
 - expected_values:
-    A3_VSS_7E1: 180
-  response: 7E90562F40DB414
+    A3_VSS_7E1: 200
+  response: 7E90562F40DC819
 - expected_values:
     A3_VSS_7E1: 244
   response: 7E90562F40DF410
