@@ -1007,11 +1007,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1798"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
-    {"id": "A3_MQB_CHARGE_AIR_T_TUBROCHARGER_OUTLET_CALCULATED", "path": "Battery", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "mul": 1000, "div": 10000, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Charge air temp at the turbocharger outlet, calculated"}
+    {"id": "A3_MQB_CHARGE_AIR_T_TUBROCHARGER_OUTLET_CALCULATED", "path": "Battery", "fmt": { "len": 16, "max": 3003.6, "min": -273.1, "mul": 1000, "div": 10000, "add": -273.1, "sign": true, "nullmin": -273.1, "unit": "celsius" }, "name": "Charge air temp at the turbocharger outlet, calculated"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "179C"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
-    {"id": "A3_PQ35_ENGINE_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Oil temp 2"}
+    {"id": "A3_PQ35_ENGINE_OIL_T_2", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmin": -273.1, "unit": "celsius" }, "name": "Oil temp 2"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1813"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
