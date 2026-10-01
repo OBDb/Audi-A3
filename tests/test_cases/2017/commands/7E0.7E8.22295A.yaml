@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22295A
+test_cases:
+- expected_values:
+    A3_ODO_ECM: 116026
+  response: 7E80662295A01C53A
+- expected_values:
+    A3_ODO_ECM: 116182
+  response: 7E80662295A01C5D6
+- expected_values:
+    A3_ODO_ECM: 189998
+  response: 7E80662295A02E62E

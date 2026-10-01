@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211BE
+test_cases:
+- expected_values:
+    A3_PQ35_OIL_T_2: 4.6
+  response: 7E8056211BE0AD9
+- expected_values:
+    A3_PQ35_OIL_T_2: 59.6
+  response: 7E8056211BE0CFF
+- expected_values:
+    A3_PQ35_OIL_T_2: 60
+  response: 7E8056211BE0D03
+- expected_values:
+    A3_PQ35_OIL_T_2: 85.8
+  response: 7E8056211BE0E05

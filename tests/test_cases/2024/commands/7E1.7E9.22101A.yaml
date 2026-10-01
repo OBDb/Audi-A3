@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22101A
+test_cases:
+- expected_values:
+    A3_PQ35_ODO_3: 19456
+  response: 7E90762101A004C0000
+- expected_values:
+    A3_PQ35_ODO_3: 1782272
+  response: 7E90762101A1B320000
+- expected_values:
+    A3_PQ35_ODO_3: 5626112
+  response: 7E90762101A55D90000
+- expected_values:
+    A3_PQ35_ODO_3: 16728320
+  response: 7E90762101AFF410000

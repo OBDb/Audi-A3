@@ -1,11 +1,11 @@
 command_id: 746.7B0.222603|fc=1,din=03
 test_cases:
 - expected_values:
-    AUDI_PQ35_AC_COMP_SPD: 0
+    A3_CLIMATE_A_C_COMP_SPD: 0
   response: 7B00462260300
 - expected_values:
-    AUDI_PQ35_AC_COMP_SPD: 2800
+    A3_CLIMATE_A_C_COMP_SPD: 2800
   response: 7B0046226031C
 - expected_values:
-    AUDI_PQ35_AC_COMP_SPD: 3200
+    A3_CLIMATE_A_C_COMP_SPD: 3200
   response: 7B00462260320

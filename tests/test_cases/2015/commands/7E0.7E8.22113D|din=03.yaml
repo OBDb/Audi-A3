@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22113D|din=03
+test_cases:
+- expected_values:
+    A3_PQ35_O2_SEN_1_LAMBDA: 0.62
+  response: 7E80562113D003E
+- expected_values:
+    A3_PQ35_O2_SEN_1_LAMBDA: 17.9
+  response: 7E80562113D06FE
+- expected_values:
+    A3_PQ35_O2_SEN_1_LAMBDA: 20.56
+  response: 7E80562113D0808
+- expected_values:
+    A3_PQ35_O2_SEN_1_LAMBDA: 159.99
+  response: 7E80562113D3E7F

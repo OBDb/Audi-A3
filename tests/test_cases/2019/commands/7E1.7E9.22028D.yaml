@@ -1,20 +1,20 @@
 command_id: 7E1.7E9.22028D
 test_cases:
 - expected_values:
-    AUDI_MQB_TCM_ECU_T: 22
+    A3_MQB_TCM_ECU_T: 22
   response: 7E90562028D1600
 - expected_values:
-    AUDI_MQB_TCM_ECU_T: 36
+    A3_MQB_TCM_ECU_T: 36
   response: 7E90562028D2400
 - expected_values:
-    AUDI_MQB_TCM_ECU_T: 50
+    A3_MQB_TCM_ECU_T: 50
   response: 7E90562028D3200
 - expected_values:
-    AUDI_MQB_TCM_ECU_T: 51
+    A3_MQB_TCM_ECU_T: 51
   response: 7E90562028D3300
 - expected_values:
-    AUDI_MQB_TCM_ECU_T: 52
+    A3_MQB_TCM_ECU_T: 52
   response: 7E90562028D3400
 - expected_values:
-    AUDI_MQB_TCM_ECU_T: 69
+    A3_MQB_TCM_ECU_T: 69
   response: 7E90562028D4500

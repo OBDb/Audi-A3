@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221628|din=03
+test_cases:
+- expected_values:
+    A3_PQ35_INTERCOOLER_AIR_OUTPUT_T: 13
+  response: 7E8056216280B2D
+- expected_values:
+    A3_PQ35_INTERCOOLER_AIR_OUTPUT_T: 33.8
+  response: 7E8056216280BFD
+- expected_values:
+    A3_PQ35_INTERCOOLER_AIR_OUTPUT_T: 34.8
+  response: 7E8056216280C07
+- expected_values:
+    A3_PQ35_INTERCOOLER_AIR_OUTPUT_T: 66.1
+  response: 7E8056216280D40

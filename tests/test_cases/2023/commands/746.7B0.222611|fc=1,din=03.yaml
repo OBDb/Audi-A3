@@ -1,10 +1,8 @@
 command_id: 746.7B0.222611|fc=1,din=03
 test_cases:
 - expected_values:
-    AUDI_LEG_DEFLECTOR_T: 34
-    AUDI_PQ35_LEG_DEFL_T: 33.966
+    A3_CLIMATE_LEG_DEFL_T: 34
   response: 7B00462261166
 - expected_values:
-    AUDI_LEG_DEFLECTOR_T: 66.33333
-    AUDI_PQ35_LEG_DEFL_T: 66.267
+    A3_CLIMATE_LEG_DEFL_T: 66.33333
   response: 7B004622611C7

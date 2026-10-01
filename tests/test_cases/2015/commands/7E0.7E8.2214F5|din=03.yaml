@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2214F5|din=03
+test_cases:
+- expected_values:
+    A3_PQ35_DIFF_P: 13
+  response: 7E8056214F5000D
+- expected_values:
+    A3_PQ35_DIFF_P: -1
+  response: 7E8056214F5FFFF

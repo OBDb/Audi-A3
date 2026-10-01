@@ -1,32 +1,32 @@
 command_id: 70F.779.222BF3|fc=1
 test_cases:
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 0
+    A3_PQ35_HAL_DUTY: 0
   response: 77905622BF30000
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 0.39369
+    A3_PQ35_HAL_DUTY: 0.39369
   response: 77905622BF30100
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 0.78737
+    A3_PQ35_HAL_DUTY: 0.78737
   response: 77905622BF30200
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 1.18106
+    A3_PQ35_HAL_DUTY: 1.18106
   response: 77905622BF30300
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 2.36212
+    A3_PQ35_HAL_DUTY: 2.36212
   response: 77905622BF30600
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 2.7558
+    A3_PQ35_HAL_DUTY: 2.7558
   response: 77905622BF30700
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 3.54318
+    A3_PQ35_HAL_DUTY: 3.54318
   response: 77905622BF30900
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 10.62953
+    A3_PQ35_HAL_DUTY: 10.62953
   response: 77905622BF31B00
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 11.02322
+    A3_PQ35_HAL_DUTY: 11.02322
   response: 77905622BF31C00
 - expected_values:
-    AUDI_PQ35_HAL_DUTY: 18.10957
+    A3_PQ35_HAL_DUTY: 18.10957
   response: 77905622BF32E00

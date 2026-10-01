@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22114F|din=03
+test_cases:
+- expected_values:
+    A3_MIS_1: 554
+  response: 7E80562114F022A
+- expected_values:
+    A3_MIS_1: 761
+  response: 7E80562114F02F9
+- expected_values:
+    A3_MIS_1: 1027
+  response: 7E80562114F0403
+- expected_values:
+    A3_MIS_1: 1724
+  response: 7E80562114F06BC

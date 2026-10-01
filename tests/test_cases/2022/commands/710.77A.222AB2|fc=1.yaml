@@ -1,11 +1,11 @@
 command_id: 710.77A.222AB2|fc=1
 test_cases:
 - expected_values:
-    AUDI_HVBAT_CAP: 9800
+    A3_MAX_ENERGY_CONTENT: 9.8008
   response: 77A07622AB200C40600
 - expected_values:
-    AUDI_HVBAT_CAP: 327400
+    A3_MAX_ENERGY_CONTENT: 327.38771
   response: 77A07622AB219940100
 - expected_values:
-    AUDI_HVBAT_CAP: 327400
+    A3_MAX_ENERGY_CONTENT: 327.38771
   response: 77A07622AB219940101

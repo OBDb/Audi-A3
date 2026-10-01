@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22121F
+test_cases:
+- expected_values:
+    A3_HIGH_FUEL_P_CONTROL_DEVIATION: 1044000
+  response: 7E80562121F28C8
+- expected_values:
+    A3_HIGH_FUEL_P_CONTROL_DEVIATION: 1045300
+  response: 7E80562121F28D5
+- expected_values:
+    A3_HIGH_FUEL_P_CONTROL_DEVIATION: 2133100
+  response: 7E80562121F5353

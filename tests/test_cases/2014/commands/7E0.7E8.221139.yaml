@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    A3_MEAN_INJ_QUANTITY: 174.01
+  response: 7E80562113943F9
