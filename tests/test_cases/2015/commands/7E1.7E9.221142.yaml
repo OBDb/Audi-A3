@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.221142
-test_cases:
-- expected_values:
-    A3_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_5_N: 49.86
-  response: 7E9056211427A13

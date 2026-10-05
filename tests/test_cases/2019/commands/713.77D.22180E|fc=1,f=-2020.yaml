@@ -1,0 +1,10 @@
+command_id: 713.77D.22180E|fc=1,f=-2020
+test_cases:
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 71817
+  response: 77D0762180E80011889
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 76107
+  response: 77D0762180E8001294B

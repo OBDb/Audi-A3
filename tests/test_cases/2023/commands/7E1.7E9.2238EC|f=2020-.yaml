@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.2238EC|f=2020-
+test_cases:
+- expected_values:
+    A3_PQ35_CLUTCH_1_CMD_P: 0
+  response: 7E9056238EC0000

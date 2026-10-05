@@ -1,0 +1,26 @@
+command_id: 710.77A.222AB2|fc=1,f=2020-
+test_cases:
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 9.95079
+  response: 77A07622AB200C70600
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 10.00079
+  response: 77A07622AB200C80600
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 10.05079
+  response: 77A07622AB200C90600
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 10.10079
+  response: 77A07622AB200CA0600
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 10.20078
+  response: 77A07622AB200CC0600
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 10.25078
+  response: 77A07622AB200CD0600
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 10.30078
+  response: 77A07622AB200CE0600
+- expected_values:
+    A3_MAX_ENERGY_CONTENT: 327.38771
+  response: 77A07622AB219940100

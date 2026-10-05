@@ -1,7 +1,0 @@
-command_id: 710.77A.222AB5|fc=1
-test_cases:
-- expected_values:
-    A3_RANGE_EST_CAN: 0
-  response: |-
-    77A100D622AB5017E01
-    77A217E000007FF0000

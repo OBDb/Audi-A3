@@ -1,0 +1,56 @@
+command_id: 713.77D.22180C|fc=1,f=-2020
+test_cases:
+- expected_values:
+    A3_EDL_ACTIVE: 0
+    A3_EDL_FR_L_BRAKE_T: 0.5
+    A3_EDL_FR_R_BRAKE_T: 0.5
+    A3_EDL_RR_L_BRAKE_T: 0.5
+    A3_EDL_RR_R_BRAKE_T: 0.5
+  response: |-
+    77D100C62180CBC0001
+    77D21000100010001AA
+- expected_values:
+    A3_EDL_ACTIVE: 0
+    A3_EDL_FR_L_BRAKE_T: 7.5
+    A3_EDL_FR_R_BRAKE_T: 7.5
+    A3_EDL_RR_L_BRAKE_T: 7.5
+    A3_EDL_RR_R_BRAKE_T: 7.5
+  response: |-
+    77D100C62180CBC000F
+    77D21000F000F000FAA
+- expected_values:
+    A3_EDL_ACTIVE: 0
+    A3_EDL_FR_L_BRAKE_T: 8
+    A3_EDL_FR_R_BRAKE_T: 8
+    A3_EDL_RR_L_BRAKE_T: 8
+    A3_EDL_RR_R_BRAKE_T: 8
+  response: |-
+    77D100C62180CBC0010
+    77D21001000100010AA
+- expected_values:
+    A3_EDL_ACTIVE: 0
+    A3_EDL_FR_L_BRAKE_T: 86
+    A3_EDL_FR_R_BRAKE_T: 87.5
+    A3_EDL_RR_L_BRAKE_T: 83
+    A3_EDL_RR_R_BRAKE_T: 84.5
+  response: |-
+    77D100C62180CBC00AC
+    77D2100AF00A600A9AA
+- expected_values:
+    A3_EDL_ACTIVE: 0
+    A3_EDL_FR_L_BRAKE_T: 1.5
+    A3_EDL_FR_R_BRAKE_T: 1.5
+    A3_EDL_RR_L_BRAKE_T: 1.5
+    A3_EDL_RR_R_BRAKE_T: 1.5
+  response: |-
+    77D100C62180CBD0003
+    77D21000300030003AA
+- expected_values:
+    A3_EDL_ACTIVE: 0
+    A3_EDL_FR_L_BRAKE_T: 89.5
+    A3_EDL_FR_R_BRAKE_T: 90.5
+    A3_EDL_RR_L_BRAKE_T: 77
+    A3_EDL_RR_R_BRAKE_T: 77.5
+  response: |-
+    77D100C62180CBD00B3
+    77D2100B5009A009BAA

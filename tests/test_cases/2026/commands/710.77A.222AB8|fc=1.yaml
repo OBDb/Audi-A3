@@ -1,7 +1,0 @@
-command_id: 710.77A.222AB8|fc=1
-test_cases:
-- expected_values:
-    A3_BAT_ENERGY_CONTENT: 14.89943
-  response: |-
-    77A100B622AB8012A00
-    77A210000000000AAAA

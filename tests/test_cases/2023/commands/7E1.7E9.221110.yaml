@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.221110
-test_cases:
-- expected_values:
-    A3_PQ35_WORKING_HOURS: 1110.21269
-  response: 7E9076211104D4AE90B

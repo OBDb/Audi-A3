@@ -58,7 +58,7 @@
     {"id": "A3_NV_ENERGY",       "path": "Engine",  "fmt": {"bix": 16, "len": 8,  "max": 12.75, "div": 20, "unit": "kilowattHours" }, "name": "NV energy requirement"},
     {"id": "A3_HIGH_V_EM_HVBAT", "path": "Battery", "fmt": {"bix": 24, "len": 16, "max": 3276,  "div": 20, "unit": "kilowattHours" }, "name": "Electric machine high-voltage battery energy information"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "15D1"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "15D1"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_EM_PWR_LIM",            "path": "Engine",  "fmt": {"bix": 8,  "len": 16, "max": 3276750, "mul": 50,              "unit": "watts"         }, "name": "Electric motor power limitation"},
     {"id": "A3_EM_NV_PWR_LIM",         "path": "Engine",  "fmt": {"bix": 24, "len": 8,  "max": 12750,   "mul": 50,              "unit": "watts"         }, "name": "Electric motor non-vehicle power limitation"},
@@ -133,24 +133,24 @@
     {"id": "A3_MQB_BAT_TOT_CHG", "path": "Battery", "fmt": {           "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total charge"},
     {"id": "A3_MQB_BAT_TOT_DIS", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 429496729.5, "div": 10, "unit": "ampereHours" }, "name": "Battery total discharge"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB2"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB2"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_MAX_ENERGY_CONTENT", "path": "Battery", "fmt": { "len": 32, "max": 3276, "div": 1310770, "unit": "kilowattHours" }, "name": "Maximum energy content of the traction battery"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB4"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB4"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_RANGE_EST_INT",      "path": "Battery.Internal", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated electric power reserve"},
     {"id": "A3_HVBAT_CSMP_AVG_INT", "path": "Battery.Internal", "fmt": {"bix": 72, "len": 8,  "max": 255,   "unit": "amps"       }, "name": "Average battery consumption"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB5"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB5"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_RANGE_EST_CAN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated reserve range"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_RANGE_V2", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 0"},
     {"id": "A3_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 1"},
@@ -160,11 +160,11 @@
     {"id": "A3_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 5"},
     {"id": "A3_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 6"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB8"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB8"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_BAT_ENERGY_CONTENT", "path": "Battery", "fmt": { "len": 32, "max": 3276, "div": 1310770, "unit": "kilowattHours" }, "name": "Battery energy content"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AF7"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AF7"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_AUX_BAT_V",        "path": "Battery", "fmt": {            "len": 16, "max": 69,                        "div": 1000, "add": 4,                 "unit": "volts"       }, "name": "12V battery voltage",            "suggestedMetric": "starterBatteryVoltage"},
     {"id": "A3_AUX_BAT_C",        "path": "Battery", "fmt": {"bix": 16,  "len": 32, "max": 1000000,  "min": -1000000, "div": 1000,             "sign": true, "unit": "amps"        }, "name": "12V battery current"},
@@ -185,7 +185,7 @@
   "signals": [
     {"id": "A3_MQB_SWA", "path": "Tires", "fmt": { "len": 16, "max": 4095.935, "min": -4095.94, "div": 8, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1804"}, "freq": 0.25, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "A3_MQB_SWA_ALT", "path": "Tires", "fmt": {"bix": 80, "len": 16, "max": 14335.562, "min": -14336, "mul": 0.4375, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -199,7 +199,7 @@
     {"id": "A3_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "A3_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180C"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "A3_EDL_ACTIVE",       "path": "Control", "fmt": {"bix": 1,  "len": 1,  "max": 1,                                       "unit": "offon"   }, "name": "Electronic differential lock: active"},
     {"id": "A3_EDL_FR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: front left brake temperature"},
@@ -207,7 +207,7 @@
     {"id": "A3_EDL_RR_L_BRAKE_T", "path": "Control", "fmt": {"bix": 40, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear left brake temperature"},
     {"id": "A3_EDL_RR_R_BRAKE_T", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 300, "min": -20, "div": 2, "sign": true, "unit": "celsius" }, "name": "Electronic differential lock: rear right brake temperature"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180E"}, "freq": 2, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "A3_BDD_ACTIVE", "path": "Control", "fmt": {"bix": 1, "len": 1,  "max": 1,      "unit": "offon"      }, "name": "Brake disk drying"},
     {"id": "A3_BDD_ODO",    "path": "Control", "fmt": {"bix": 8, "len": 24, "max": 200000, "unit": "kilometers" }, "name": "Brake disk drying, odometer at last activation"}
@@ -216,12 +216,12 @@
   "signals": [
     {"id": "A3_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1816"}, "freq": 2, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "A3_BRAKE_P_SNS",        "path": "Control", "fmt": {"bix": 8,  "len": 16, "max": 327.67, "div": 100, "sign": true, "unit": "bars"    }, "name": "Brake pressure sensor"},
     {"id": "A3_AIR_GAB_VACUUM_SNS", "path": "Control", "fmt": {"bix": 56, "len": 16, "max": 32767,              "sign": true, "unit": "unknown" }, "name": "Air gab vacuum sensor"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1821"}, "freq": 5, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "A3_TPMS_AVAIL",                          "path": "Tires", "fmt": {"bix": 7,   "len": 1,  "max": 1,      "unit": "noyes"      }, "name": "Tire pressure monitoring available"},
     {"id": "A3_TPMS_ODO_RDG_AT_LAST_ADAPT",          "path": "Trips", "fmt": {"bix": 8,   "len": 32, "max": 200000, "unit": "kilometers" }, "name": "Odometer reading at last adaptation",           "suggestedMetric": "odometer"},
@@ -241,7 +241,7 @@
     {"id": "A3_TPMS_RR_L_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 312, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear left flat tire indicator"},
     {"id": "A3_TPMS_RR_R_FLAT_TIRE_IND",             "path": "Tires", "fmt": {"bix": 320, "len": 8,  "max": 255,    "unit": "scalar"     }, "name": "Rear right flat tire indicator"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 900, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 900, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "A3_CNT_STEER_SUPPORT_ACTIVE",              "path": "Engine", "fmt": {"bix": 6,  "len": 1,  "max": 1,              "unit": "offon"        }, "name": "Counter steer support"},
     {"id": "A3_CNT_STEER_SUPPORT_ODO_RDG_OF_LAST_ACT", "path": "Trips",  "fmt": {"bix": 8,  "len": 24, "max": 1,              "unit": "kilometers"   }, "name": "Counter steer support, odometer, last activated"},
@@ -1289,7 +1289,7 @@
   "signals": [
     {"id": "A3_ODO_7E1", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1057"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1057"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 0 position"}
   ]},
@@ -1297,7 +1297,7 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_0_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 0 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1059"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1059"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 1 position"}
   ]},
@@ -1305,7 +1305,7 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_1_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 1 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105B"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105B"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 2 position"}
   ]},
@@ -1313,7 +1313,7 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 1 adaptation basic characteristic point 2 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105D"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "105D"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 adaptation basic characteristic point 3 position"}
   ]},
@@ -1361,7 +1361,7 @@
   "signals": [
     {"id": "A3_RESERVE_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Reserve torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106C"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106C"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_0_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 0 position"}
   ]},
@@ -1369,7 +1369,7 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_0_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 0 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106E"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "106E"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_1_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 1 position"}
   ]},
@@ -1377,7 +1377,7 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_1_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 1 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1070"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1070"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_2_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 2 position"}
   ]},
@@ -1385,7 +1385,7 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_2_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 2 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1072"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1072"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHAR_POINT_3_POS", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation basic characteristic point 3 position"}
   ]},
@@ -1393,11 +1393,11 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_BASIC_CHARAC_POINT_3_MOMENT", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 1638.35, "min": -1638.4, "div": 20, "sign": true, "unit": "newtonMeters" }, "name": "Clutch 2 adaptation basic characteristic point 3 moment"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1074"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1074"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_END_POS_OPENED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation end position opened"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1075"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1075"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_ADAPT_END_POS_CLOSED", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 adaptation end position closed"}
   ]},
@@ -1537,7 +1537,7 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_FAILED_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Clutch 2 failed adaptations counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10F9"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10F9"}, "freq": 1, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE", "path": "Transmission", "fmt": { "len": 8, "max": 24.5, "min": -1, "div": 10, "add": -1, "unit": "bars" }, "name": "Clutch 1 actual pressure raw value"}
   ]},
@@ -1557,19 +1557,19 @@
   "signals": [
     {"id": "A3_ADPT_CNT_PF_LOCKUP", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Adaptation counter PF lockup clutch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "110A"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "110A"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_LOWER_ADAPTED_COUPLING_POINT_K2_FROM_MICRO_SLIP_PATH_ADAPT", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Lower adapted coupling point K2 from micro-slip path adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "110B"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "110B"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_K1_FROM_MACRO_SLIP_PATH_ADAPT", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Upper adapted coupling point K1 from macro slip path adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "110C"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "110C"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_K2_FROM_MACRO_SLIP_PATH_ADAPT", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Upper adapted coupling point K2 from macro slip path adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1110"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1110"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_WORKING_HOURS", "path": "Transmission", "fmt": { "len": 32, "blsb": true, "max": 23860.929, "mul": 2, "div": 360000, "unit": "unknown" }, "name": "Working hours"}
   ]},
@@ -1586,172 +1586,172 @@
   "signals": [
     {"id": "A3_PQ35_REACHED_MAXIMUM_T", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Reached maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1118"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1118"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_MAXIMUM_T", "path": "Engine", "fmt": {           "len": 16, "blsb": true, "max": 65535, "unit": "celsius" }, "name": "Clutch #1 maximum temperature"},
     {"id": "A3_PQ35_CLUTCH_2_MAXIMUM_T", "path": "Engine", "fmt": {"bix": 16, "len": 16, "blsb": true, "max": 65535, "unit": "celsius" }, "name": "Clutch #2 maximum temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1130"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1130"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_I_LOWER_P_POINT_CLUTCH_1_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current lower pressure point clutch 1 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1131"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1131"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_I_UPPER_P_POINT_CLUTCH_1_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current upper pressure point clutch 1 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1132"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1132"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_I_LOWER_P_POINT_CLUTCH_2_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current lower pressure point clutch 2 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1133"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1133"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_I_UPPER_P_POINT_CLUTCH_2_FROM_I_TO_P_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Current upper pressure point clutch 2 from current to pressure adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1138"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1138"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1139"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1139"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113A"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113A"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113B"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113B"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side a gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113C"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113C"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113D"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113D"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113E"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113E"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113F"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "113F"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_A_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side a gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1140"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1140"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Neutral position gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1141"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1141"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Neutral position gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1142"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1142"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Neutral position gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1143"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1143"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Neutral position gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1144"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1144"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side b gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1145"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1145"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side b gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1146"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1146"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side b gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1147"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1147"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_ENGAGED_POS_SIDE_B_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Engaged position side b gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1148"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1148"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_1_3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 1-3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1149"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1149"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_2_4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 2-4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114A"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114A"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_5_N", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 5 and neutral"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114B"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "114B"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1156"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1156"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CLUTCH_ADAPT_VALUES_IKP0_K1", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values initial kill point 0 for K1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1157"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1157"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CLUTCH_ADAPT_VALUES_IKP0_K2", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values initial kill point 0 for K2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1158"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1158"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CLUTCH_ADAPT_VALUES_LOWER_I_POINT_ADAPT_K1", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values lower current point adaptation K1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1159"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1159"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CLUTCH_ADAPT_VALUES_LOWER_I_POINT_ADAPT_K2", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values lower current point adaptation K2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115A"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115A"}, "freq": 30, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_KILOMETERS_DRIVEN_SINCE_LAST_EVENT_ON_K1", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 7000, "mul": 10, "unit": "kilometers" }, "name": "Kilometers driven since last event on K1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115C"}, "freq": 30, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "115C"}, "freq": 30, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_KILOMETERS_DRIVEN_SINCE_LAST_EVENT_ON_K2", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 7000, "mul": 10, "unit": "kilometers" }, "name": "Kilometers driven since last event on K2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1179"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1179"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117A"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117A"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117B"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117B"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G3", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G3"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117C"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117C"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117D"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117D"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117E"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117E"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G6", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G6"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117F"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117F"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position, reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1180"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1180"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_LOW_P_ON_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main press adaptation: low press on clutch 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1181"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1181"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_HIGH_P_ON_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main press adaptation: high press on clutch 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1182"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1182"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_LOW_P_ON_CLUTCH_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation low pressure on clutch 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1183"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1183"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_HIGH_P_ON_CLUTCH_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation high pressure on clutch 2"}
   ]},
@@ -1763,7 +1763,7 @@
   "signals": [
     {"id": "A3_MQB_TCM_HYBRID_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Hybrid temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "11A7"}, "freq": 3600, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "11A7"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main pressure adaptation"}
   ]},
@@ -1771,7 +1771,7 @@
   "signals": [
     {"id": "A3_LAUNCH_CTRL_CNT_VAR_1", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Launch control counter, variant 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1711"}, "freq": 3600, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1711"}, "freq": 3600, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_KISSPOINT_RAPID_ADAPT_REMAINING", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "kilometers" }, "name": "Clutch kiss point rapid adaptation remaining"}
   ]},
@@ -1894,7 +1894,7 @@
   "signals": [
     {"id": "A3_MQB_TCM_A_C_COMPRESSOR_SHUTDOWN_REQUIREMENT", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Air conditioning compressor shutdown requirement"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381D"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "381D"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_MQB_TCM_EOP_ACTUAL", "path": "Engine", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "bars" }, "name": "Oil pressure actual"}
   ]},
@@ -2050,19 +2050,19 @@
   "signals": [
     {"id": "A3_MQB_TCM_IGNITION_CYCLES", "path": "Trips", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Ignition cycles"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388D"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388D"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_LOWER_ADAPTED_COUPLING_POINT_CLUTCH_1_FROM_KISS_POINT_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "amps" }, "name": "Lower adapted coupling point clutch 1 from kiss point adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388E"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388E"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_LOWER_ADAPTED_COUPLING_POINT_CLUTCH_2_FROM_KISS_POINT_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "amps" }, "name": "Lower adapted coupling point clutch 2 from kiss point adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388F"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "388F"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_CLUTCH_1_FROM_MICROSLIP_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "amps" }, "name": "Upper adapted coupling point, clutch 1, from micro-slip adaptation"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3890"}, "freq": 3600, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3890"}, "freq": 3600, "filter": { "to": 2020 }, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
     {"id": "A3_MQB_DQ250_UPPER_ADAPTED_COUPLING_POINT_CLUTCH_2_FROM_MICROSLIP_ADAPT", "path": "Transmission", "fmt": { "len": 8, "max": 1.275, "div": 200, "unit": "amps" }, "name": "Upper adapted coupling point, clutch 2, from micro-slip adaptation"}
   ]},
@@ -2094,11 +2094,11 @@
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_ACTUAL_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 actual pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EC"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38EC"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_1_CMD_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 1 commanded pressure"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38ED"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "38ED"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2024 },
   "signals": [
     {"id": "A3_PQ35_CLUTCH_2_CMD_P", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Clutch 2 commanded pressure"}
   ]},

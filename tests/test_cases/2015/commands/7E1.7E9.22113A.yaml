@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.22113A
-test_cases:
-- expected_values:
-    A3_MQB_DQ250_ENGAGED_POS_SIDE_A_GEAR_SELECTOR_5_N: 0
-  response: 7E90562113A0000
