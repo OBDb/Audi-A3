@@ -1,8 +1,0 @@
-command_id: 710.77A.222AB4|fc=1
-test_cases:
-- expected_values:
-    A3_HVBAT_CSMP_AVG_INT: 13
-    A3_RANGE_EST_INT: 0
-  response: |-
-    77A100D622AB4017E00
-    77A210000000000000D

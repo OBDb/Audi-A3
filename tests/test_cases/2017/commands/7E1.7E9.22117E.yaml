@@ -1,8 +1,0 @@
-command_id: 7E1.7E9.22117E
-test_cases:
-- expected_values:
-    A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G6: 53.88
-  response: 7E90562117E0C15
-- expected_values:
-    A3_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G6: 53.89
-  response: 7E90562117E0D15

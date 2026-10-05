@@ -1,0 +1,32 @@
+command_id: 710.77A.222AB8|fc=1,f=2020-
+test_cases:
+- expected_values:
+    A3_BAT_ENERGY_CONTENT: 0
+  response: |-
+    77A100B622AB8000000
+    77A210000000000AAAA
+- expected_values:
+    A3_BAT_ENERGY_CONTENT: 8.74984
+  response: |-
+    77A100B622AB800AF00
+    77A21DF00000000AAAA
+- expected_values:
+    A3_BAT_ENERGY_CONTENT: 9.04984
+  response: |-
+    77A100B622AB800B500
+    77A21F100000000AAAA
+- expected_values:
+    A3_BAT_ENERGY_CONTENT: 9.04987
+  response: |-
+    77A100B622AB800B501
+    77A211D00000000AAAA
+- expected_values:
+    A3_BAT_ENERGY_CONTENT: 12.74959
+  response: |-
+    77A100B622AB800FF00
+    77A216700000000AAAA
+- expected_values:
+    A3_BAT_ENERGY_CONTENT: 12.79973
+  response: |-
+    77A100B622AB8010001
+    77A212100000000AAAA

@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.2210F9|f=-2020
+test_cases:
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 3.8
+  response: 7E9046210F930
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 3.9
+  response: 7E9046210F931
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4
+  response: 7E9046210F932
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.1
+  response: 7E9046210F933
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.2
+  response: 7E9046210F934
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.3
+  response: 7E9046210F935
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.5
+  response: 7E9046210F937
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.6
+  response: 7E9046210F938
+- expected_values:
+    A3_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.7
+  response: 7E9046210F939

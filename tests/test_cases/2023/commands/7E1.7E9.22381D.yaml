@@ -1,5 +1,0 @@
-command_id: 7E1.7E9.22381D
-test_cases:
-- expected_values:
-    A3_MQB_TCM_EOP_ACTUAL: 1.31
-  response: 7E90562381D8300

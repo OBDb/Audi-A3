@@ -1,0 +1,34 @@
+command_id: 713.77D.22180E|fc=1,f=-2020
+test_cases:
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 198704
+  response: 77D0762180E80030830
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 199011
+  response: 77D0762180E80030963
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 200000
+  response: 77D0762180E800317EC
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 200000
+  response: 77D0762180E8003203A
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 200000
+  response: 77D0762180E800322DF
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 200000
+  response: 77D0762180E800325BF
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 200000
+  response: 77D0762180E80032A5C
+- expected_values:
+    A3_BDD_ACTIVE: 0
+    A3_BDD_ODO: 200000
+  response: 77D0762180EB00322DF

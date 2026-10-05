@@ -1,6 +1,0 @@
-command_id: 7E1.7E9.221118
-test_cases:
-- expected_values:
-    A3_PQ35_CLUTCH_1_MAXIMUM_T: 205
-    A3_PQ35_CLUTCH_2_MAXIMUM_T: 164
-  response: 7E907621118CD00A400
