@@ -433,11 +433,11 @@
   "signals": [
     {"id": "A3_PQ35_CAMS_START", "path": "Engine", "fmt": { "len": 16, "max": 6553.4, "min": -6553.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Camshaft start position"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "100C"}, "freq": 30, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "100C"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2013, 2014], "from": 2016 },
   "signals": [
     {"id": "A3_PQ35_FUEL_LVL_2", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level variant"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "100D"}, "freq": 0.25, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "100D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2013, 2014], "from": 2016 },
   "signals": [
     {"id": "A3_PQ35_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "scalar" }, "name": "Current gear"}
   ]},
@@ -481,7 +481,7 @@
   "signals": [
     {"id": "A3_PQ35_BAT_V_2", "path": "Battery", "fmt": { "len": 16, "max": 1310.7, "div": 50, "unit": "volts" }, "name": "Battery voltage variant"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1069"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1069"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014], "from": 2016 },
   "signals": [
     {"id": "A3_PQ35_ENG_START_QTY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Engine start quantity"}
   ]},
@@ -489,7 +489,7 @@
   "signals": [
     {"id": "A3_PQ35_LIM_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Torque limit"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10C2"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10C2"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014], "from": 2016 },
   "signals": [
     {"id": "A3_PQ35_EGR_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "sign": true, "unit": "percent" }, "name": "Exhaust gas recirculation valve duty"}
   ]},
@@ -629,7 +629,7 @@
   "signals": [
     {"id": "A3_MEAN_INJ_QUANTITY", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "unknown" }, "name": "Mean injection quantity"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "113D"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "113D"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014], "from": 2016 },
   "signals": [
     {"id": "A3_PQ35_O2_SEN_1_LAMBDA", "path": "Engine", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "scalar" }, "name": "Oxygen sensor 1 bank 1 lambda value"}
   ]},
@@ -729,15 +729,15 @@
   "signals": [
     {"id": "A3_ACCELERATION", "path": "Movement", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "metersPerSecondSquared" }, "name": "Acceleration"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1189"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1189"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "A3_PQ35_CAMS_EDGE_POS_2", "path": "Engine", "fmt": { "len": 16, "max": 4063.937, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118A"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118A"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "A3_PQ35_CAMS_EDGE_POS_3", "path": "Engine", "fmt": { "len": 16, "max": 4063.937, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118B"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014], "from": 2016 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "118B"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014], "from": 2016 },
   "signals": [
     {"id": "A3_PQ35_CAMS_EDGE_POS_4", "path": "Engine", "fmt": { "len": 16, "max": 4063.937, "min": -32, "div": 16, "add": -32, "unit": "degrees" }, "name": "Intake camshaft signal edge position adapted edge 4"}
   ]},
@@ -953,7 +953,7 @@
   "signals": [
     {"id": "A3_PQ35_EXHAUST_GAS_T_SENSOR_2", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155A"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "155A"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "A3_PQ35_ENG_TORQUE", "path": "Engine", "fmt": { "len": 16, "max": 1023.968, "min": -1024, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
@@ -1061,11 +1061,11 @@
   "signals": [
     {"id": "A3_PQ35_TIMING_ANGLE_RETARDATION_CYL_4", "path": "Engine", "fmt": { "len": 8, "max": 47.625, "min": -48, "mul": 0.375, "add": -48, "unit": "degrees" }, "name": "Timing angle retardation cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2029"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2029"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "A3_PQ35_CHARGE_AIR_P_SPECIFIED", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: specified"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202A"}, "freq": 1, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "202A"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "A3_PQ35_CHARGE_AIR_P_ACTUAL", "path": "Battery", "fmt": { "len": 16, "max": 5242.8, "mul": 0.08, "unit": "unknown" }, "name": "Charge air pressure: actual"}
   ]},
@@ -1077,7 +1077,7 @@
   "signals": [
     {"id": "A3_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2016], "from": 2018 },
   "signals": [
     {"id": "A3_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -1113,7 +1113,7 @@
   "signals": [
     {"id": "A3_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "F42C"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "F42C"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
     {"id": "A3_PQ35_HIGH_P_EGR_CLOSING_VAR_2", "path": "Engine.EGR", "fmt": { "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High press EGR closing v2"}
   ]},
