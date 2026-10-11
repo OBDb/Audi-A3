@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22118A
+test_cases:
+- expected_values:
+    A3_PQ35_CAMS_EDGE_POS_3: -7.25
+  response: 7E80562118A018C
+- expected_values:
+    A3_PQ35_CAMS_EDGE_POS_3: 11.875
+  response: 7E80562118A02BE
+- expected_values:
+    A3_PQ35_CAMS_EDGE_POS_3: 13.75
+  response: 7E80562118A02DC
+- expected_values:
+    A3_PQ35_CAMS_EDGE_POS_3: 24.625
+  response: 7E80562118A038A
+- expected_values:
+    A3_PQ35_CAMS_EDGE_POS_3: 47.0625
+  response: 7E80562118A04F1

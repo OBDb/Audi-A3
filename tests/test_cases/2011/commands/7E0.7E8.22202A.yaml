@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22202A
+test_cases:
+- expected_values:
+    A3_PQ35_CHARGE_AIR_P_ACTUAL: 967.6
+  response: 7E80562202A2F3F
+- expected_values:
+    A3_PQ35_CHARGE_AIR_P_ACTUAL: 990.4
+  response: 7E80562202A305C
+- expected_values:
+    A3_PQ35_CHARGE_AIR_P_ACTUAL: 1169.92
+  response: 7E80562202A3920
+- expected_values:
+    A3_PQ35_CHARGE_AIR_P_ACTUAL: 1356.32
+  response: 7E80562202A423A
+- expected_values:
+    A3_PQ35_CHARGE_AIR_P_ACTUAL: 1600.08
+  response: 7E80562202A4E21
