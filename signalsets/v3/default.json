@@ -243,9 +243,9 @@
   ]},
 { "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "18B6"}, "freq": 900, "filter": { "to": 2020 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
-    {"id": "A3_CNT_STEER_SUPPORT_ACTIVE",              "path": "Engine", "fmt": {"bix": 6,  "len": 1,  "max": 1,              "unit": "offon"        }, "name": "Counter steer support"},
-    {"id": "A3_CNT_STEER_SUPPORT_ODO_RDG_OF_LAST_ACT", "path": "Trips",  "fmt": {"bix": 8,  "len": 24, "max": 1,              "unit": "kilometers"   }, "name": "Counter steer support, odometer, last activated"},
-    {"id": "A3_CNT_STEER_SUPPORT_STEERING_TRQ",        "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 1, "div": 1000, "unit": "newtonMeters" }, "name": "Counter steer support, steering torque"}
+    {"id": "A3_CNT_STEER_SUPPORT_ACTIVE",              "path": "Engine", "fmt": {"bix": 6,  "len": 1,  "max": 1,                     "unit": "offon"        }, "name": "Counter steer support"},
+    {"id": "A3_CNT_STEER_SUPPORT_ODO_RDG_OF_LAST_ACT", "path": "Trips",  "fmt": {"bix": 8,  "len": 24, "max": 16777215,              "unit": "kilometers"   }, "name": "Counter steer support, odometer, last activated"},
+    {"id": "A3_CNT_STEER_SUPPORT_STEERING_TRQ",        "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65.535,   "div": 1000, "unit": "newtonMeters" }, "name": "Counter steer support, steering torque"}
   ]},
 { "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2020, 2025], "from": 2027 },
   "signals": [
@@ -325,11 +325,11 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2018, 2020, 2021, 2025], "from": 2027 },
   "signals": [
-    {"id": "A3_AAT", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
+    {"id": "A3_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2018, 2020, 2021, 2025], "from": 2027 },
   "signals": [
-    {"id": "A3_OUTSIDE_T_SYSTEM", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature, system calculated"}
+    {"id": "A3_OUTSIDE_T_SYSTEM", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature, system calculated"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2018, 2020, 2021, 2025], "from": 2027 },
   "signals": [
@@ -459,7 +459,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "din": "03", "cmd": {"22": "1044"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016], "from": 2018 },
   "signals": [
-    {"id": "A3_PQ35_DPF_SURF_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Diesel particulate filter surface temperature"}
+    {"id": "A3_PQ35_DPF_SURF_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "nullmax": 3003.6, "unit": "celsius" }, "name": "Diesel particulate filter surface temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1047"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
@@ -1211,7 +1211,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2020, 2021], "from": 2025 },
   "signals": [
-    {"id": "A3_PQ35_ODO_3", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer #3", "suggestedMetric": "odometer"}
+    {"id": "A3_PQ35_ODO_3", "path": "Trips", "fmt": { "len": 24, "blsb": true, "max": 16777215, "unit": "kilometers" }, "name": "Odometer #3", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1021"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
@@ -1868,7 +1868,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380B"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2021], "from": 2025 },
   "signals": [
-    {"id": "A3_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "rpm" }, "name": "Transmission output speed"}
+    {"id": "A3_MQB_TCM_TRANSMISSION_OUTPUT_SPD_7E1_380B", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 65535, "nullmax": 32767, "unit": "rpm" }, "name": "Transmission output speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380C"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2021], "from": 2025 },
   "signals": [
@@ -1884,7 +1884,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "380F"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2021], "from": 2025 },
   "signals": [
-    {"id": "A3_MQB_OUTPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 2"}
+    {"id": "A3_MQB_OUTPUT_SHAFT_2", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Output shaft 2"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3816"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2021], "from": 2025 },
   "signals": [
@@ -1980,7 +1980,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2020, 2021], "from": 2025 },
   "signals": [
-    {"id": "A3_MQB_TCM_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "A3_MQB_TCM_ODO", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3852"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2021], "from": 2025 },
   "signals": [
@@ -2260,11 +2260,15 @@
     {"id": "A3_HVBAT_T_MAX",    "path": "Battery", "fmt": {           "len": 16, "max": 1023.984, "div": 64, "unit": "celsius" }, "name": "HV battery temperature, maximum"},
     {"id": "A3_HVBAT_T_MAX_NO", "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,                 "unit": "scalar"  }, "name": "HV battery hottest sensor"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E0F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E0F"}, "freq": 1, "filter": { "to": 2019 },
   "signals": [
-    {"id": "A3_BMS_T_MIN",      "path": "Battery", "fmt": {           "len": 8, "max": 155, "min": -100, "add": -100, "unit": "celsius" }, "name": "HV battery temperature, minimum"},
-    {"id": "A3_BMS_T_MIN_CELL", "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 255,                           "unit": "scalar"  }, "name": "HV battery temperature, minimum, cell number"},
-    {"id": "A3_HVBAT_T_MIN_NO", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 255,                           "unit": "scalar"  }, "name": "HV battery coldest sensor"}
+    {"id": "A3_BMS_T_MIN",      "path": "Battery", "fmt": {          "len": 8, "max": 155, "min": -100, "add": -100, "unit": "celsius" }, "name": "HV battery temperature, minimum"},
+    {"id": "A3_BMS_T_MIN_CELL", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 255,                           "unit": "scalar"  }, "name": "HV battery temperature, minimum, cell number"}
+  ]},
+{ "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E0F"}, "freq": 1, "filter": { "from": 2020 }, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "A3_BMS_T_MIN_V2",   "path": "Battery", "fmt": {           "len": 16, "max": 1023.984, "div": 64, "unit": "celsius" }, "name": "HV battery temperature, minimum"},
+    {"id": "A3_HVBAT_T_MIN_NO", "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,                 "unit": "scalar"  }, "name": "HV battery coldest sensor"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "1E1B"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
@@ -2317,7 +2321,7 @@
   ]},
 { "hdr": "7E5", "rax": "7ED", "cmd": {"22": "51E0"}, "freq": 30, "dbgfilter": { "to": 2021, "years": [2023], "from": 2025 },
   "signals": [
-    {"id": "A3_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 6524, "min": -1798.574, "mul": 0.127, "add": -1798.574, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
+    {"id": "A3_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 6524, "min": -1798.574, "mul": 0.127, "add": -1798.574, "nullmax": 6524, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
 { "hdr": "7E5", "rax": "7ED", "din": "03", "cmd": {"22": "F45B"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
@@ -2365,13 +2369,13 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E33"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "A3_HVBAT_CELL_V_MAX_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.997, "mul": 2441, "div": 10000, "unit": "volts"  }, "name": "HV battery cell voltage, maximum"},
-    {"id": "A3_HVBAT_CELL_V_MAX_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                             "unit": "scalar" }, "name": "HV battery cell voltage max, ID"}
+    {"id": "A3_HVBAT_CELL_V_MAX_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.999, "div": 4096, "unit": "volts"  }, "name": "HV battery cell voltage, maximum"},
+    {"id": "A3_HVBAT_CELL_V_MAX_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,               "unit": "scalar" }, "name": "HV battery cell voltage max, ID"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E34"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
-    {"id": "A3_HVBAT_CELL_V_MIN_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.997, "mul": 2441, "div": 10000, "unit": "volts"  }, "name": "HV battery cell voltage, minimum"},
-    {"id": "A3_HVBAT_CELL_V_MIN_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,                             "unit": "scalar" }, "name": "HV battery cell voltage min, ID"}
+    {"id": "A3_HVBAT_CELL_V_MIN_V2", "path": "Battery", "fmt": {           "len": 16, "max": 15.999, "div": 4096, "unit": "volts"  }, "name": "HV battery cell voltage, minimum"},
+    {"id": "A3_HVBAT_CELL_V_MIN_ID", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 65535,               "unit": "scalar" }, "name": "HV battery cell voltage min, ID"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E38"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [

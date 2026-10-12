@@ -1,17 +1,17 @@
 command_id: 7E1.7E9.223841
 test_cases:
 - expected_values:
-    A3_MQB_TCM_ODO: 131456
+    A3_MQB_TCM_ODO: 98816
   response: 7E90762384100140F00
 - expected_values:
-    A3_MQB_TCM_ODO: 5033548.8
+    A3_MQB_TCM_ODO: 98304.3
   response: 7E90762384103000F00
 - expected_values:
-    A3_MQB_TCM_ODO: 50325452.8
+    A3_MQB_TCM_ODO: 98281.3
   response: 7E9076238411DFF0E00
 - expected_values:
-    A3_MQB_TCM_ODO: 100466764.8
+    A3_MQB_TCM_ODO: 25452.3
   response: 7E9076238413BE20300
 - expected_values:
-    A3_MQB_TCM_ODO: 427924249.6
+    A3_MQB_TCM_ODO: 98739.1
   response: 7E907623841FF100F00

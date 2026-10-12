@@ -1,23 +1,23 @@
 command_id: 7E1.7E9.22101A
 test_cases:
 - expected_values:
-    A3_PQ35_ODO_3: 3549953
+    A3_PQ35_ODO_3: 76598
   response: 7E90762101A362B0100
 - expected_values:
-    A3_PQ35_ODO_3: 4270849
+    A3_PQ35_ODO_3: 76609
   response: 7E90762101A412B0100
 - expected_values:
-    A3_PQ35_ODO_3: 5057537
+    A3_PQ35_ODO_3: 76877
   response: 7E90762101A4D2C0100
 - expected_values:
-    A3_PQ35_ODO_3: 5187585
+    A3_PQ35_ODO_3: 75855
   response: 7E90762101A4F280100
 - expected_values:
-    A3_PQ35_ODO_3: 5647105
+    A3_PQ35_ODO_3: 76630
   response: 7E90762101A562B0100
 - expected_values:
-    A3_PQ35_ODO_3: 8465665
+    A3_PQ35_ODO_3: 77185
   response: 7E90762101A812D0100
 - expected_values:
-    A3_PQ35_ODO_3: 8596737
+    A3_PQ35_ODO_3: 77187
   response: 7E90762101A832D0100

@@ -1,22 +1,18 @@
-command_id: 7E5.7ED.221E0F|din=03
+command_id: 7E5.7ED.221E0F|f=2020-,din=03
 test_cases:
 - expected_values:
-    A3_BMS_T_MIN: -93
-    A3_BMS_T_MIN_CELL: 96
+    A3_BMS_T_MIN_V2: 29.5
     A3_HVBAT_T_MIN_NO: 1
   response: 7ED07621E0F07600001
 - expected_values:
-    A3_BMS_T_MIN: -93
-    A3_BMS_T_MIN_CELL: 96
+    A3_BMS_T_MIN_V2: 29.5
     A3_HVBAT_T_MIN_NO: 6
   response: 7ED07621E0F07600006
 - expected_values:
-    A3_BMS_T_MIN: -93
-    A3_BMS_T_MIN_CELL: 128
+    A3_BMS_T_MIN_V2: 30
     A3_HVBAT_T_MIN_NO: 1
   response: 7ED07621E0F07800001
 - expected_values:
-    A3_BMS_T_MIN: -93
-    A3_BMS_T_MIN_CELL: 128
+    A3_BMS_T_MIN_V2: 30
     A3_HVBAT_T_MIN_NO: 2
   response: 7ED07621E0F07800002

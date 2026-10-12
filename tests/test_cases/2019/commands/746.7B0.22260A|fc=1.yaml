@@ -1,26 +1,26 @@
 command_id: 746.7B0.22260A|fc=1
 test_cases:
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -64
+    A3_OUTSIDE_T_SYSTEM: 14
   response: 7B00462260A80
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -63.5
+    A3_OUTSIDE_T_SYSTEM: 14.5
   response: 7B00462260A81
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -62.5
+    A3_OUTSIDE_T_SYSTEM: 15.5
   response: 7B00462260A83
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -58.5
+    A3_OUTSIDE_T_SYSTEM: 19.5
   response: 7B00462260A8B
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -57.5
+    A3_OUTSIDE_T_SYSTEM: 20.5
   response: 7B00462260A8D
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -56.5
+    A3_OUTSIDE_T_SYSTEM: 21.5
   response: 7B00462260A8F
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -54.5
+    A3_OUTSIDE_T_SYSTEM: 23.5
   response: 7B00462260A93
 - expected_values:
-    A3_OUTSIDE_T_SYSTEM: -53.5
+    A3_OUTSIDE_T_SYSTEM: 24.5
   response: 7B00462260A95

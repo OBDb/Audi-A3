@@ -4,11 +4,11 @@ test_cases:
     A3_PQ35_ODO_3: 19456
   response: 7E90762101A004C0000
 - expected_values:
-    A3_PQ35_ODO_3: 1782272
+    A3_PQ35_ODO_3: 12827
   response: 7E90762101A1B320000
 - expected_values:
-    A3_PQ35_ODO_3: 5626112
+    A3_PQ35_ODO_3: 55637
   response: 7E90762101A55D90000
 - expected_values:
-    A3_PQ35_ODO_3: 16728320
+    A3_PQ35_ODO_3: 16895
   response: 7E90762101AFF410000
