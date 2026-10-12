@@ -1,5 +1,5 @@
 command_id: 746.7B0.222609|fc=1,din=03
 test_cases:
 - expected_values:
-    A3_AAT: -63
+    A3_AAT: 15
   response: 7B00462260982

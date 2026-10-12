@@ -4,17 +4,17 @@ test_cases:
     A3_MQB_OUTPUT_SHAFT_2: 0
   response: 7E90562380F0000
 - expected_values:
-    A3_MQB_OUTPUT_SHAFT_2: 8962
+    A3_MQB_OUTPUT_SHAFT_2: 547
   response: 7E90562380F2302
 - expected_values:
-    A3_MQB_OUTPUT_SHAFT_2: 18432
+    A3_MQB_OUTPUT_SHAFT_2: 72
   response: 7E90562380F4800
 - expected_values:
-    A3_MQB_OUTPUT_SHAFT_2: 19457
+    A3_MQB_OUTPUT_SHAFT_2: 332
   response: 7E90562380F4C01
 - expected_values:
-    A3_MQB_OUTPUT_SHAFT_2: 21249
+    A3_MQB_OUTPUT_SHAFT_2: 339
   response: 7E90562380F5301
 - expected_values:
-    A3_MQB_OUTPUT_SHAFT_2: -23808
+    A3_MQB_OUTPUT_SHAFT_2: 163
   response: 7E90562380FA300

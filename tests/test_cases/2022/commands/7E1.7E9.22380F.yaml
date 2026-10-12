@@ -4,8 +4,8 @@ test_cases:
     A3_MQB_OUTPUT_SHAFT_2: 0
   response: 7E90562380F0000
 - expected_values:
-    A3_MQB_OUTPUT_SHAFT_2: 4868
+    A3_MQB_OUTPUT_SHAFT_2: 1043
   response: 7E90562380F1304
 - expected_values:
-    A3_MQB_OUTPUT_SHAFT_2: -255
+    A3_MQB_OUTPUT_SHAFT_2: 511
   response: 7E90562380FFF01

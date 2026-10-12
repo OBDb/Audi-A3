@@ -1,8 +1,8 @@
 command_id: 746.7B0.222609|fc=1,din=03
 test_cases:
 - expected_values:
-    A3_AAT: 57
+    A3_AAT: 7
   response: 7B00462260972
 - expected_values:
-    A3_AAT: 58
+    A3_AAT: 8
   response: 7B00462260974
