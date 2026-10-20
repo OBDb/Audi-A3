@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22107B
+test_cases:
+- expected_values:
+    A3_ANALYSIS_CLU_2_T_1: 199.76
+  response: 7E90762107B04270D00
+- expected_values:
+    A3_ANALYSIS_CLU_2_T_1: 275.68
+  response: 7E90762107BD8350D00
