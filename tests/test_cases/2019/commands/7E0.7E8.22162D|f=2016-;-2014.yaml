@@ -1,8 +1,8 @@
-command_id: 7E0.7E8.22162D
+command_id: 7E0.7E8.22162D|f=2016-;-2014
 test_cases:
 - expected_values:
-    A3_PQ35_FUEL_T: -273.1
+    A3_FUEL_T_RAW: 0
   response: 7E80762162D00000000
 - expected_values:
-    A3_PQ35_FUEL_T: -209.1
+    A3_FUEL_T_RAW: 41943040
   response: 7E80762162D02800000

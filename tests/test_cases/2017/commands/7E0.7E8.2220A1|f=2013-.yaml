@@ -1,14 +1,14 @@
-command_id: 7E0.7E8.2220A1
+command_id: 7E0.7E8.2220A1|f=2013-
 test_cases:
 - expected_values:
-    A3_PQ35_CALCULATED_OIL_T: -40
+    A3_PQ35_CALCULATED_OIL_T_TENTHS: 24
   response: 7E8056220A100F0
 - expected_values:
-    A3_PQ35_CALCULATED_OIL_T: -39
+    A3_PQ35_CALCULATED_OIL_T_TENTHS: 26
   response: 7E8056220A10104
 - expected_values:
-    A3_PQ35_CALCULATED_OIL_T: -37
+    A3_PQ35_CALCULATED_OIL_T_TENTHS: 101
   response: 7E8056220A103F2
 - expected_values:
-    A3_PQ35_CALCULATED_OIL_T: -36
+    A3_PQ35_CALCULATED_OIL_T_TENTHS: 104
   response: 7E8056220A10410
