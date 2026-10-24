@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221150
+test_cases:
+- expected_values:
+    A3_MISFIRES_C3_ECM: 12794
+  response: 7E80562115031FA

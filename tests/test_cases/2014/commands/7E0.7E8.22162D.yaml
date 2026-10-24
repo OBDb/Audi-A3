@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.22162D
-test_cases:
-- expected_values:
-    A3_PQ35_FUEL_T: -196.3
-  response: 7E80762162D03000000

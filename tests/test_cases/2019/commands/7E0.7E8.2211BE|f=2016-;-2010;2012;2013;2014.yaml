@@ -1,17 +1,17 @@
-command_id: 7E0.7E8.2211BE
+command_id: 7E0.7E8.2211BE|f=2016-;-2010;2012;2013;2014
 test_cases:
 - expected_values:
-    A3_PQ35_OIL_T_2: 6278.2
+    A3_OIL_T_2_RAW: 65513
   response: 7E8056211BEFFE9
 - expected_values:
-    A3_PQ35_OIL_T_2: 6279.1
+    A3_OIL_T_2_RAW: 65522
   response: 7E8056211BEFFF2
 - expected_values:
-    A3_PQ35_OIL_T_2: 6279.2
+    A3_OIL_T_2_RAW: 65523
   response: 7E8056211BEFFF3
 - expected_values:
-    A3_PQ35_OIL_T_2: 6279.5
+    A3_OIL_T_2_RAW: 65526
   response: 7E8056211BEFFF6
 - expected_values:
-    A3_PQ35_OIL_T_2: 6279.6
+    A3_OIL_T_2_RAW: 65527
   response: 7E8056211BEFFF7
