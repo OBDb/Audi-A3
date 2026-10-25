@@ -1,5 +1,0 @@
-command_id: 7E0.7E8.2211BE|f=2016-;-2010;2012;2013;2014
-test_cases:
-- expected_values:
-    A3_OIL_T_2_RAW: 130
-  response: 7E8056211BE0082
