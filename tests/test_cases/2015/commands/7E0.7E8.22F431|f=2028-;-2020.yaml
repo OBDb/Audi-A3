@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F431|f=2028-;-2020
+test_cases:
+- expected_values:
+    A3_CLR_DIST: 42
+  response: 7E80562F431002A
+- expected_values:
+    A3_CLR_DIST: 1286
+  response: 7E80562F4310506
+- expected_values:
+    A3_CLR_DIST: 65535
+  response: 7E80562F431FFFF

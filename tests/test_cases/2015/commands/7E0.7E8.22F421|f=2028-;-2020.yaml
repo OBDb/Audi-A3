@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F421|f=2028-;-2020
+test_cases:
+- expected_values:
+    A3_MIL_DIST: 0
+  response: 7E80562F4210000
+- expected_values:
+    A3_MIL_DIST: 17
+  response: 7E80562F4210011
+- expected_values:
+    A3_MIL_DIST: 56
+  response: 7E80562F4210038
+- expected_values:
+    A3_MIL_DIST: 59
+  response: 7E80562F421003B

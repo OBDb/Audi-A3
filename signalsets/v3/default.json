@@ -3,7 +3,7 @@
     { "hdr": "7E1", "type": "transmission" }
   ],
   "commands": [
-{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
+{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 1, "filter": { "to": 2020, "from": 2028 }, "dbgfilter": { "to": 2013, "years": [2018], "from": 2020 },
   "signals": [
     {"id": "A3_MQB_HTR_NOZZLE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Washer nozzle heater active"}
   ]},
@@ -379,7 +379,7 @@
   "signals": [
     {"id": "A3_CLIMATE_FR_R_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front right temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "263D"}, "freq": 5, "filter": { "to": 2013, "from": 2016 }, "dbgfilter": { "to": 2025, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "263D"}, "freq": 5, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "A3_CLIMATE_RR_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Rear deflector temperature"}
   ]},
@@ -387,7 +387,7 @@
   "signals": [
     {"id": "A3_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "482B"}, "freq": 2, "filter": { "to": 2013, "from": 2016 }, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "482B"}, "freq": 2, "dbgfilter": { "to": 2021, "years": [2025], "from": 2027 },
   "signals": [
     {"id": "A3_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
@@ -1045,7 +1045,7 @@
   "signals": [
     {"id": "A3_MQB_FUEL_FILTER_WATER_LEVEL_SENSOR_1", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel filter: water level sensor 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 1, "filter": { "to": 2006, "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "2005"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "A3_PQ35_BRAKE_BOOSTER_P", "path": "Control", "fmt": { "len": 16, "max": 5434, "mul": 0.08291753, "unit": "unknown" }, "name": "Brake booster pressure"}
   ]},
@@ -1097,7 +1097,7 @@
   "signals": [
     {"id": "A3_PQ35_FUEL_LEVEL_7E0_2206", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 30, "filter": { "to": 2006, "from": 2012 }, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "A3_ODO_ECM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -1113,15 +1113,15 @@
   "signals": [
     {"id": "A3_ENG_TRQ_REQ_2", "path": "Drivetrain", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "newtonMeters" }, "name": "Driver torque requested #2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2010, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "to": 2020, "from": 2028 }, "dbgfilter": { "to": 2010, "from": 2020 },
   "signals": [
     {"id": "A3_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "filter": { "to": 2020, "from": 2028 }, "dbgfilter": { "to": 2010, "from": 2020 },
   "signals": [
     {"id": "A3_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "dbgfilter": { "to": 2010, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 30, "filter": { "to": 2020, "from": 2028 }, "dbgfilter": { "to": 2010, "from": 2020 },
   "signals": [
     {"id": "A3_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
   ]},
@@ -1129,15 +1129,15 @@
   "signals": [
     {"id": "A3_PQ35_HIGH_P_EGR_CLOSING_VAR_2", "path": "Engine.EGR", "fmt": { "len": 8, "max": 100, "sign": true, "unit": "percent" }, "name": "High press EGR closing v2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2010, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "filter": { "to": 2020, "from": 2028 }, "dbgfilter": { "to": 2010, "from": 2020 },
   "signals": [
     {"id": "A3_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since diagnostic trouble codes cleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "dbgfilter": { "to": 2010, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 30, "filter": { "to": 2020, "from": 2028 }, "dbgfilter": { "to": 2010, "from": 2020 },
   "signals": [
     {"id": "A3_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 5, "filter": { "to": 2020, "from": 2028 }, "dbgfilter": { "to": 2010, "from": 2020 },
   "signals": [
     {"id": "A3_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
@@ -1229,7 +1229,7 @@
   "signals": [
     {"id": "A3_TCM_DRAG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission drag torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1022"}, "freq": 0.25, "filter": { "to": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1022"}, "freq": 0.25,
   "signals": [
     {"id": "A3_TCM_TQ_LOSSES", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission torque losses"}
   ]},
