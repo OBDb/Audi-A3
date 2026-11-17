@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F41F|f=2028-;-2020
+test_cases:
+- expected_values:
+    A3_RUNTM: 0
+  response: 7E80562F41F0000
+- expected_values:
+    A3_RUNTM: 1788
+  response: 7E80562F41F06FC
+- expected_values:
+    A3_RUNTM: 2627
+  response: 7E80562F41F0A43
